@@ -28,11 +28,11 @@ Venho há algum tempo "namorando" a ideia de ter um site com conteúdo estático
 esses geradores mais famosos ([hugo](https://gohugo.io/) e [jekyll](https://jekyllrb.com/))
 
 A idéia de utilizar conteúdo estático tem como objetivo não somente ser simples
-de manter, mas tamnbém utilizar menos recursos da máquina, uma vez que o site é
+de manter, mas também utilizar menos recursos da máquina, uma vez que o site é
 modificado, ele é construído em um único momento e distribuído estáticamente
 para todos usuários, com isso não será necessário uso de banco de dados.
 
-### Um pouco da historia
+### Um pouco da história
 
 Depois de algumas conversas com [somatorio](http://somatorio.org/pt-br/) resolvi
 usar o hugo. Criei um site estático bem rápido, a estrutura dele era uma landing
@@ -44,10 +44,10 @@ Fique satisfeito na época, mas algo ainda me incomodava, porém não conseguia 
 o porque.
 
 Depois de ver o site do [Fike](https://www.fernandoike.com) entendi o motivo. O fato 
-do meu contéudo está atrás de um link e não na página inicial, isso me fazia sentir que 
+do meu contéudo estar atrás de um link e não na página inicial, isso me fazia sentir que 
 algo estava errado.
 
-Percebi que ele hospeda seu site em um repositório publico, e assim resolvi cloná-lo e
+Percebi que ele hospeda seu site em um repositório público, e assim resolvi cloná-lo e
 a partir dele fazer o meu próprio. Afinal é assim que nossa comunidade funciona, certo?
 
 ### Estou feliz com o blog atual?
