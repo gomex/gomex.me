@@ -1,0 +1,74 @@
+baseurl = "https://gomex.me/"
+# Shown in the side menu
+copyright = "&copy; 2016. Some rights reserved."
+canonifyurls = true
+paginate = 10
+theme = "hyde-x"
+disqusShortname = "gomex-me"
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
+
+[author]
+    name = "Rafael Gomes (a.k.a Gomex)"
+    homepage = "https://gomex.me"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/:year/:month/:day/:title"
+
+[taxonomies]
+  tag = "tags"
+  topic = "categories"
+
+[params]
+  # Shown in the home page
+  truncate = true
+  defaultDescription = "Sharing the code"
+  hideReadingTime = false
+  theme = "theme-base-07"
+  googleAnalytics = ""
+  home = "Home"
+  github = "https://github.com/gomex"
+  bitbucket = ""
+  stackOverflow = "https://stackoverflow.com/users/2081868/rafael-brito-gomes"
+  linkedin = "https://www.linkedin.com/in/rbgomes/"
+  googleplus = ""
+  facebook = ""
+  twitter = "https://twitter.com/gomex"
+  youtube = "https://www.youtube.com/channel/UCPNrIITPNFFLmcU3VfoKuGQ"
+
+  [menu]
+    # Shown in the side menu.
+    [[menu.main]]
+      name = "Home"
+      pre = "<i class='fa fa-home fa-fw'></i>"
+      weight = 0
+      identifier = "home"
+      url = "/"
+    [[menu.main]]
+      name = "Portuguese"
+      pre = "<i class='fa fa-list fa-fw'></i>"
+      weight = 1
+      identifier = "portuguese"
+      url = "https://gomex.me/tags/portugues"
+    [[menu.main]]
+      name = "English"
+      pre = "<i class='fa fa-list fa-fw'></i>"
+      weight = 2
+      identifier = "english"
+      url = "https://gomex.me/tags/english"
+    [[menu.main]]
+      name = "About"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 3
+      identifier = "about"
+      url = "/about/"
+
+
+  #  [[menu.main]]
+  #    name = "Contact"
+  #    pre = "<i class='fa fa-phone fa-fw'></i>"
+  #    weight = 3
+  #    url = "/contact/"
