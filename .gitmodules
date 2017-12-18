@@ -1,0 +1,12 @@
+[submodule "themes/black-and-light"]
+	path = themes/black-and-light
+	url = https://github.com/davidhampgonsalves/hugo-black-and-light-theme.git
+[submodule "themes/hugo-future-imperfect"]
+	path = themes/hugo-future-imperfect
+	url = https://github.com/jpescador/hugo-future-imperfect.git
+[submodule "themes/hucore"]
+	path = themes/hucore
+	url = https://github.com/mgjohansen/hucore
+[submodule "themes/hyde-x"]
+	path = themes/hyde-x
+	url = git@github.com:fike/hyde-x.git
