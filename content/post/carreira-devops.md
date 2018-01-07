@@ -88,6 +88,20 @@ Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar niss
 
 A partir daqui os conhecimentos são para qualquer tipo de pessoa, sendo assim aconselho a todos fazerem a medida que vejam necessidade dentro da sua carreira.
 
+Para as pessoas que não dominam desenvolvimento de software, perceberão que muitos dos assuntos são completamente novos e o caminho parece um pouco mais "tortuoso", o que em parte é verdade, mas veja pelo lado bom, uma vez concluído esse caminho você será um profissional mais requisitado no mercado e capaz de resolver sozinho a maioria dos desafios.
+
+##### Conhecimento de controle de versão de código
+
+Esse é o "ponta pé inicial" para o assunto "DevOps", pois tudo que será feito daqui pra frente será baseado em código, e manter esse conjuntos de fontes em um repositório de controle de versão é requisito mínimo até mesmo para níveis mais iniciantes nessa carreira.
+
+Na minha opinião, o Git reina em absoluto nesse assunto. Há que ainda use SVN, Mercurial e afins, mas a maioria dos lugares usam Git. Pode estudar sem culpa, pois aprender os outros será fácil depois do Git.
+
+Material sugerido para Git:
+
+- [Vídeo - Descomplicando o GIT - Parte 1 - LinuxTips](https://www.youtube.com/watch?v=_aj3hsEh9iw)
+- [Material oficial Git](https://git-scm.com/book/en/v2)
+- [Material oficial Git (Português)](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git)
+
 ##### Conhecimento de Cloud
 
 Aprenda sobre como utilizar algum fornecedor de Cloud, pois boa parte dos serviços são parecidos em seu funcionamento, ou seja, se você aprender um deles não encontrará muitos problemas em utilizar seus concorrentes. Na perspectiva de possibilidade de trabalho, eu aconselharia você começar pela AWS, que tem o maior números de clientes hoje.
@@ -135,6 +149,8 @@ Material sugerido para Docker:
 
 Material sugerido para Kubernetes:
 
+- [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+- [Treinamentos online grátis oficiais](https://kubernetes.io/docs/tutorials/)
 - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - [Tradução do Kubernetes The Hard Way](https://github.com/cgbas/kubernetes-do-jeito-dificil)
 
@@ -149,6 +165,15 @@ Como material sugerido, eu aconselho o que pra mim seria a bíblia do "DevOps":
 Esse livro é grande, mas uma leitura simples! Tem a versão traduzida se preferir:
 
 - [Entrega Contínua - Jez Humble e  David Farley](https://www.estantevirtual.com.br/martins-livreiro/jez-humble-e-david-farley-entrega-continua-como-entregar-software-de-forma-rapida-e-confiavel-931382091)
+
+O Jenkins reina absoluti como ferramentas mais comum sobre esses assuntos.
+
+Material sugerido para Jenkins:
+
+- [Curso online pago - Master Jenkins CI For DevOps and Developer](http://bit.ly/2COXw2U)
+- [Livro Jenkins - Automatize tudo sem complicações - Fernando Boaglio](https://www.casadocodigo.com.br/products/livro-jenkins)
+
+Como ferramentas alternativas temos o GoCD, TeamCity e outras também relevantes, mas estudando o Jenkins você terá a base sólida sobre uso de ferramentas de CI/CD. Fique atento aos conceitos informados no livro "Entrega Contínua".
 
 ### Fontes
 
