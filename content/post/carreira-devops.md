@@ -77,6 +77,7 @@ Material sugerido:
 
 - [Curso online gratuíto - Python Para Zumbis - Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
 - [Curso online pago - POO com Ruby - Jackson Pires](https://www.udemy.com/poo-ruby/learn/v4/content)
+- [Curso online pago - Curso de Go - Jeff Prestes](https://www.udemy.com/cursodego/)
 
 Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar nisso:
 
@@ -136,6 +137,18 @@ Material sugerido para Kubernetes:
 
 - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - [Tradução do Kubernetes The Hard Way](https://github.com/cgbas/kubernetes-do-jeito-dificil)
+
+##### Conhecimento de CI/CD
+
+É importante conhecer sobre Continuos Integration e Continuos Delivery. Ambos são conceitos centrais dessa mudança de paradigma de desenvolvimento de software e fornecimento de infraestrutura automatizada.
+
+Como material sugerido, eu aconselho o que pra mim seria a bíblia do "DevOps":
+
+- [Continuous Delivery - Jez Humble e  David Farley ](https://www.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912)
+
+Esse livro é grande, mas uma leitura simples! Tem a versão traduzida se preferir:
+
+- [Entrega Contínua - Jez Humble e  David Farley](https://www.estantevirtual.com.br/martins-livreiro/jez-humble-e-david-farley-entrega-continua-como-entregar-software-de-forma-rapida-e-confiavel-931382091)
 
 ### Fontes
 
