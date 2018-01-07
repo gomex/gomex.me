@@ -1,5 +1,5 @@
 +++
-title = "Novas pessoas palestrando"
+title = "Carreira DevOps"
 date = "2017-01-05"
 draft = false
 Categories = ["portugues", "blog"]
