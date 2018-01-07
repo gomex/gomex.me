@@ -16,11 +16,11 @@ Muitas pessoas me perguntam por onde começar a trabalhar com "DevOps" e eu desd
 
 ### Colaboração
 
-Tudo que está aqui não é apenas meu, ou seja, imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Esse texto provavelmente sofrerá alteração ao longo do tempo. Isso que dizer que se você acha que algo deve ser colocado aqui, modifique [esse arquivo]() e submeta um PR no github, vamos discutir nos comentários e aceitar a colaboração :)
+Tudo que está aqui não é apenas meu, ou seja, imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Esse texto provavelmente sofrerá alteração ao longo do tempo. Isso que dizer que se você acha que algo deve ser colocado aqui, modifique [esse arquivo](https://github.com/gomex/gomex.me/blob/master/content/post/carreira-devops.md) e submeta um PR no github, vamos discutir nos comentários e aceitar a colaboração :)
 
 ### DevOps é carreira?
 
-Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já usa esse termo para denominar pessoas e vagas de trabalho relacionadas a entrega contínua, infraestrutura ágil e afins, não vou entrar nesse embate no texto. Se quiser discutir isso, entre [nesse canal]() do telegram que tem pessoas dispostas a essa conversa.
+Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já usa esse termo para denominar pessoas e vagas de trabalho relacionadas a entrega contínua, infraestrutura ágil e afins, não vou entrar nesse embate no texto. Se quiser discutir isso, entre [nesse canal](https://t.me/devopsbr) do telegram que tem pessoas dispostas a essa conversa.
 
 ### O que é DevOps de verdade?
 
@@ -73,10 +73,57 @@ Material sugerido:
  - [Curso online gratuíto - Python Para Zumbis - Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
  - [Curso online pago - POO com Ruby - Jackson Pires](https://www.udemy.com/poo-ruby/learn/v4/content)
 
+Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar nisso:
+ - [Hacker Rank](https://www.hackerrank.com)
+ - [Project Euler](https://projecteuler.net/)
+
 #### Conhecimentos comuns
 
 A partir daqui os conhecimentos são para qualquer tipo de pessoa, sendo assim aconselho a todos fazerem a medida que vejam necessidade dentro da sua carreira.
 
 ##### Conhecimento de Cloud
 
-Aprenda sobre algum tipo 
+Aprenda sobre como utilizar algum fornecedor de Cloud, pois boa parte dos serviços são parecidos em seu funcionamento, ou seja, se você aprender um deles não encontrará muitos problemas em utilizar seus concorrentes. Na perspectiva de possibilidade de trabalho, eu aconselharia você começar pela AWS, que tem o maior números de clientes hoje.
+
+Material sugerido para AWS:
+ - [Curso online pago - Cloud Guru - AWS Certified Solutions Architect Associate](https://www.udemy.com/aws-certified-solutions-architect-associate/)
+ - [Canal Youtube Cloud Guru](https://www.youtube.com/channel/UCp8lLM2JP_1pv6E0NQ38pqw)
+
+Material sugerido para Google Cloud:
+ - [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes ](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
+
+##### Conhecimento de gerencia de configuração
+
+Você precisará automatizar a configuração dos seus ativos (Servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
+
+ - Puppet
+ - Chef
+ - Ansible
+
+Material sugerido para Puppet:
+ - [Curso grátis - Oficial Puppet](https://learn.puppet.com/category/self-paced-training)
+
+Material sugerido para Chef:
+ - [Curso grátis - Oficial Chef](https://learn.chef.io/)
+
+Material sugerido para Ansible:
+ - [Ansible - Getting started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
+ - [Webinars oficiais do Ansible](https://www.ansible.com/resources/webinars-training)
+
+##### Conhecimento de containeres
+
+Você precisará saber sobre containers e duas ferramentas dominam esse assunto, Docker e Kubernetes. Você precisa saber além do básico em ambos produtos.
+
+Material sugerido para Docker:
+ - [Livro Containers com Docker - Daniel Romero ](https://www.casadocodigo.com.br/products/livro-docker)
+ - [Livro Aprendendo Docker - Wellington da Silva ](https://www.amazon.com.br/Aprendendo-Docker-Wellington-Figueira-Silva/dp/8575224867?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=65e71e4e-1464-4ddc-a0a5-491e02f24552)
+ - [Livro Descomplicando Docker - Jeferson Fernando Noronha](http://www.brasport.com.br/informatica-e-tecnologia/arquitetura-de-nuvem/descomplicando-o-docker/)
+ - [Livro Docker para desenvolvedores - Livro Código Aberto - Rafael Gomes](https://leanpub.com/dockerparadesenvolvedores)
+
+Material sugerido para Kubernetes:
+ - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+ - [Tradução do Kubernetes The Hard Way](https://github.com/cgbas/kubernetes-do-jeito-dificil)
+
+### Fontes
+ - [Guto Carvalho](http://gutocarvalho.net/blog/2016/09/06/por-onde-iniciar-os-estudos-sobre-devops/)
+ - [Awesome DevOps-BR](https://github.com/devops-br/awesome-devops-br)
