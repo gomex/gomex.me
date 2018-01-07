@@ -47,12 +47,14 @@ Algumas pessoas gostam e tem mais experiência em escrever software e outras em 
 Estude sobre TCP/IP! Domine isso! Entenda como funciona endereço IP, mascara de rede, rotas de rede, portas TCP/UDP. O que é um socket e afins.
 
 Material sugerido:
+
 - [Livro Redes de Computadores - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/redes-de-computadores/2516815423?q=Redes+de+Computadores)
 - [Redes de computadores e a internet uma nova abordagem - James Kurose e Keith Ross](https://www.estantevirtual.com.br/livros/james-f-kurose-keith-w-ross/redes-de-computadores-e-a-internet-uma-nova-abordagem/2190281067)
 
 Estudo também sobre funcionamento do sistema operacional, o que são processos, como funciona o escolanamento de processamento e afins.
 
 Material sugerido:
+
 - [Livro Sistemas Operacionais Modernos - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/sistemas-operacionais-modernos/2487067088?q=Tanenbaum)
 
  Obs: Esses dois livros são enormes, então não precisa necessariamente ler todos. Apenas imagine que quanto mais você ler e absorver esses conhecimentos, você será um profissional melhor.
@@ -64,6 +66,7 @@ Estudo sobre desenvolvimento de software! Não apenas sobre fazer scripts para t
 A proposta aqui é ter o mesmo conhecimento que um desenvolvedor junior deveria ter, isso quer dizer que você precisa aprender a coisa mais básica nesse assunto: ALGORITIMO!
 
 Material sugerido:
+
 - [Livro Algoritimos Teoria e Prática - Thomas H Cormen](https://www.estantevirtual.com.br/livros/thomas-h-cormen/algoritmos-teoria-e-pratica/1833161560?q=Thomas+H+Cormen)
 
 Obs: A ideia aqui é ter uma base sólida sobre o que é Algoritimo, não precisa ler o livro inteiro
@@ -71,10 +74,12 @@ Obs: A ideia aqui é ter uma base sólida sobre o que é Algoritimo, não precis
 Um outro conselho básico é a necessidade de dominar ao menos uma linguagem de programação a nível iniciante. Que você consiga usar os elementos mais básicos da linguagem para desenvolvimento de recursos simples, como um job para execução pontual, um serviço web e afins.
 
 Material sugerido:
+
 - [Curso online gratuíto - Python Para Zumbis - Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
 - [Curso online pago - POO com Ruby - Jackson Pires](https://www.udemy.com/poo-ruby/learn/v4/content)
 
 Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar nisso:
+
 - [Hacker Rank](https://www.hackerrank.com)
 - [Project Euler](https://projecteuler.net/)
 
@@ -87,10 +92,12 @@ A partir daqui os conhecimentos são para qualquer tipo de pessoa, sendo assim a
 Aprenda sobre como utilizar algum fornecedor de Cloud, pois boa parte dos serviços são parecidos em seu funcionamento, ou seja, se você aprender um deles não encontrará muitos problemas em utilizar seus concorrentes. Na perspectiva de possibilidade de trabalho, eu aconselharia você começar pela AWS, que tem o maior números de clientes hoje.
 
 Material sugerido para AWS:
+
 - [Curso online pago - Cloud Guru - AWS Certified Solutions Architect Associate](https://www.udemy.com/aws-certified-solutions-architect-associate/)
 - [Canal Youtube Cloud Guru](https://www.youtube.com/channel/UCp8lLM2JP_1pv6E0NQ38pqw)
 
 Material sugerido para Google Cloud:
+
 - [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes ](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
 
 ##### Conhecimento de gerencia de configuração
@@ -102,12 +109,15 @@ Você precisará automatizar a configuração dos seus ativos (Servidores, switc
 - Ansible
 
 Material sugerido para Puppet:
+
 - [Curso grátis - Oficial Puppet](https://learn.puppet.com/category/self-paced-training)
 
 Material sugerido para Chef:
+
 - [Curso grátis - Oficial Chef](https://learn.chef.io/)
 
 Material sugerido para Ansible:
+
 - [Ansible - Getting started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
 - [Webinars oficiais do Ansible](https://www.ansible.com/resources/webinars-training)
 
@@ -116,15 +126,18 @@ Material sugerido para Ansible:
 Você precisará saber sobre containers e duas ferramentas dominam esse assunto, Docker e Kubernetes. Você precisa saber além do básico em ambos produtos.
 
 Material sugerido para Docker:
+
 - [Livro Containers com Docker - Daniel Romero ](https://www.casadocodigo.com.br/products/livro-docker)
 - [Livro Aprendendo Docker - Wellington da Silva ](https://www.amazon.com.br/Aprendendo-Docker-Wellington-Figueira-Silva/dp/8575224867?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=65e71e4e-1464-4ddc-a0a5-491e02f24552)
 - [Livro Descomplicando Docker - Jeferson Fernando Noronha](http://www.brasport.com.br/informatica-e-tecnologia/arquitetura-de-nuvem/descomplicando-o-docker/)
 - [Livro Docker para desenvolvedores - Livro Código Aberto - Rafael Gomes](https://leanpub.com/dockerparadesenvolvedores)
 
 Material sugerido para Kubernetes:
+
 - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - [Tradução do Kubernetes The Hard Way](https://github.com/cgbas/kubernetes-do-jeito-dificil)
 
 ### Fontes
+
 - [Guto Carvalho](http://gutocarvalho.net/blog/2016/09/06/por-onde-iniciar-os-estudos-sobre-devops/)
 - [Awesome DevOps-BR](https://github.com/devops-br/awesome-devops-br)
