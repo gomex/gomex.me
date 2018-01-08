@@ -2,21 +2,21 @@
 title = "Carreira DevOps"
 date = "2017-01-05"
 draft = false
-Categories = ["portugues", "blog"]
-Tags = ["portugues", "blog"]
+Categories = ["portugues", "devops", "carreira"]
+Tags = ["portugues", "devops", "carreira"]
 +++
 
 ## TL;DR
 
-Que entrar na carreira "DevOps" e não sabe por onde começar? Esse texto tem como objetivo esclarecer alguns pontos e mostrar possíveis caminhos, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
+Quer entrar na carreira "DevOps" e não sabe por onde começar? Esse texto tem como objetivo esclarecer alguns pontos e mostrar possíveis caminhos, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
 
 ### Motivação
 
-Muitas pessoas me perguntam por onde começar a trabalhar com "DevOps" e eu desde sempre prometo escrever um artigo com alguma síntese do que acho. Aqui estou eu pagando minha promessa.
+Muitas pessoas me perguntam por onde começar a trabalhar com "DevOps" e sempre prometo escrever um artigo com alguma síntese das minhas opiniões sobre como seria um inicio "ideal" de carreira. Aqui estou pagando uma promessa do ano passado.
 
 ### Colaboração
 
-Tudo que está aqui não é apenas meu, ou seja, imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Esse texto provavelmente sofrerá alteração ao longo do tempo. Isso que dizer que se você acha que algo deve ser colocado aqui, modifique [esse arquivo](https://github.com/gomex/gomex.me/blob/master/content/post/carreira-devops.md) e submeta um PR no github, vamos discutir nos comentários e aceitar a colaboração :)
+O texto não é 100% autoral, ou seja, imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Ele provavelmente sofrerá alteração ao longo do tempo. Isso que dizer que se você acha que algo deve ser colocado aqui, modifique [esse arquivo](https://github.com/gomex/gomex.me/blob/master/content/post/carreira-devops.md) e submeta um PR no github, vamos discutir nos comentários e aceitar a colaboração :)
 
 ### DevOps é carreira?
 
@@ -36,13 +36,11 @@ Eu vou tentar organizar a ordem do conhecimento com base nos elementos mais bás
 
 ### Por onde começar?
 
-Eu diria pelos assuntos com maior demanda e mais próximo do que a maioria dos técnicos de TI já tem alguma familiridade, mas quando falamos de TI se torna muito abrangente, sendo assim vou separar em dois sub-grupos de pessoas, que posteriormente eles se encontram em passos posteriores.
+Eu aconselharia os assuntos com maior demanda e mais próximo do que a maioria dos técnicos de TI já tem alguma familiridade, sendo assim vou separar em dois sub-grupos de pessoas, que posteriormente se encontram em passos mais relacionados a esse novo paradigma.
 
-#### Separação com base na experiência/interesse prévio
+Algumas pessoas gostam e tem mais experiência em escrever software e outras em manter a infraestrutura onde estarão hospedadas esses softwares, sendo assim acredito que os elementos básicos necessários para fazer a mudança na carreira são diferentes a depender da sua história.
 
-Algumas pessoas gostam e tem mais experiência em escrever software e outras em manter a infraestrutura onde estarão hospedadas esses softwares, sendo assim acredito que os elementos básicos que se precisa obter são específicos.
-
-##### Assuntos básicos para pessoas inclinadas a desenvolvimento de software
+#### Assuntos básicos para pessoas inclinadas a desenvolvimento de software
 
 Estude sobre TCP/IP! Domine isso! Entenda como funciona endereço IP, mascara de rede, rotas de rede, portas TCP/UDP. O que é um socket e afins.
 
@@ -59,7 +57,7 @@ Material sugerido:
 
  Obs: Esses dois livros são enormes, então não precisa necessariamente ler todos. Apenas imagine que quanto mais você ler e absorver esses conhecimentos, você será um profissional melhor.
 
-##### Assuntos básicos para pessoas inclinadas a infraestrutura de TI
+#### Assuntos básicos para pessoas inclinadas a infraestrutura de TI
 
 Estudo sobre desenvolvimento de software! Não apenas sobre fazer scripts para tarefas simples. Você precisa entender como funciona o processo inteiro de desenvolvimento de software. Isso não quer dizer necessariamente que você se tornará uma pessoa desenvolvedora de software.
 
@@ -84,13 +82,13 @@ Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar niss
 - [Hacker Rank](https://www.hackerrank.com)
 - [Project Euler](https://projecteuler.net/)
 
-#### Conhecimentos comuns
+### Conhecimentos comuns
 
 A partir daqui os conhecimentos são para qualquer tipo de pessoa, sendo assim aconselho a todos fazerem a medida que vejam necessidade dentro da sua carreira.
 
 Para as pessoas que não dominam desenvolvimento de software, perceberão que muitos dos assuntos são completamente novos e o caminho parece um pouco mais "tortuoso", o que em parte é verdade, mas veja pelo lado bom, uma vez concluído esse caminho você será um profissional mais requisitado no mercado e capaz de resolver sozinho a maioria dos desafios.
 
-##### Conhecimento de controle de versão de código
+#### Conhecimento de controle de versão de código
 
 Esse é o "ponta pé inicial" para o assunto "DevOps", pois tudo que será feito daqui pra frente será baseado em código, e manter esse conjuntos de fontes em um repositório de controle de versão é requisito mínimo até mesmo para níveis mais iniciantes nessa carreira.
 
@@ -102,7 +100,7 @@ Material sugerido para Git:
 - [Material oficial Git](https://git-scm.com/book/en/v2)
 - [Material oficial Git (Português)](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git)
 
-##### Conhecimento de Cloud
+#### Conhecimento de Cloud
 
 Aprenda sobre como utilizar algum fornecedor de Cloud, pois boa parte dos serviços são parecidos em seu funcionamento, ou seja, se você aprender um deles não encontrará muitos problemas em utilizar seus concorrentes. Na perspectiva de possibilidade de trabalho, eu aconselharia você começar pela AWS, que tem o maior números de clientes hoje.
 
@@ -115,7 +113,7 @@ Material sugerido para Google Cloud:
 
 - [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes ](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
 
-##### Conhecimento de gerencia de configuração
+#### Conhecimento de gerencia de configuração
 
 Você precisará automatizar a configuração dos seus ativos (Servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
 
@@ -136,7 +134,7 @@ Material sugerido para Ansible:
 - [Ansible - Getting started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
 - [Webinars oficiais do Ansible](https://www.ansible.com/resources/webinars-training)
 
-##### Conhecimento de containeres
+#### Conhecimento de containeres
 
 Você precisará saber sobre containers e duas ferramentas dominam esse assunto, Docker e Kubernetes. Você precisa saber além do básico em ambos produtos.
 
@@ -154,7 +152,7 @@ Material sugerido para Kubernetes:
 - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - [Tradução do Kubernetes The Hard Way](https://github.com/cgbas/kubernetes-do-jeito-dificil)
 
-##### Conhecimento de CI/CD
+#### Conhecimento de CI/CD
 
 É importante conhecer sobre Continuos Integration e Continuos Delivery. Ambos são conceitos centrais dessa mudança de paradigma de desenvolvimento de software e fornecimento de infraestrutura automatizada.
 
@@ -166,14 +164,24 @@ Esse livro é grande, mas uma leitura simples! Tem a versão traduzida se prefer
 
 - [Entrega Contínua - Jez Humble e  David Farley](https://www.estantevirtual.com.br/martins-livreiro/jez-humble-e-david-farley-entrega-continua-como-entregar-software-de-forma-rapida-e-confiavel-931382091)
 
-O Jenkins reina absoluti como ferramentas mais comum sobre esses assuntos.
+O Jenkins "reina" com uma vantagem considerável entre as ferramentas mais comum sobre esses assuntos.
 
 Material sugerido para Jenkins:
 
 - [Curso online pago - Master Jenkins CI For DevOps and Developer](http://bit.ly/2COXw2U)
 - [Livro Jenkins - Automatize tudo sem complicações - Fernando Boaglio](https://www.casadocodigo.com.br/products/livro-jenkins)
 
-Como ferramentas alternativas temos o GoCD, TeamCity e outras também relevantes, mas estudando o Jenkins você terá a base sólida sobre uso de ferramentas de CI/CD. Fique atento aos conceitos informados no livro "Entrega Contínua".
+Como ferramentas alternativas temos o [GoCD](https://docs.gocd.org/current/), [TeamCity](https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation) e outras também relevantes, mas estudando o Jenkins você terá a base sólida sobre uso de ferramentas de CI/CD. Fique atento aos conceitos informados no livro "Entrega Contínua".
+
+### Conclusão
+
+Importante salientar que os conhecimentos necessárioas para uma carreira "DevOps" não acaba aqui, mas acredito que esses sejam os mais básicos/intermediários para quem tinha intertesse em ter um "norte" mais curto/médio prazo.
+
+Lembre-se, esse é um texto em construção constante e feito através de colaboração de muitas pessoas. Se você tem alguma sugestão, mande um PR a partir [desse arquivo](https://github.com/gomex/gomex.me/blob/master/content/post/carreira-devops.md).
+
+### Agradecimentos 
+
+A todos do canal [DevOpsBR no Telegram](https://t.me/devopsbr) que colaboram em enriquecer o texto.
 
 ### Fontes
 
