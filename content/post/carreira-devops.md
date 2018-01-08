@@ -8,7 +8,7 @@ Tags = ["portugues", "devops", "carreira"]
 
 ## TL;DR
 
-Quer entrar na carreira "DevOps" e não sabe por onde começar? Esse texto tem como objetivo esclarecer alguns pontos e mostrar possíveis caminhos, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
+Quer entrar na carreira "DevOps" e não sabe por onde começar? Esse texto falarei sobre possíveis caminhos para sua carreita tecnica, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
 
 ### Motivação
 
@@ -99,6 +99,16 @@ Material sugerido para Git:
 - [Vídeo - Descomplicando o GIT - Parte 1 - LinuxTips](https://www.youtube.com/watch?v=_aj3hsEh9iw)
 - [Material oficial Git](https://git-scm.com/book/en/v2)
 - [Material oficial Git (Português)](https://git-scm.com/book/pt-br/v1/Primeiros-passos-No%C3%A7%C3%B5es-B%C3%A1sicas-de-Git)
+
+### Conhecimento sobre virtualização
+
+Você precisa saber o mínimo de virtualização, pois a partir desse momento em diante você necessariamente estará trabalhando com algum nível de virtualização na maioria dos serviços que for interagir/manter.
+
+Material sugerido:
+
+- [Virtualization Getting Started - Oficial Red Hat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_getting_started_guide/index)
+
+OBS: Não precisa ser um especialista no assunto, mas antes de ver todo resto eu dedicaria um tempo entendendo esse assunto, pois os assuntos Cloud e containers serão mais fáceis pra você depois desse estudo.
 
 #### Conhecimento de Cloud
 
