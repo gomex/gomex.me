@@ -1,5 +1,5 @@
 +++
-title = "Carreira DevOps"
+title = "Os primeiros passos para uma carreira DevOps"
 date = "2018-01-05"
 draft = false
 Categories = ["portugues", "devops", "carreira"]
