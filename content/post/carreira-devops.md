@@ -125,12 +125,12 @@ Material sugerido para Google Cloud:
 
 Material sugerido para Azure:
 
-- [Cursos gratuitos da Pluralsight em parceria com a Microsoft, roteiros de aprendizagem e laboratórios práticos](http://aka.ms/azureskillspt)
+- [Cursos gratuitos da Pluralsight em parceria com a Microsoft](http://aka.ms/azureskillspt)
 - [Azure Essentials](https://www.microsoft.com/pt-br/azureessentials)
 - [Cursos EDX](https://www.edx.org/course?search_query=Azure)
 - [Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=Azure&prod=Azure)
-- [Azure get started para IT Ops](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf)
-- [Azure get started para Desenvolvedores](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-developer-guide.pdf)
+- [Azure para IT Pros](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf)
+- [Azure para Desenvolvedores](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-developer-guide.pdf)
 - [Curadoria de material de aprendizado de Azure](https://github.com/rmmartins/AzureReadiness)
 
 
