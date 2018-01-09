@@ -123,6 +123,17 @@ Material sugerido para Google Cloud:
 
 - [Lab: Build a Continuous Deployment Pipeline with Jenkins and Kubernetes ](https://github.com/GoogleCloudPlatform/continuous-deployment-on-kubernetes)
 
+Material sugerido para Azure:
+
+- [Cursos gratuitos da Pluralsight em parceria com a Microsoft, roteiros de aprendizagem e laboratórios práticos](http://aka.ms/azureskillspt)
+- [Azure Essentials](https://www.microsoft.com/pt-br/azureessentials)
+- [Cursos EDX](https://www.edx.org/course?search_query=Azure)
+- [Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=Azure&prod=Azure)
+- [Azure get started para IT Ops](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-ops-guide.pdf)
+- [Azure get started para Desenvolvedores](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-developer-guide.pdf)
+- [Curadoria de material de aprendizado de Azure](https://github.com/rmmartins/AzureReadiness)
+
+
 #### Conhecimento de gerencia de configuração
 
 Você precisará automatizar a configuração dos seus ativos (Servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
