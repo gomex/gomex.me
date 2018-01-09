@@ -8,11 +8,11 @@ Tags = ["portugues", "devops", "carreira"]
 
 ## TL;DR
 
-Quer entrar na carreira "DevOps" e não sabe por onde começar? Esse texto falarei sobre possíveis caminhos para sua carreita tecnica, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
+Quer entrar na carreira "DevOps" e não sabe por onde começar? Nesse texto falarei sobre possíveis caminhos para sua carreita técnica, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
 
 ### Motivação
 
-Muitas pessoas me perguntam por onde começar a trabalhar com "DevOps" e sempre prometo escrever um artigo com alguma síntese das minhas opiniões sobre como seria um inicio "ideal" de carreira. Aqui estou pagando uma promessa do ano passado.
+Muitas pessoas me perguntam por onde começar a trabalhar com "DevOps" e sempre prometo escrever um artigo com alguma síntese das minhas opiniões sobre como seria um início "ideal" de carreira. Aqui estou pagando uma promessa do ano passado.
 
 ### Colaboração
 
@@ -36,7 +36,7 @@ Eu vou tentar organizar a ordem do conhecimento com base nos elementos mais bás
 
 ### Por onde começar?
 
-Eu aconselharia os assuntos com maior demanda e mais próximo do que a maioria dos técnicos de TI já tem alguma familiridade, sendo assim vou separar em dois sub-grupos de pessoas, que posteriormente se encontram em passos mais relacionados a esse novo paradigma.
+Eu aconselharia os assuntos com maior demanda e mais próximo do que a maioria dos técnicos de TI já tem alguma familiaridade, sendo assim vou separar em dois sub-grupos de pessoas, que posteriormente se encontram em passos mais relacionados a esse novo paradigma.
 
 Algumas pessoas gostam e tem mais experiência em escrever software e outras em manter a infraestrutura onde estarão hospedadas esses softwares, sendo assim acredito que os elementos básicos necessários para fazer a mudança na carreira são diferentes a depender da sua história.
 
@@ -49,25 +49,25 @@ Material sugerido:
 - [Livro Redes de Computadores - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/redes-de-computadores/2516815423?q=Redes+de+Computadores)
 - [Redes de computadores e a internet uma nova abordagem - James Kurose e Keith Ross](https://www.estantevirtual.com.br/livros/james-f-kurose-keith-w-ross/redes-de-computadores-e-a-internet-uma-nova-abordagem/2190281067)
 
-Estudo também sobre funcionamento do sistema operacional, o que são processos, como funciona o escolanamento de processamento e afins.
+Estude também sobre funcionamento do sistema operacional, o que são processos, como funciona o escolanamento de processamento e afins.
 
 Material sugerido:
 
 - [Livro Sistemas Operacionais Modernos - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/sistemas-operacionais-modernos/2487067088?q=Tanenbaum)
 
- Obs: Esses dois livros são enormes, então não precisa necessariamente ler todos. Apenas imagine que quanto mais você ler e absorver esses conhecimentos, você será um profissional melhor.
+ Obs: Esses dois livros são enormes, então não precisa necessariamente ler todos. Apenas imagine que quanto mais você ler e absorver esses conhecimentos, melhor profissional você será.
 
 #### Assuntos básicos para pessoas inclinadas a infraestrutura de TI
 
-Estudo sobre desenvolvimento de software! Não apenas sobre fazer scripts para tarefas simples. Você precisa entender como funciona o processo inteiro de desenvolvimento de software. Isso não quer dizer necessariamente que você se tornará uma pessoa desenvolvedora de software.
+Estude sobre desenvolvimento de software! Não apenas sobre fazer scripts para tarefas simples. Você precisa entender como funciona o processo inteiro de desenvolvimento de software. Isso não quer dizer necessariamente que você se tornará uma pessoa desenvolvedora de software.
 
-A proposta aqui é ter o mesmo conhecimento que uma pessoa em início de carreira deveria ter, isso quer dizer que você precisa aprender a coisa mais básica nesse assunto: ALGORITIMO!
+A proposta aqui é ter o mesmo conhecimento que uma pessoa em início de carreira deveria ter, isso quer dizer que você precisa aprender a coisa mais básica nesse assunto: ALGORITMO!
 
 Material sugerido:
 
-- [Livro Algoritimos Teoria e Prática - Thomas H Cormen](https://www.estantevirtual.com.br/livros/thomas-h-cormen/algoritmos-teoria-e-pratica/1833161560?q=Thomas+H+Cormen)
+- [Livro Algoritmos Teoria e Prática - Thomas H Cormen](https://www.estantevirtual.com.br/livros/thomas-h-cormen/algoritmos-teoria-e-pratica/1833161560?q=Thomas+H+Cormen)
 
-Obs: A ideia aqui é ter uma base sólida sobre o que é Algoritimo, não precisa ler o livro inteiro
+Obs: A ideia aqui é ter uma base sólida sobre o que é Algoritmo, não precisa ler o livro inteiro
 
 Um outro conselho básico é a necessidade de dominar ao menos uma linguagem de programação a nível iniciante. Que você consiga usar os elementos mais básicos da linguagem para desenvolvimento de recursos simples, como um job para execução pontual, um serviço web e afins.
 
@@ -90,7 +90,7 @@ Para as pessoas que não dominam desenvolvimento de software, perceberão que mu
 
 #### Conhecimento de controle de versão de código
 
-Esse é o "ponta pé inicial" para o assunto "DevOps", pois tudo que será feito daqui pra frente será baseado em código, e manter esse conjuntos de fontes em um repositório de controle de versão é requisito mínimo até mesmo para níveis mais iniciantes nessa carreira.
+Esse é o "pontapé inicial" para o assunto "DevOps", pois tudo que será feito daqui pra frente será baseado em código, e manter esse conjuntos de fontes em um repositório de controle de versão é requisito mínimo até mesmo para níveis mais iniciantes nessa carreira.
 
 Na minha opinião, o Git reina em absoluto nesse assunto. Há que ainda use SVN, Mercurial e afins, mas a maioria dos lugares usam Git. Pode estudar sem culpa, pois aprender os outros será fácil depois do Git.
 
@@ -125,7 +125,7 @@ Material sugerido para Google Cloud:
 
 #### Conhecimento de gerencia de configuração
 
-Você precisará automatizar a configuração dos seus ativos (Servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
+Você precisará automatizar a configuração dos seus ativos (servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
 
 - Puppet
 - Chef
@@ -185,7 +185,7 @@ Como ferramentas alternativas temos o [GoCD](https://docs.gocd.org/current/), [T
 
 ### Conclusão
 
-Importante salientar que os conhecimentos necessárioas para uma carreira "DevOps" não acaba aqui, mas acredito que esses sejam os mais básicos/intermediários para quem tinha intertesse em ter um "norte" mais curto/médio prazo.
+Importante salientar que os conhecimentos necessários para uma carreira "DevOps" não acabam aqui, mas acredito que esses sejam os mais básicos/intermediários para quem tinha interesse em ter um "norte" mais curto/médio prazo.
 
 Lembre-se, esse é um texto em construção constante e feito através de colaboração de muitas pessoas. Se você tem alguma sugestão, mande um PR a partir [desse arquivo](https://github.com/gomex/gomex.me/blob/master/content/post/carreira-devops.md).
 
