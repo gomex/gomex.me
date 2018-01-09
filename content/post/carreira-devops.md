@@ -28,7 +28,7 @@ Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já 
 
 ### Requisitos
 
-Vou presumir que você é uma pessoa que inglês não é problema na leitura de textos e já está inserido no básico de tecnologia da informação, ou seja, que já é ao menos uma pessoa de nível técnico de TI.
+Vou presumir que você é uma pessoa que inglês não é problema na leitura de textos e já está inserida no básico de tecnologia da informação, ou seja, que já é ao menos uma pessoa de nível técnico de TI.
 
 ### Metodologia
 
@@ -61,7 +61,7 @@ Material sugerido:
 
 Estudo sobre desenvolvimento de software! Não apenas sobre fazer scripts para tarefas simples. Você precisa entender como funciona o processo inteiro de desenvolvimento de software. Isso não quer dizer necessariamente que você se tornará uma pessoa desenvolvedora de software.
 
-A proposta aqui é ter o mesmo conhecimento que um desenvolvedor junior deveria ter, isso quer dizer que você precisa aprender a coisa mais básica nesse assunto: ALGORITIMO!
+A proposta aqui é ter o mesmo conhecimento que uma pessoa em início de carreira deveria ter, isso quer dizer que você precisa aprender a coisa mais básica nesse assunto: ALGORITIMO!
 
 Material sugerido:
 
@@ -86,7 +86,7 @@ Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar niss
 
 A partir daqui os conhecimentos são para qualquer tipo de pessoa, sendo assim aconselho a todos fazerem a medida que vejam necessidade dentro da sua carreira.
 
-Para as pessoas que não dominam desenvolvimento de software, perceberão que muitos dos assuntos são completamente novos e o caminho parece um pouco mais "tortuoso", o que em parte é verdade, mas veja pelo lado bom, uma vez concluído esse caminho você será um profissional mais requisitado no mercado e capaz de resolver sozinho a maioria dos desafios.
+Para as pessoas que não dominam desenvolvimento de software, perceberão que muitos dos assuntos são completamente novos e o caminho parece um pouco mais "tortuoso", o que em parte é verdade, mas veja pelo lado bom, uma vez concluído esse caminho você dominará a área profissional mais requisitada no mercado e será capaz de resolver a maioria dos desafios, mesmo com pouca ajuda.
 
 #### Conhecimento de controle de versão de código
 
@@ -108,7 +108,7 @@ Material sugerido:
 
 - [Virtualization Getting Started - Oficial Red Hat](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/virtualization_getting_started_guide/index)
 
-OBS: Não precisa ser um especialista no assunto, mas antes de ver todo resto eu dedicaria um tempo entendendo esse assunto, pois os assuntos Cloud e containers serão mais fáceis pra você depois desse estudo.
+OBS: Não precisa ser especialista no assunto, mas antes de ver todo resto eu dedicaria um tempo entendendo esse assunto, pois os assuntos Cloud e containers serão mais fáceis pra você depois desse estudo.
 
 #### Conhecimento de Cloud
 
@@ -189,7 +189,7 @@ Importante salientar que os conhecimentos necessárioas para uma carreira "DevOp
 
 Lembre-se, esse é um texto em construção constante e feito através de colaboração de muitas pessoas. Se você tem alguma sugestão, mande um PR a partir [desse arquivo](https://github.com/gomex/gomex.me/blob/master/content/post/carreira-devops.md).
 
-### Agradecimentos 
+### Agradecimentos
 
 A todos do canal [DevOpsBR no Telegram](https://t.me/devopsbr) que colaboram em enriquecer o texto.
 
