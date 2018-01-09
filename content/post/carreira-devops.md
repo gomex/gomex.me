@@ -125,8 +125,8 @@ Material sugerido para Google Cloud:
 
 Material sugerido para Azure:
 
-- [Treinamentos gratuitos da Microsoft](http://aka.ms/azureskillspt)
-- [Microsoft Virtual Academy](https://mva.microsoft.com/search/SearchResults.aspx#!q=Azure&prod=Azure)
+- [Portal de treinamentos gratuitos de Azure criado pela Microsoft](http://aka.ms/azureskillspt)
+- [Microsoft Virtual Academy - Academia virtual da Microsoft com treinamentos gratuitos de Azure](https://mva.microsoft.com/search/SearchResults.aspx#!q=Azure&prod=Azure)
 - [Lista curada de aprendizado de Azure por Ricardo Martins](https://github.com/rmmartins/AzureReadiness)
 
 #### Conhecimento de gerencia de configuração
