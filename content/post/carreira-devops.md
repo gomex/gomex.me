@@ -36,7 +36,7 @@ Eu vou tentar organizar a ordem do conhecimento com base nos elementos mais bás
 
 ### Por onde começar?
 
-Eu aconselharia os assuntos com maior demanda e mais próximo do que a maioria dos técnicos de TI já tem alguma familiridade, sendo assim vou separar em dois sub-grupos de pessoas, que posteriormente se encontram em passos mais relacionados a esse novo paradigma.
+Eu aconselharia os assuntos com maior demanda e mais próximo do que a maioria dos técnicos de TI já tem alguma familiaridade, sendo assim vou separar em dois sub-grupos de pessoas, que posteriormente se encontram em passos mais relacionados a esse novo paradigma.
 
 Algumas pessoas gostam e tem mais experiência em escrever software e outras em manter a infraestrutura onde estarão hospedadas esses softwares, sendo assim acredito que os elementos básicos necessários para fazer a mudança na carreira são diferentes a depender da sua história.
 
