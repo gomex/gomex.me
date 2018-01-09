@@ -133,7 +133,6 @@ Material sugerido para Azure:
 - [Azure para Desenvolvedores](https://docsmsftpdfs.blob.core.windows.net/guides/azure/azure-developer-guide.pdf)
 - [Curadoria de material de aprendizado de Azure](https://github.com/rmmartins/AzureReadiness)
 
-
 #### Conhecimento de gerencia de configuração
 
 Você precisará automatizar a configuração dos seus ativos (Servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
