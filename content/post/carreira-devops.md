@@ -73,7 +73,7 @@ Um outro conselho básico é a necessidade de dominar ao menos uma linguagem de 
 
 Material sugerido:
 
-- [Curso online gratuíto - Python Para Zumbis - Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
+- [Curso online gratuito - Python Para Zumbis - Fernando Masanori](https://www.pycursos.com/python-para-zumbis/)
 - [Curso online pago - POO com Ruby - Jackson Pires](https://www.udemy.com/poo-ruby/learn/v4/content)
 - [Curso online pago - Curso de Go - Jeff Prestes](https://www.udemy.com/cursodego/)
 
@@ -92,7 +92,7 @@ Para as pessoas que não dominam desenvolvimento de software, perceberão que mu
 
 Esse é o "pontapé inicial" para o assunto "DevOps", pois tudo que será feito daqui pra frente será baseado em código, e manter esse conjuntos de fontes em um repositório de controle de versão é requisito mínimo até mesmo para níveis mais iniciantes nessa carreira.
 
-Na minha opinião, o Git reina em absoluto nesse assunto. Há que ainda use SVN, Mercurial e afins, mas a maioria dos lugares usam Git. Pode estudar sem culpa, pois aprender os outros será fácil depois do Git.
+Na minha opinião, o Git reina em absoluto nesse assunto. Há quem ainda use SVN, Mercurial e afins, mas a maioria dos lugares usam Git. Pode estudar sem culpa, pois aprender os outros será fácil depois do Git.
 
 Material sugerido para Git:
 
@@ -129,7 +129,7 @@ Material sugerido para Azure:
 - [Microsoft Virtual Academy - Academia virtual da Microsoft com treinamentos gratuitos de Azure](https://mva.microsoft.com/search/SearchResults.aspx#!q=Azure&prod=Azure)
 - [Lista curada de aprendizado de Azure - Ricardo Martins](https://github.com/rmmartins/AzureReadiness)
 
-#### Conhecimento de gerencia de configuração
+#### Conhecimento de gerência de configuração
 
 Você precisará automatizar a configuração dos seus ativos (servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
 
@@ -170,7 +170,7 @@ Material sugerido para Kubernetes:
 
 #### Conhecimento de CI/CD
 
-É importante conhecer sobre Continuos Integration e Continuos Delivery. Ambos são conceitos centrais dessa mudança de paradigma de desenvolvimento de software e fornecimento de infraestrutura automatizada.
+É importante conhecer sobre Continuous Integration e Continuous Delivery. Ambos são conceitos centrais dessa mudança de paradigma de desenvolvimento de software e fornecimento de infraestrutura automatizada.
 
 Como material sugerido, eu aconselho o que pra mim seria a bíblia do "DevOps":
 
