@@ -5,22 +5,14 @@ sidemenu = "true"
 description = "About"
 +++
 ## English
-I'm DevOps Engineer, technical writer and speaker. It has been a long time since I felt in love with Linux and, while that I had the opportunity to work as a developer infrastructure using Puppet, Chef, Ansible, Docker. One of the benefits of working as a DevOps Engineer is that I'm able to understand how developers think and help then.
-
-Author of a book 'Docker para desenvolvedores' (Portuguese version): https://leanpub.com/dockerparadesenvolvedores
-
-Docker for developers (English version - Under construction): https://leanpub.com/docker-for-developers
-
-Docker Captain: https://www.docker.com/community/docker-captains
+TBD
 
 ## Portuguese
-Eu sou Engenheiro DevOps, escritor técnico e palestrante. Faz muito tempo que fiquei apaixonado por Linux, e então tive a oportunidade de trabalhar como desenvolvedor de infraestrutura usando Puppet, Chef, Ansible, Docker. Um dos benefícios de trabalhar como Engenheiro DevOps é que eu sou capaz de entender como os desenvolvedores pensam e ajudá-los.
+Soteropolitano, hacker urbano e consultor de infraestrutura, formado na Universidade de Salvador no curso de Gestão de Redes.
 
-Autor do livro 'Docker para desenvolvedores' (Portuguese version): https://leanpub.com/dockerparadesenvolvedores
+Trabalho atualmente na Crossover, focado em infraestrutura como código, cultura devops e cloud. Certificado em LPIC-1, MCSO e Zabbix Certified Specialist. Autor do livro "Docker para desenvolvedores": https://leanpub.com/dockerparadesenvolvedores
 
-Docker for developers (English version - Under construction): https://leanpub.com/docker-for-developers
-
-Docker Captain: https://www.docker.com/community/docker-captains
+Core Organizer do DevOpsDays: https://www.devopsdays.org/about/
 
 Minhas apresentações estão aqui, se você quiser entrar em contato para conversar ou convidar para apresentar um dos assuntos acima, preencha o formulário abaixo.
 
