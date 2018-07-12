@@ -202,7 +202,7 @@ Esse comando aplicará todas as mudanças e executará o *restart* nos processos
 
 ### Agradecimentos
 
-Meus colegas de trabalho da [Crossover](http://crossover.com) que colaboram em apresentar opções e especialmente para [Evgeny Udalov]() que atuou bastante nesse debate.
+Meus colegas de trabalho da [Crossover](http://crossover.com) que colaboram em apresentar opções e especialmente para [Evgeny Udalov](https://www.linkedin.com/in/evgenyudalov/) que atuou bastante nesse debate.
 
 ### Fontes
 
