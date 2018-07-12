@@ -107,7 +107,7 @@ Informa que o processo **não** será reiniciado em caso de falha, ou seja, caso
 priority=100
 ```
 
-Informa a ordem que o processo será iniciado e desligado. Um número menor indica que o processo começarã primeiro e será desligado por último. 
+Informa a ordem que o processo será iniciado e desligado. Um número menor indica que o processo começará primeiro e será desligado por último. 
 
 ```
 command=/usr/sbin/nginx -g "daemon off;"
