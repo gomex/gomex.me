@@ -28,14 +28,14 @@ Supervisor é um software, do tipo cliente/servidor, que permite usuários contr
 
 Segue abaixo as vantagens de se utilizar Supervisor:
 
-- Conveniência: Ele é responsável por iniciar os sub-processos, ou seja, você pode configurar para todos os múltiplos processos iniciarem quando se iniciar o supervisor, por exemplo.
-- Gerência: Imagine múltiplos processos distintos, cada um com sua forma de garantir que está funcionando ou não, com diferentes comandos, formas e arquivos. O que o supervisor faz é garantir um determinado padrão e oferecer uma camada extra de abstração no que tange a gerência dos sub-processos.
-- Agrupamento: Você pode agrupar processos e executar comandos em vários ao mesmo tempo, ao invés de executar diversos comandos manualmente.
+- **Conveniência**: Ele é responsável por iniciar os sub-processos, ou seja, você pode configurar para todos os múltiplos processos iniciarem quando se iniciar o supervisor, por exemplo.
+- **Gerência**: Imagine múltiplos processos distintos, cada um com sua forma de garantir que está funcionando ou não, com diferentes comandos, formas e arquivos. O que o supervisor faz é garantir um determinado padrão e oferecer uma camada extra de abstração no que tange a gerência dos sub-processos.
+- **Agrupamento**: Você pode agrupar processos e executar comandos em vários ao mesmo tempo, ao invés de executar diversos comandos manualmente.
 
 # Componentes mais relevantes
 
-- supervisord - Esse é o processo responsável por toda gerência dos sub-processos. Ele deverá ser o init 1 em seu container.
-- supervisorctl - Esse é o client que permite gerência do **supervisord** atráves de comandos simples em seu terminal. A comunicação entre o **supervisorctl** e **supervisord** pode ser feita via *UNIX domain socket* (Arquivo local) ou *TCP socket* (comunicação de rede via endereço ip na rede).
+- **supervisord** - Esse é o processo responsável por toda gerência dos sub-processos. Ele deverá ser o init 1 em seu container.
+- **supervisorctl** - Esse é o client que permite gerência do **supervisord** atráves de comandos simples em seu terminal. A comunicação entre o **supervisorctl** e **supervisord** pode ser feita via *UNIX domain socket* (Arquivo local) ou *TCP socket* (comunicação de rede via endereço ip na rede).
 
 # Como usar
 
@@ -53,7 +53,9 @@ RUN apt-get -qqy update && \
 
 E no final adicione:
 
+```
 CMD ["/usr/bin/supervisord","-c","/etc/supervisor/supervisord.conf"]
+```
 
 ## Configurando o serviço
 
