@@ -47,7 +47,8 @@ Adicione a seguinte instrução:
 
 ```
 RUN apt-get -qqy update && \
-    apt-get -qqy install supervisor && \
+    apt-get -qqy install python-pip supervisor && \
+    pip install supervisor-stdout && \
     apt-get clean
 ```
 
@@ -56,6 +57,31 @@ E no final adicione:
 ```
 CMD ["/usr/bin/supervisord","-c","/etc/supervisor/supervisord.conf"]
 ```
+
+## Configurando o supervisor
+
+Abra o arquivo **/etc/supervisor/supervisord.conf** e na sessão **[supervisord]** você deve adicionar a seguinte linha:
+
+```
+nodaemon=true
+``` 
+
+Ainda no arquivo **supervisord**, agora deve criar uma sessão nova sessão:
+
+```
+[eventlistener:stdout]
+priority = 1
+command = supervisor_stdout
+buffer_size = 100
+events = PROCESS_LOG
+result_handler = supervisor_stdout:event_handler
+```
+
+[Eventlistener](http://supervisord.org/configuration.html#eventlistener-x-section-settings) é uma funcionalidade do **supervisor** que tem como objetivo possibilitar que um processo escute [eventos](http://supervisord.org/events.html#events) de sub-processos e possa tratá-lo de forma devida. 
+
+Em nosso uso o [supervisor_stdout](https://github.com/coderanger/supervisor-stdout) é um processo criado para redirecionamento de logs dos sub-processos para as saída padrão e de erro do supervisor. 
+
+A vantagem do uso desse **eventlistener** reside no fato que os logs tratados dessa maneira são exibidos no log do **supervisor** com um prefixo, sendo mais fácil descobrir de qual subprocesso é aquela linha de log.
 
 ## Configurando o serviço
 
@@ -77,10 +103,8 @@ autostart=true
 autorestart=false
 priority=100
 command=/usr/sbin/nginx -g "daemon off;"
-stdout_logfile=/dev/stdout
-stdout_logfile_maxbytes=0
-stderr_logfile=/dev/stderr
-stderr_logfile_maxbytes=0
+stdout_events_enabled = true
+stderr_events_enabled = true
 ```
 
 Abaixo vou explicar linha a linha
@@ -116,18 +140,11 @@ command=/usr/sbin/nginx -g "daemon off;"
 Informa qual comando utilizando para executar o processo. Informe o caminho absoluto do comando. Você pode usar o comando **which** (# *which nginx*) pra achá-lo.
 
 ```
-stdout_logfile=/dev/stdout
-stderr_logfile=/dev/stderr
+stdout_events_enabled = true
+stderr_events_enabled = true
 ```
 
-Informa a saída de padrão e de erro desse processo. Nesse caso estamos enviando para **stdout** e **stderr**, baseado nas melhores práticas de log em container. Uma vez que logs que são enviado para essas saídas são automaticamente gerenciado pela ferramenta de container em questão.
-
-```
-stdout_logfile_maxbytes=0
-stderr_logfile_maxbytes=0
-```
-
-Informa que não há limites para geração de logs. Isso é necessário para [evitar problemas](http://veithen.github.io/2015/01/08/supervisord-redirecting-stdout.html) em alta utilização, mesmo para casos de envio para **stdout** e **stderr**.
+Informa que a saída de padrão e de erro emitirá um evento, que será capturado pelo **eventlistener** configurado anteriormente nesse artigo. Nesse caso estamos o **eventlisterner** tratará enviado para o stdout e stderr do supervisor, com devido prefixo, baseado nas melhores práticas de log em container. Uma vez que logs que são enviado para essas saídas são automaticamente gerenciado pela ferramenta de container em questão.
 
 ## Falando em gerência de logs...
 
@@ -208,3 +225,4 @@ Meus colegas de trabalho da [Crossover](http://crossover.com) que colaboram em a
 
 - [Supervisor](http://supervisord.org)
 - [Redirecting to stdout](http://veithen.github.io/2015/01/08/supervisord-redirecting-stdout.html)
+- [Multi-process Docker Service](https://rcaguilar.wordpress.com/2017/11/06/multi-process-docker-service/)
