@@ -30,7 +30,7 @@ Here are the advantages of using Supervisor:
 
 - **Convenience**: It is responsible for starting subprocesses. You can configure for all multiple processes to start when you start the supervisor, for example.
 - **Management**: When you have multiple distinct processes, different ways to ensuring that it is working or not, with distinct commands, shapes, and files. Supervisor is responsible for enforcing standard by ensuring a layer of process management abstraction.
-- **Grouping**: You can group processes together and execute commands to the group rather than executing manually one by one.
+- **Grouping**: You can group processes and execute commands to the group rather than executing manually one by one.
 
 # Most relevant components
 
@@ -85,7 +85,7 @@ The advantage of eventlistener usage lies in the fact that logs treated in this 
 
 ## Setting up the process
 
-We will use **nginx** as an example. It is important to note that this service can not be run as a daemon, it must be run in foregroud mode. In visual terms is  when you execute a process and it "lock" your terminal and you can't run new commands until it is finished.
+We will use **nginx** as an example. It is important to note that this service can not be run as a daemon, it must be run in foreground mode. That means when you execute a process and it "lock" your terminal and you can't run new commands until it is finished.
 
 Here is the example of **nginx** running in foreground:
 
@@ -144,7 +144,7 @@ stdout_events_enabled = true
 stderr_events_enabled = true
 ```
 
-Informs that the standard output or error will issue an event, which will be captured by the **eventlisterner** previously configured in that article. In this case the **eventlisterner** will sent to the stdout and stderr of the supervisor, with due prefix, based on the best practices of log in container. Remember that logs sent to these outputs are automatically managed by the container tool in question.
+Informs that the standard output or error will issue an event, which will be captured by the **eventlisterner** previously configured in that article. In this case the **eventlisterner** will sent to the stdout and stderr of the supervisor, with due prefix, based on the best practices of log in container. Remember that logs sent to these outputs are automatically managed by the container tool.
 
 ## Log management
 
@@ -179,8 +179,6 @@ error_log /dev/stdout;
 ```
 
 That is, you need to understand what process is working and verify how the log is managed and finally set it to be sent to **stdout** and **stderr**.
-
-Ou seja, você precisa entender qual processo está trabalhando e verificar como o log é gerenciado e por fim configurar para que seja enviado para **stdout** e **stderr**.
 
 ## Managing subprocesses
 
