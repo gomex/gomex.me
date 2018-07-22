@@ -3,7 +3,7 @@ title = "Precisa executar mais do que um processo por container?"
 date = "2018-07-12"
 draft = false
 Categories = ["portugues", "devops", "docker", "supervisord"]
-Tags = ["portugues", "devops", "carreira"]
+Tags = ["portugues", "devops", "docker", "supervisord"]
 +++
 
 ## TL;DR
