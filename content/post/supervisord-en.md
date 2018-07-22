@@ -12,11 +12,11 @@ You need more than one process in a container, so you need to follow some best p
 
 ### Problem
 
-In my current job, I need to run many processes in the same container. This is a warning sign of problem in your service architecture and This will be a problem for a better usage of Cloud features, but if you can't modify this structure, you shouldn't introduce new problems on your project.
+In my current job, I need to run many processes in the same container. This is a warning sign of problem in your service architecture and this will be a problem for a better usage of Cloud features, but if you can't modify this structure, you shouldn't introduce new problems on your project.
 
-### Premissa
+### Premise
 
-We need to point out that a service running in container model isn't a machine. Container Docker is virtualization at the operating system level, that is, another level of abstraction. It is tempting to use the Docker container as a machine, but avoid bravely because this will cause indirect damage to resource management resource in the future.
+We need to point out that a service running in container model isn't a machine. Container Docker is virtualization at the operating system level that is another level of abstraction. It is tempting to use the Docker container as a machine, but avoid bravely because this will cause indirect damage to resource management resource in the future.
 
 # Supervisor
 
@@ -24,17 +24,13 @@ If you will use more than one process per container, you need a process manager,
 
 My advice is: (Supervisord)[http://supervisord.org/index.html]
 
-Supervisor é um software, do tipo cliente/servidor, que permite usuários controlarem múltiplos processos em sistema operacional da família "Unix-like". Os processos controlados por ele são iniciados como sub-processo de sí.
-
-Segue abaixo as vantagens de se utilizar Supervisor:
-
-Supervisor is software, client/server type, that allows you control multiple processes in the Unix-like family operating system. The processes controlled by it are started as a sub-process of itself.
+Supervisor is a software client/server type that allows you control multiple processes in the Unix-like family operating system. Each process managed by supervisor is started as a subprocess.
 
 Here are the advantages of using Supervisor:
 
-- **Convenience**: It is responsible for starting sub-processes. You can configure for all multiple processes to start when you start the supervisor, for example.
+- **Convenience**: It is responsible for starting subprocesses. You can configure for all multiple processes to start when you start the supervisor, for example.
 - **Management**: When you have multiple distinct processes, different ways to ensuring that it is working or not, with distinct commands, shapes, and files. Supervisor is responsible for enforcing standard by ensuring a layer of process management abstraction.
-- **Grouping**: You can group processes together and execute commands on several at the same time, rather than executing multiple commands manually one by one.
+- **Grouping**: You can group processes together and execute commands to the group rather than executing manually one by one.
 
 # Most relevant components
 
@@ -85,7 +81,7 @@ result_handler = supervisor_stdout:event_handler
 
 [supervisor_stdout](https://github.com/coderanger/supervisor-stdout) is a script created for redirecting sub process logs to the standard and error output of the supervisor.
 
-The advantage of eventlistener usage lies in the fact that logs treated in this way are displayed in the supervisor log with a prefix, making it easier to figure out which sub-process is that log line.
+The advantage of eventlistener usage lies in the fact that logs treated in this way are displayed in the supervisor log with a prefix, making it easier to figure out which subprocess is that log line.
 
 ## Setting up the process
 
