@@ -34,7 +34,7 @@ Segue abaixo as vantagens de se utilizar Supervisor:
 
 # Componentes mais relevantes
 
-- **supervisord** - Esse é o processo responsável por toda gerência dos sub-processos. Ele deverá ser o init 1 em seu container.
+- **supervisord** - Esse é o processo responsável por toda gerência dos sub-processos. Ele deverá ser o pid 1 em seu container.
 - **supervisorctl** - Esse é o client que permite gerência do **supervisord** atráves de comandos simples em seu terminal. A comunicação entre o **supervisorctl** e **supervisord** pode ser feita via *UNIX domain socket* (Arquivo local) ou *TCP socket* (comunicação de rede via endereço ip na rede).
 
 # Como usar
