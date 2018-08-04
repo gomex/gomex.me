@@ -190,14 +190,14 @@ Eu utilizei o [archore](https://hub.docker.com/r/anchore/anchore-engine/) para f
 [Pery Lemke](https://twitter.com/perylemke) que acordou mais cedo num dia de sábado com minha ligação pra perguntar sobre o problema dele com scratch com go.
 
 Escrevi esse artigo ouvindo:
- - Megadeth
- - AnaVitória
- - Alice in Chains
- - Tiê
- - Dream Theather
- - Sagaz
- - Sabotagem
- - Outros artistas do meu Daily Mix do Spotify
+- Megadeth
+- AnaVitória
+- Alice in Chains
+- Tiê
+- Dream Theather
+- Flora Matos
+- Sabotagem
+- Outros artistas do meu Daily Mix do Spotify
 
 ### Fontes
 
