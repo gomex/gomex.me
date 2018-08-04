@@ -24,7 +24,7 @@ Entre as opções para solução eu tinha a possibilidade de copiar a única pas
 
 A melhor opção era mover apenas os commits que eu enviei, certo? Como eu trabalhei em apenas uma pasta, isso ficou mais fácil.
 
-Na branch de origem (onde meu trabalho estar hoje) executei o comando abaixo e assim foi possível obter a lista de commits da pasta em questão:
+Na branch de origem (onde meu trabalho está hoje) executei o comando abaixo e assim foi possível obter a lista de commits da pasta em questão:
 
 ```
 git log --oneline --decorate --color --graph pasta_escolhida/
