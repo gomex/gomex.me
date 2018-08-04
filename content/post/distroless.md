@@ -3,7 +3,7 @@ title = "Distroless! Pense mais em sua aplicação e menos na distribuição"
 date = "2018-08-04"
 draft = false
 Categories = ["portugues", "devops", "docker", "scratch"]
-Tags = ["portugues", "devops", "docker", ""scratch", "distroless"]
+Tags = ["portugues", "devops", "docker", "scratch", "distroless"]
 +++
 
 ## TL;DR
