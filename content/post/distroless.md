@@ -187,7 +187,7 @@ Eu utilizei o [archore](https://hub.docker.com/r/anchore/anchore-engine/) para f
 
 ### Agradecimentos
 
-[Pery Lenke](http://) que acordou mais cedo num dia de sábado com minha ligação pra perguntar sobre o problema dele com scratch com go.
+[Pery Lemke](https://twitter.com/perylemke) que acordou mais cedo num dia de sábado com minha ligação pra perguntar sobre o problema dele com scratch com go.
 
 ### Fontes
 
