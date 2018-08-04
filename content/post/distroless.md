@@ -12,28 +12,28 @@ Apresentarei um conceito novo de focar na aplicação e suas dependências na co
 
 ### Contextualização
 
-Antes do advento dos containers pela maioria das pessoas, o modelo mais utilizado era baseado em **máquinas virtuais**. Que basicamente eram instâncias com um sistema operacional instalado, bibliotecas compartilhadas, softwares de acesso remoto (Ex. SSH), agentes em geral (Monitoramento, geranciamento de log e afins) e por fim sua aplicação (A coisa mais importante desse *setup* inteiro). 
+Antes da popularização dos containers, o modelo mais utilizado era baseado em **máquinas virtuais**. Que instâncias virtuais, criadas em um virtualizador de maquinas (hypervisor), que atuam de forma similar a máquinas físicas, com um sistema operacional instalado, bibliotecas compartilhadas, softwares de acesso remoto (Ex. SSH), agentes em geral (Monitoramento, geranciamento de log e afins) e por fim sua aplicação (A coisa mais importante desse *setup* inteiro). 
 
-A equipe de desenvolvimento, normalmente composta por várias pessoas, mantinham a versão da aplicação instalada nessa máquina e todo restante ficava a cargo do time de suporte, ou seja, aproximadamente 90% dos softwares instalados em cada maquina desse modelo estava a cargo de um time menor (suporte geralmente era menor na maioria das empresas).
+A equipe de desenvolvimento, normalmente composta por várias pessoas, são responsáveis pela manutenção pela aplicação instalada nessa máquina e todo restante fica a cargo do time de suporte, ou seja, aproximadamente 90% dos softwares instalados em cada maquina desse modelo estava a cargo de um time menor (suporte geralmente era menor na maioria das empresas).
 
-Com a chegada do Docker tivemos a grande oportunidade de minimizar a necessidade de uma infra completa para suportar nossa aplicação. Era uma oportunidade do controle da infraesturutra mais próxima da aplicação para quem estava lidando com o código, os desenvolvedores nesse caso, pois com o Docker você poderia apenas instalar os pacotes necessários para sua aplicação e iniciar o processo de forma isolada em uma arquitetura isolada a nível de sistema operacional. Infelizmente não foi isso que aconteceu, ao menos não na maioria dos lugares.
+Com a chegada do Docker tivemos a grande oportunidade de minimizar a necessidade de uma infra completa para suportar nossa aplicação. Era uma oportunidade do controle da infraesturutra mais próxima da aplicação se deslocar para o time que estava lidando com o código, os desenvolvedores nesse caso, pois com o Docker você poderia apenas instalar as dependências para sua aplicação e iniciar o processo em uma arquitetura isolada a nível de sistema operacional. Infelizmente não foi isso que aconteceu, ao menos não na maioria dos lugares.
 
 ### Problema
 
 Em muitas situações o docker ainda é usado da mesma forma que se fazia com máquinas virtuais. Qual a consequência disso? Imagens enormes! E veja que o maior impacto não é apenas no custo com armazenamento de dados e sim em dois outros importantes pontos:
 
  - **Gerência**: Imagens grandes normalmente tem diversos pacotes instalados, arquivos de configuração que precisam ser modificados para mudar comportamento da imagem e afins. Dessa formas as pessoas responsáveis por essas imagens tem mais trabalho toda vez que precisam alterar alguma coisa na imagem.
- - **Segurança**: Quanto maior a sua imagem normalmente maior o número de pacotes instalados, dessa forma mais softwares para atualizar, maior superfície de ataque, que no resumo aumenta a possibilidade da sua aplicação ser comprometida.
+ - **Segurança**: Normalmente quanto maior a sua imagem, maior o número de pacotes instalados, dessa forma mais softwares para atualizar, maior superfície de ataque, que no resumo, aumenta a possibilidade da sua aplicação ser comprometida.
 
 ### Proposta
 
-A google apresentou um conceito interessante chamado **distroless**, eu achei bem relevante e foi o motivador para eu escrever esse artigo, mas eu precisava acrescentar mais exemplos e usar recursos mais novos do Docker.
+A google apresentou um conceito interessante chamado [Distroless](https://github.com/GoogleContainerTools/distroless), e isso me motivou a escrever sobre imagens menores, mas eu precisava acrescentar mais exemplos e usar recursos mais novos do Docker.
 
-O conceito **distroless** reside no fato de você pensar menos na distribuição (GNU/Linux) e focar na sua aplicação. É lembrar que o container Docker não é uma máquina mais leve e sim um processo isolado em execução. É reduzir ao máximo o que está sendo adicionado em sua imagem. É a ideia de colocar o mínimo possível.
+O conceito **distroless** reside no fato de você pensar menos na distribuição (GNU/Linux) e focar na sua aplicação. É lembrar que o container Docker não é uma máquina mais leve e sim um processo isolado em execução. É reduzir ao máximo o que está sendo adicionado em sua imagem. 
 
 ### Exemplo
 
-Usaremos esse código Go como exemplo:
+Usaremos esse código Go como exemplo de uma aplicação:
 
 ```
 package main
@@ -82,13 +82,13 @@ Vamos começar pelo seu consumo de espaço em disco:
 golang                    1.10.3              d0e7a411e3da        2 weeks ago         794MB
 ```
 
-A imagem com seu código terá 800MB, ou seja, seu código ocupa apenas 6MB e você carregará todo restante do peso contigo ao utilizar essa imagem.
+A imagem com seu código terá **800MB**, ou seja, seu código ocupa apenas **6MB** e você carregará todo restante do peso contigo ao utilizar essa imagem.
 
-Outro detalhe importante é a quantidade de pacotes instalados, que é 189 softwares, ou seja, são 189 versões pra se preocupar e atualizar quando sair um pacote de atualização ou nova medida de segurança.
+Outro detalhe importante é a quantidade de pacotes instalados, que é **189** softwares, ou seja, são **189** versões pra se preocupar e atualizar quando sair um pacote de atualização ou nova medida de segurança.
 
-E pra finalizar temos 27098 arquivos nessa imagem.
+Pra finalizar temos **27098** arquivos nessa imagem.
 
-Vale lembrar que essa imagem contém tudo que você precisa pra *buildar* seu código go, e normalmente imagens de build são relativamente grandes mesmo.
+**Obs**: Vale lembrar que essa imagem contém tudo que você precisa pra *buildar* seu código go, e normalmente imagens de build são relativamente grandes mesmo.
 
 ### Usando Multi Stage Build
 
@@ -109,7 +109,7 @@ RUN apk --no-cache add ca-certificates
 CMD ["/app/main"]
 ```
 
-Muita atenção para a instrução **COPY --from=builder /app/main /app/main** esse parâmetro **--from** informa de onde será obtido o arquivo, perceba que na primeira instrução **FROM** desse Dockerfile, temos um adento **as builder** que é responsável por fornecer um "apelido" para essa etapa do build. Quando você informa **COPY --from=builder /app/main /app/main** você quer dizer que pegue o arquivo **/app/main** dessa etapa e coloque em **/app/main** da atual.
+Muita atenção para a instrução **COPY --from=builder /app/main /app/main** esse parâmetro **--from** informa de onde será obtido o arquivo, perceba que na primeira instrução **FROM** desse Dockerfile, temos um adento **as builder** que é responsável por fornecer um "apelido" para essa etapa do build. Quando você informa **COPY --from=builder /app/main /app/main** você quer dizer que pegue o arquivo **/app/main** da etapa apelidada como **builder** e coloque em **/app/main** na atual.
 
 #### Imagem alpine:3.8 em detalhes
 
@@ -119,15 +119,15 @@ Vamos começar pelo seu consumo de espaço em disco:
 alpine                    3.8                 11cd0b38bc3c        4 weeks ago          4.41MB
 ```
 
-A imagem com seu código terá 10.5MB. É bem melhor do que os 800MB da imagem **golang**.
+A imagem com seu código terá **10.5MB**. É bem melhor do que os **800MB** da imagem **golang**.
 
-Com relação quantidade de pacotes instalados, temos 14 softwares, ou seja, multi melhor que os 189 do **golang**, mas ainda temos 14 pacotes pra se preocupar e atualizar quando sair um pacote de atualização ou nova medida de segurança.
+Com relação quantidade de pacotes instalados, temos **14** softwares, ou seja, muito melhor que os **189** do **golang**, mas ainda temos **14** pacotes pra se preocupar e atualizar quando sair um pacote de atualização ou nova medida de segurança.
 
-E pra finalizar temos 478 arquivos nessa imagem.
+E pra finalizar temos **478** arquivos nessa imagem.
 
 ### Usando a imagem scratch
 
-Essa imagem é basicamente vazia, isso mesmo, sem nenhuma camada de dados extra. Você deve estar se perguntando como uma imagem dessa funcionaria sem resolução de nomes (/etc/hosts e afins), dev, proc e sys? De acordo com a [especificação](https://github.com/opencontainers/runc/blob/master/libcontainer/SPEC.md#filesystem) usada pela Docker atualmente existem algumas parte do seu sistema de arquivo que são montada automaticamente para todos os containers.
+Essa imagem é basicamente vazia, isso mesmo, sem nenhuma camada de dados extra. Você deve estar se perguntando como uma imagem dessa funcionaria sem resolução de nomes (/etc/hosts e afins), dev, proc e sys? De acordo com a [especificação](https://github.com/opencontainers/runc/blob/master/libcontainer/SPEC.md#filesystem) usada pela Docker atualmente, existem algumas parte do seu sistema de arquivo que são montada automaticamente para todos os containers.
 
 Seguindo exemplo do código go, o nosso Dockerfile seria escrito desse jeito:
 
@@ -175,7 +175,7 @@ CMD ["/main"]
 
 O que fizemos aqui foi o uso do melhor de cada etapa do build, retirando os arquivos que interessam de cada uma delas e colocando na imagem final, que será a utilizada na inicialização do serviço em produção.
 
-A imagem é do tamanho do código, nesse caso 4MB. A quantidade de arquivos mesma situação.
+A imagem é do tamanho da sua aplicação, nesse caso **4MB**. A quantidade de arquivos mesma situação.
 
 0 pacotes para se preocupar com atualização e gerência de arquivos de apoio. Sua aplicação é sua única preocupação nesse caso.
 
@@ -195,6 +195,8 @@ Escrevi esse artigo ouvindo:
  - Alice in Chains
  - Tiê
  - Dream Theather
+ - Sagaz
+ - Sabotagem
  - Outros artistas do meu Daily Mix do Spotify
 
 ### Fontes
