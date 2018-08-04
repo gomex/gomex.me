@@ -70,7 +70,7 @@ FROM golang:1.10.3
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main . 
+RUN CGO_ENABLED=0 GOOS=linux go build -o main . 
 CMD ["/app/main"]
 ```
 
@@ -101,7 +101,7 @@ FROM golang:1.10.3 as builder
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
+RUN CGO_ENABLED=0 GOOS=linux go build -o main .
 
 FROM alpine:3.8
 COPY --from=builder /app/main /app/main
@@ -136,7 +136,7 @@ FROM golang:1.10.3 as builder
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
+RUN CGO_ENABLED=0 GOOS=linux go build -o main .
 
 FROM scratch
 COPY --from=builder /app/main .
@@ -162,7 +162,7 @@ FROM golang:1.10.3 as builder
 RUN mkdir /app 
 ADD . /app/ 
 WORKDIR /app 
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
+RUN CGO_ENABLED=0 GOOS=linux go build -o main .
 
 FROM alpine:3.8 as certs
 RUN apk --update add ca-certificates
