@@ -1,5 +1,5 @@
 +++
-title = "How to deploy Ruby+Node app on Heroku using Docker"
+title = "How to deploy Ruby and Node app on Heroku using Docker"
 date = "2019-02-15"
 draft = false
 Categories = ["english", "devops", "docker", "ruby", "node"]
