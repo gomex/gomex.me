@@ -7,7 +7,9 @@ Tags = ["english", "devops", "docker", "ruby", "node"]
 +++
 
 ## TL;DR
-I need to deploy a ruby+node application as a docker image on Heroku, but I won't use Heroku cli do build it.  This document is about how to test, build tag and deploy the docker image on a Heroku application according to the best practices.
+I need to deploy a ruby+node application as a docker image on Heroku, but I won't use Heroku cli do build it.  This document is about how to develop, test, build tag and deploy the docker image on a Heroku application according to the best practices.
+
+I will split this article in some parts. I will explain in details in this "part 1" my first delivery to development phase only.
 
 ## Attention
 It is storytelling! If you copy and past some codes, without reading the context it won't work properly on your environment.
