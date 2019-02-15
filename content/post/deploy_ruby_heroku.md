@@ -1,12 +1,12 @@
 +++
-title = "How to deploy Ruby and Node app on Heroku using Docker"
+title = "How to deploy Ruby and Node app on Heroku using Docker - Part 1"
 date = "2019-02-15"
 draft = false
 Categories = ["english", "devops", "docker", "ruby", "node"]
 Tags = ["english", "devops", "docker", "ruby", "node"]
 +++
 
-## LT;DR
+## TL;DR
 I need to deploy a ruby+node application as a docker image on Heroku, but I won't use Heroku cli do build it.  This document is about how to test, build tag and deploy the docker image on a Heroku application according to the best practices.
 
 ## Attention
@@ -16,12 +16,14 @@ I will present the code and tell the story behind this idea, and I will show how
 
 ## Setup
 To reproduce this article, you need to install these tools:
+
 - Docker
 - Docker compose
 - Make
 
 ## The environments
 We have three environments:
+
 - Development: It is only on the developer's machine. 
 - Staging: It is for QA analysis on Heroku app
 - Production: It is the real app running on Heroku app
@@ -166,9 +168,9 @@ CMD ["bundle","exec","rails","server","-b","0.0.0.0"]
 ```
 
 ## Adding docker-compose
-We need to use some external resource (i.e., DB), to that, we will introduce docker-compose usage on this setup.
+We need to use some external resources (i.e., DB), to that, we will introduce docker-compose usage on this setup.
 
-```Dockerfile
+```yaml
 version: '3.4'
 services:
   onboarding_app:
@@ -177,11 +179,8 @@ services:
       context: .
       args:
         RAILS_ENV: development
-    image: onboarding_app:development
-    user: app
     env_file:
       - ./.env
-    command: bundle exec rails server -b 0.0.0.0
     volumes:
       - .:/app
       - ./tmp/gems:/gems
@@ -193,8 +192,6 @@ services:
       - mailcatcher
       - postgres
       - redis
-    tty: true
-    stdin_open: true
   mailcatcher:
     image: schickling/mailcatcher
     ports:
@@ -221,13 +218,85 @@ Run this command to bring up this environment:
 ```bash
 docker-compose up --build
 ```
+
 ### Docker-compose file, explained
 
-We need to 
+We need to send the RAILS_ENV argument to build process of docker image. This RAILS_ENV variable will be used to install all the gems related to development environment:
 
-```Dockerfile
+```yaml
 build:
       context: .
       args:
         RAILS_ENV: development
 ```
+
+We need to inform the environment variable to be used on docker container execution:
+
+```yaml
+    env_file:
+      - ./.env
+```
+
+We will mount some folders to help coding and troubleshooting. I will explain one by one.
+
+First, we need to mount the source code:
+
+```yaml
+    volumes:
+      - .:/app
+```
+
+We need to mount the folder used inside the docker image to add gems. This mounted folder is necessary to troubleshoot gem usage:
+
+```yaml
+      - ./tmp/gems:/gems
+```
+
+We need to persist some config of app user so that we will mount the home folder of app user and .irbrc file too:
+
+```yaml
+      - onboarding_app_home:/home/app/
+      - .irbrc:/home/app/.irbrc
+```
+
+To finish this service, we need to publish the port used to connect on the application and inform which services it depends on:
+
+```yaml
+    ports:
+      - 3010:3000
+    depends_on:
+      - mailcatcher
+      - postgres
+      - redis
+```
+
+These services are being used to provide external resources to app service:
+
+```yaml
+mailcatcher:
+    image: schickling/mailcatcher
+    ports:
+      - 1080:1080
+  postgres:
+    image: postgres:9.6-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - postgres:/var/lib/postgresql/data
+  redis:
+    image: redis:4.0.6-alpine
+    volumes:
+      - redis:/data
+```
+
+Here we will add the volumes used inside this docker-compose file:
+
+```yaml
+volumes:
+  gems_2_5_1:
+  postgres:
+  redis:
+  onboarding_app_home:
+```
+
+## To be continued...
