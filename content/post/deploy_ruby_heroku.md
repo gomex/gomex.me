@@ -302,3 +302,6 @@ volumes:
 ```
 
 ## To be continued...
+
+## Thanks
+My co-workers at Paycertify](http://paycertify.com) who helped me giving me feedbacks and options to fix the problems, I need to say a special thanks to Rafael Affonso who enabled me to correct some mistakes about my English.
