@@ -7,7 +7,7 @@ Tags = ["english", "devops", "docker", "ruby", "node"]
 +++
 
 ## TL;DR
-I need to deploy a ruby+node application as a docker image on Heroku, but I won't use Heroku cli do build it.  This document is about how to develop, test, build tag and deploy the docker image on a Heroku application according to the best practices.
+We needed to deploy a ruby+node application as a docker image on Heroku, but I won't use Heroku cli do build it.  This document is about how to develop, test, build tag and deploy the docker image on a Heroku application according to the best practices.
 
 I will split this article into some parts. In this "Part 1" I will explain in details how I delivered the first version of Dockerfile, without Multistage build,  to create the docker image and Docker compose file to bring up the whole development environment.
 
