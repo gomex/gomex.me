@@ -12,7 +12,7 @@ I need to deploy a ruby+node application as a docker image on Heroku, but I didn
 I will split this article into some parts. In this "Part 1" I will explain in details how I delivered the first version of Dockerfile, without Multistage build,  to create the docker image and Docker compose file to bring up the whole development environment.
 
 ## Attention
-If you copy and past some codes without reading the context it may be won't work properly on your environment.
+If you copy and past some codes without reading the context it may not work properly on your environment.
 
 I will present the code and tell the story behind this phase, and I will show how I improved this code after seeing the problem.
 
