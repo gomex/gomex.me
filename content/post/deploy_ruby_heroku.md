@@ -88,7 +88,7 @@ EXPOSE 3000
 CMD ["bundle","exec","rails","server","-b","0.0.0.0"]
 ```
 
-This Dockerfile is responsible for setup everything that we needed to start the development job.
+This Dockerfile is responsible for setting up everything that we needed to start the development job.
 
 We didn't need to copy the code to docker context on the docker image creation phase. We mounted the source code inside the container on runtime:
 
