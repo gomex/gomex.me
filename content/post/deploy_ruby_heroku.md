@@ -9,12 +9,12 @@ Tags = ["english", "devops", "docker", "ruby", "node"]
 ## TL;DR
 I need to deploy a ruby+node application as a docker image on Heroku, but I won't use Heroku cli do build it.  This document is about how to develop, test, build tag and deploy the docker image on a Heroku application according to the best practices.
 
-I will split this article in some parts. I will explain in details in this "part 1" my first delivery to development phase only.
+I will split this article into some parts. In this "Part 1" I will explain in details how I delivered the first version of Dockerfile, without Multistage build,  to create the docker image and Docker compose file to bring up the whole development environment.
 
 ## Attention
-It is storytelling! If you copy and past some codes, without reading the context it won't work properly on your environment.
+If you copy and past some codes without reading the context it may be won't work properly on your environment.
 
-I will present the code and tell the story behind this idea, and I will show how I improved this code after seeing the problem.
+I will present the code and tell the story behind this phase, and I will show how I improved this code after seeing the problem.
 
 ## Setup
 To reproduce this article, you need to install these tools:
@@ -88,20 +88,20 @@ EXPOSE 3000
 CMD ["bundle","exec","rails","server","-b","0.0.0.0"]
 ```
 
-This Dockerfile is responsible for setup everything that we need to start the development job.
+This Dockerfile is responsible for setup everything that we needed to start the development job.
 
-We don't need to copy the code on build docker image phase. We will mount the source code inside the container on runtime:
+We didn't need to copy the code to docker context on the docker image creation phase. We mounted the source code inside the container on runtime:
 
 ```bash
 docker build -t ruby_node_app:0.1 .
 docker run -it --build-arg RAILS_ENV=development -v $PWD:/app ruby_node_app:0.1
 ```
 
-The **RAILS_ENV** variable is used to change the gem installation behavior — some gems we don't need to install in production, for example.
+The **RAILS_ENV** variable was used to change the gem installation behavior — some gems we didn't need to install in production.
 
 ### Dockefile, explained
 
-We use this first section to set up the basis of this dev environment:
+We used this first section to set up the basis of this dev environment:
 
 ```Dockerfile
 FROM ruby:2.5.1 as builder
@@ -121,7 +121,7 @@ RUN apt-get update \
     rm -rf /var/lib/apt/lists/*
 ```
 
-We need to use a specific folder of gems. We will mount this folder in the future. It is a dev requirement to troubleshoot gem usage:
+We needed to use a specific folder of gems. We mounted this folder on runtime. It was a dev requirement to troubleshoot gem usage:
 
 ```Dockerfile
 ENV GEM_HOME /gems/vendor
@@ -131,7 +131,7 @@ ENV BUNDLE_PATH /gems/vendor
 ENV BUNDLE_BIN /gems/vendor/bin
 ```
 
-We need to specify the app folder and create the app user to use root instead:
+We needed to specify the app folder and create the app user to use root instead:
 
 ```Dockerfile
 ENV APP_ROOT /app
@@ -149,7 +149,7 @@ RUN groupadd -r app \
 USER app
 ```
 
-We need to install all ruby and node requirements:
+We needed to install all ruby and node requirements:
 
 ```Dockerfile
 COPY Gemfile.lock $APP_ROOT/
@@ -161,7 +161,7 @@ RUN bundle install
 RUN yarn install
 ```
 
-In the end, we need to specify expose port and default command:
+In the end, we needed to specify the exposed port and default command:
 
 ```Dockerfile
 EXPOSE 3000
@@ -170,7 +170,7 @@ CMD ["bundle","exec","rails","server","-b","0.0.0.0"]
 ```
 
 ## Adding docker-compose
-We need to use some external resources (i.e., DB), to that, we will introduce docker-compose usage on this setup.
+We needed to use some external resources (i.e., DB), to that, Docker-compose was used on this setup.
 
 ```yaml
 version: '3.4'
@@ -223,7 +223,7 @@ docker-compose up --build
 
 ### Docker-compose file, explained
 
-We need to send the RAILS_ENV argument to build process of docker image. This RAILS_ENV variable will be used to install all the gems related to development environment:
+We needed to send the RAILS_ENV argument to build process of docker image. This RAILS_ENV variable was used to install all the gems related to development environment:
 
 ```yaml
 build:
@@ -232,36 +232,36 @@ build:
         RAILS_ENV: development
 ```
 
-We need to inform the environment variable to be used on docker container execution:
+We needed to inform the environment variable to be used on docker container execution:
 
 ```yaml
     env_file:
       - ./.env
 ```
 
-We will mount some folders to help coding and troubleshooting. I will explain one by one.
+We mounted some folders to help coding and troubleshooting. I will explain one by one.
 
-First, we need to mount the source code:
+First, we needed to mount the source code:
 
 ```yaml
     volumes:
       - .:/app
 ```
 
-We need to mount the folder used inside the docker image to add gems. This mounted folder is necessary to troubleshoot gem usage:
+We needed to mount the folder used inside the docker image to add gems. This mounted folder is necessary to troubleshoot gem usage:
 
 ```yaml
       - ./tmp/gems:/gems
 ```
 
-We need to persist some config of app user so that we will mount the home folder of app user and .irbrc file too:
+We needed to persist some config of app user so that we mounted the home folder of app user and .irbrc file too:
 
 ```yaml
       - onboarding_app_home:/home/app/
       - .irbrc:/home/app/.irbrc
 ```
 
-To finish this service, we need to publish the port used to connect on the application and inform which services it depends on:
+To finish this service, we needed to publish the port used to connect on the application and inform which services it depends on:
 
 ```yaml
     ports:
@@ -291,7 +291,7 @@ mailcatcher:
       - redis:/data
 ```
 
-Here we will add the volumes used inside this docker-compose file:
+Here we added the volumes used inside this docker-compose file:
 
 ```yaml
 volumes:
