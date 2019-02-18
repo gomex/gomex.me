@@ -28,7 +28,7 @@ Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já 
 
 ### Requisitos
 
-Vou presumir que você é uma pessoa que inglês não é problema na leitura de textos e já está inserida no básico de tecnologia da informação, ou seja, que já é ao menos uma pessoa de nível técnico de TI.
+Vou presumir que você é uma pessoa que possui conhecimentos que permitam boa leitura e interpretação de textos em inglês e já está inserida no básico de tecnologia da informação, ou seja, que já é ao menos uma pessoa de nível técnico de TI.
 
 ### Metodologia
 
