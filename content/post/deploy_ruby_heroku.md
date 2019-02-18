@@ -7,14 +7,14 @@ Tags = ["english", "devops", "docker", "ruby", "node"]
 +++
 
 ## TL;DR
-We needed to deploy a ruby+node application as a docker image on Heroku, but I didn't use Heroku cli do build it.  This document is about how we did the development, test, build, tag and deploy of docker image on a Heroku application according to the best practices.
+We needed to deploy a ruby+node application as a docker image on Heroku, but I didn't use Heroku cli to build it.  This document is about how we did the development, test, build, tag and deployment of a docker image on a Heroku application according to the best practices.
 
-I will split this article into some parts. In this "Part 1" I will explain in details how I delivered the first version of Dockerfile, without Multistage build,  to create the docker image and Docker compose file to bring up the whole development environment.
+I will split this article into some parts. In this "Part 1" I will explain in details how I delivered the first version of a Dockerfile, without Multistage build,  to create the docker image and Docker compose file to bring up the whole development environment.
 
 ## Attention
-If you copy and past some codes without reading the context it may not work properly on your environment.
+If you copy and paste some codes shown here without reading the context, it may not work properly on your environment.
 
-I will present the code and tell the story behind this phase, and I will show how I improved this code after seeing the problem.
+I will present the code, tell the story behind this phase and show how I improved it after seeing the problem.
 
 ## Setup
 To reproduce this article, you need to install these tools:
@@ -88,7 +88,7 @@ EXPOSE 3000
 CMD ["bundle","exec","rails","server","-b","0.0.0.0"]
 ```
 
-This Dockerfile is responsible for setup everything that we needed to start the development job.
+This Dockerfile is responsible for setting up everything that we needed to start the development job.
 
 We didn't need to copy the code to docker context on the docker image creation phase. We mounted the source code inside the container on runtime:
 
