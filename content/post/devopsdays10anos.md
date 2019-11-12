@@ -8,7 +8,7 @@ Tags = ["devops", "devopsdays", "brasil"]
 
 Esse ultimo fim de semana foi muito intenso pra mim, eu fui aceito para fazer minha primeira palestra internacional, e foi no aniversário de 10 anos do DevOpsDays. A palestra foi em Ghent, onde tudo começou, com as pessoas que começaram a cultura DevOps ali na plateia.
 
-![Minha primeira palestra em inglês](/palestra-ghent.jpg)
+![Minha primeira palestra em inglês](/img/palestra-ghent.jpg)
 
 A minha palestra era sobre o crescimento da comunidade DevOpsDays no Brasil, como saímos de 2 para 15 eventos por ano. Sobre as nossas dificuldades e o que fizemos para lidar com os problemas.
 
@@ -18,7 +18,7 @@ Pessoas que tinham pouca ou nenhuma perspectivas, que através de exemplos, ajud
 
 E por isso que contínuo a dizer. A comunidade brasileira, que forma O DevOpsDays Brasil, está sim mudando a vida das pessoas e o melhor, não porque isso é interessante para uma empresa A ou B. É importante para as pessoas. Da comunidade para comunidade.
 
-![Todos Juntos em Ghent](/ghent-todos-juntos.jpg)
+![Todos Juntos em Ghent](/img/ghent-todos-juntos.jpg)
 
 Ainda no DevOpsDays Ghent, no final da palestra fiz questão de chamar todas as pessoas que organizam DevOpsDays no Brasil, e que estavam em Ghent, a subirem no palco comigo, pois os aplausos não era apenas pra mim, eu não mereço isso sozinho.
 
@@ -44,7 +44,7 @@ Não posso deixar de citar o que rolou lá em Ghent, antes da minha palestra, as
 
 Foi muito esforço coletivo, muita gente mesmo, muitos laços bacanas e em Ghent foi assim, Brasil no topo, e todo mundo tava lá pra levantar a taça.
 
-![Eu, Somatório e Patrick](/eu-soma-patrick.jpg)
+![Eu, Somatório e Patrick](/img/eu-soma-patrick.jpg)
 
 Pra coroar tudo que fizemos em Ghent, [Somatório](https://www.linkedin.com/in/somatorio/) foi convidado para fazer parte do Core Team. Ele ficou tão feliz, que sua felicidade me contagiou profudamente. Ele é realmente alguém comprometido com o sucesso do evento no Brasil. Eu diria que ele é como se fosse a ideia do DevOpsDays em pessoa, carne e osso. Comunidade para comunidade. [Somatório](https://www.linkedin.com/in/somatorio/) é uma daquelas pessoas que você tem sorte de conhecer na vida, sabe? Daquelas que nascem a cada 50 anos.
 
