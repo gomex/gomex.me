@@ -40,6 +40,8 @@ Não posso deixar de citar o que rolou lá em Ghent, antes da minha palestra, as
 
 Foi muito esforço coletivo, muita gente mesmo, muitos laços bacanas e em Ghent foi assim, Brasil no topo, e todo mundo tava lá pra levantar a taça.
 
+Pra coroar tudo que fizemos em Ghent, [Somatório](https://www.linkedin.com/in/somatorio/) foi convidado para fazer parte do Core Team. Ele ficou tão feliz, que sua felicidade me contagiou profudamente. Ele é realmente alguém comprometido com o sucesso do evento no Brasil. Eu diria que ele é como se fosse a ideia do DevOpsDays em pessoa, carne e osso. Comunidade para comunidade. [Somatório](https://www.linkedin.com/in/somatorio/) é uma daquelas pessoas que você tem sorte de conhecer na vida, sabe? Daquelas que nascem a cada 50 anos.
+
 Eu nunca imaginaria que chegaria a esse ponto. Pode parecer que estou fingindo, que tudo isso não passa de uma grande mentira, mas é verdade. Eu nunca, nem mesmo nos meus sonhos mais profundos, imaginei que eu chegaria tão longe, ainda mais da forma que está sendo.
 
 Não é como se eu não desejasse isso, eu sempre desejei ser aceito, recompensado ou coisa do tipo, mas nunca imaginei dessa forma, de uma forma tão coletiva. De uma forma tão nossa. Não é sobre eu estar sendo reconhecido apenas, é sobre o Brasil está no mapa, está nas falas das pessoas.
