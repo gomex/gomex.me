@@ -8,6 +8,8 @@ Tags = ["devops", "devopsdays", "brasil"]
 
 Esse ultimo fim de semana foi muito intenso pra mim, eu fui aceito para fazer minha primeira palestra internacional, e foi no aniversário de 10 anos do DevOpsDays. A palestra foi em Ghent, onde tudo começou, com as pessoas que começaram a cultura DevOps ali na plateia.
 
+![Minha primeira palestra em inglês](palestra-ghent.jpg)
+
 A minha palestra era sobre o crescimento da comunidade DevOpsDays no Brasil, como saímos de 2 para 15 eventos por ano. Sobre as nossas dificuldades e o que fizemos para lidar com os problemas.
 
 Falei sobre como nosso o Brasil é grande e como temos diferenças econômicas e sociais entre diferentes regiões. Falei também como é importante focarmos esforços em locais com comunidades menores. Por fim, falei como esses eventos de fato mudam a vida das pessoas.
@@ -15,6 +17,8 @@ Falei sobre como nosso o Brasil é grande e como temos diferenças econômicas e
 Pessoas que tinham pouca ou nenhuma perspectivas, que através de exemplos, ajuda com materiais e um pouco de esforço mudaram suas vidas. Não quero aqui fazer nenhuma propagada a meritocracia. Não é isso que quero falar. Quero dizer que DevOps é uma moda, oferece melhores empregos, mas agora felizmente temos eventos, BONS eventos, com conteúdo de alto nível acontecendo perto das pessoas. Elas não precisam pagar absurdos para viajar, hospedagem para ter acesso a esse conteúdo, networking e afins.
 
 E por isso que contínuo a dizer. A comunidade brasileira, que forma O DevOpsDays Brasil, está sim mudando a vida das pessoas e o melhor, não porque isso é interessante para uma empresa A ou B. É importante para as pessoas. Da comunidade para comunidade.
+
+![Todos Juntos em Ghent](ghent-todos-juntos.jpg)
 
 Ainda no DevOpsDays Ghent, no final da palestra fiz questão de chamar todas as pessoas que organizam DevOpsDays no Brasil, e que estavam em Ghent, a subirem no palco comigo, pois os aplausos não era apenas pra mim, eu não mereço isso sozinho.
 
@@ -39,6 +43,8 @@ Lembro como hoje de estar profundamente cansado em um DevOpsDays, ali no canto d
 Não posso deixar de citar o que rolou lá em Ghent, antes da minha palestra, as pessoas percebendo meu nervosismo, se voluntariam para revisar minha palestra (Obrigado [Michelle](https://www.linkedin.com/in/michelleribeiro/)), pra conversamos sobre ela e dizendo que tudo acabaria bem. Foram só palavras… mas que palavras, hein? Valeu também [Gleydson](https://www.linkedin.com/in/gleydsonmazioli/)
 
 Foi muito esforço coletivo, muita gente mesmo, muitos laços bacanas e em Ghent foi assim, Brasil no topo, e todo mundo tava lá pra levantar a taça.
+
+![Eu, Somatório e Patrick](eu-soma-patrick.jpg)
 
 Pra coroar tudo que fizemos em Ghent, [Somatório](https://www.linkedin.com/in/somatorio/) foi convidado para fazer parte do Core Team. Ele ficou tão feliz, que sua felicidade me contagiou profudamente. Ele é realmente alguém comprometido com o sucesso do evento no Brasil. Eu diria que ele é como se fosse a ideia do DevOpsDays em pessoa, carne e osso. Comunidade para comunidade. [Somatório](https://www.linkedin.com/in/somatorio/) é uma daquelas pessoas que você tem sorte de conhecer na vida, sabe? Daquelas que nascem a cada 50 anos.
 
