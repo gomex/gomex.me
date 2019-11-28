@@ -1,5 +1,5 @@
 +++
-title = "9 mitos que você deveria esquercer"
+title = "9 mitos que você deveria esquecer"
 date = "2019-11-28"
 draft = false
 Categories = ["devops"]
