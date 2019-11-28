@@ -31,3 +31,49 @@ O fato é: Ninguém sozinho deveria ser responsável por dizer o que entra ou n�
 Não queira ser o gargalo do time, não almeje esse poder, pois isso é também uma prisão, onde você raramente poderá tirar férias, descansar no final de semana, estar com seu filho em algumas noites no meio da semana.
 
 Permita que seu time sobreviva sem você, pois isso pode significar sua hora extra na empresa. Isso não é apenas garantia de trabalho (não ser demitido), isso é quase a certeza que qualquer movimento do time, independentemente se envolver mudanças na infra ou não, você precisará ser envolvido.
+
+## 3. DevOps está assumindo o controle
+
+Eu acho falsa a premissa que os desenvolvedores tinha o "controle" antes do microsserviço. Essa inclusive é uma das dores primordiais que estimulou a criação da cultura DevOps. "O controle" na maioria das empresas esteva na mão dos Sysadmin, que era o time responsável pelo que é colocado em produção.
+
+A cultura DevOps não estimula que esse "controle" mude de lado e agora um outro time assuma essa responsabilidade. A premissa é **colaboração**, ou seja, o "controle" foi distribuído em partes menores e agora todos são corresponsáveis.
+
+Se você pretende trabalhar com cultura DevOps, toda vez que seus movimentos tiverem como objetivo concentrar em você o "controle", você além de estar desvirtuando a idéia inicial da cultura, você estará arrumando um grande problema pra ti, e terá pouco tempo pra fazer as coisas que as empresas normalmente esperará de você (Ex. Monitoramento de negócio, melhorias na arquitetura e afins).
+
+## 4. Redução de custos
+
+Isso até poderia ser algo que não mereceria nenhuma crítica a matéria, ao menos que no mesmo texto não fosse mencionado o baixo envolvimento do "devops" com o código, ou seja, não é possível ser efetivo na redução de custos quando seu envolvimento com código é baixo. Para reduzir custos, de verdade, é necessário um envolvimento que alguém que está distante do código raramente terá.
+
+É possível reduzir custos olhando só pra infraestrutura? Claro que sim, mas a real redução demanda de um envolvimento com o código. Não tem pra onde fugir.
+
+## 5. Aumento de desempenho
+
+Estaria aqui a possível redenção do artigo, mas infelizmente falha no alvo. Poderia entrar aqui o papel desse profissional "devops" no auxilio ao time de desenvolvedores sobre a perspectiva de infra no uso dos recursos de cloud, que tem bastante possibilidades de composições que impactam muito no custo e desempenho.
+
+O profissional "devops" aqui atuaria como consultor interno, junto ao time de desenvolvimento, para que a melhos solução fosse adotada, analisando a demanda na perspectiva de infraestrutura, desenvolvimento, qualidade, negócio, produtividade, segurança e afins.
+
+## 6. Demolição
+
+O "encobrindo" citado na matéria só se torna um problema em ambientes que atuam no paradigma anterior, onde o monitoramento lida apenas com máquinas, onde o log raramente tem tags ou é centralizado, tudo precisa ser analisando em console.
+
+Se um container reiniciou, qual problema com isso? Não tem log? Monitoramento? A ideia não é exatamente essa? Que o container reinicie em caso de problemas?
+
+A minha impressão é que esse tipo de indagação sobre "encobrimento" é típico de quem usa container como máquinas, infelizmente.
+
+## 7. Bancos de dados
+
+Felizmente banco de dados não é mais "a única fonte da verdade", temos outras opções, que podem armazenar as interações com dados e até mesmo enviar novamente eventos numa fila (Ex. Kafka).
+
+A verdade é que Banco de Dados ainda é um grande calo na maioria dos times, de fato.
+
+## 8. Como o código está sendo executado
+
+Aqui fica evidente o problema citado em outros pontos da matéria. A separação funcional entre os dois times sempre foi um dos maiores problemas que a cultura DevOps pretende resolver, ou seja, não deveria existir isso de "Essa questão é deixada para os programadores". Entender os números é uma tarefa do time! Claro que cada um com sua especialidade, mas todos trabalhando juntos para entender e atuar.
+
+Não deixe que seja criado um muro imaginável entre os times. É uma demanda de todos. Não sabe ler o log, senta com alguém que sabe e aprende, pois isso pode ser importante na perspectiva de infra e você nem se atentou a isso. O inverso também pode acontecer.
+
+## 9. Um pouco de mistério
+
+Eu entendo o quanto é tentador colocar os incidentes na conta do azar, mas acredite, tudo tem uma causa raiz. O que pode acontecer é que talvez agora não tenhamos as ferramentas e conhecimentos necessários para descobrir isso, mas que ela existe, não há nenhuma dúvidas sobre isso.
+
+Não deixe "o mistério acontecer", tenha sede pelo entendimento das tecnologias, não apenas nos seus parâmetros, mas no funcionamento mais elemental das mesmas. Evite esse papo de "muitas vezes é mais simples seguir em frente", pare um pouco, aprenda com seus incidentes (e dos outros também), pois eles tem muito para lhe ensinar e evitar que novos problemas aconteçam.
