@@ -74,6 +74,6 @@ Não deixe que seja criado um muro imaginável entre os times. É uma demanda de
 
 ## 9. Um pouco de mistério
 
-Eu entendo o quanto é tentador colocar os incidentes na conta do azar, mas acredite, tudo tem uma causa raiz. O que pode acontecer é que talvez agora não tenhamos as ferramentas e conhecimentos necessários para descobrir isso, mas que ela existe, não há nenhuma dúvidas sobre isso.
+Eu entendo o quanto é tentador colocar os incidentes na conta do azar, mas acredite, tudo tem fatores contribuidores para seus problemas. O que pode acontecer é que talvez agora não tenhamos as ferramentas e conhecimentos necessários para descobrir eles, mas que eles existem, não há nenhuma dúvidas sobre isso.
 
 Não deixe "o mistério acontecer", tenha sede pelo entendimento das tecnologias, não apenas nos seus parâmetros, mas no funcionamento mais elemental das mesmas. Evite esse papo de "muitas vezes é mais simples seguir em frente", pare um pouco, aprenda com seus incidentes (e dos outros também), pois eles tem muito para lhe ensinar e evitar que novos problemas aconteçam.
