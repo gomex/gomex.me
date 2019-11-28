@@ -8,7 +8,7 @@ Tags = ["devops"]
 
 Fui surpreendido essa semana com uma [matéria](https://cio.com.br/9-segredos-obscuros-sobre-devops-que-voce-precisa-saber/), de uma revista super conceituada, sobre "9 segredos obscuros sobre DevOps que você precisa saber".
 
-Me marcaram no twitter, pedindo minha opinião, e como minha opinião era bem longa, e precisava de um contexto, eu resolvi escrevi um artigo aqui.
+Me marcaram no twitter, pedindo minha opinião, e como minha opinião era bem longa, e precisava de um contexto, resolvi escrever um artigo aqui.
 
 Eu não quero de forma alguma desrespeitar quem escreveu a materia, e nem criar nenhum constrangimento para a revista em sí, mas eu preciso me posicionar com relação a isso, pois o contéudo da matéria propaga uma senso comum que é bem ruim para quem trabalha com isso, e tem que lidar com informações desencontradas no mercado.
 
