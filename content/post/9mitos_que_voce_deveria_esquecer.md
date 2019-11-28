@@ -24,7 +24,7 @@ Não estou aqui defendendo que você seja responsável por enviar códigos e nem
 
 ## 2. Supervisão de outros programadores
 
-Nesse "capítulo" ele inicia citando a falta de necessidade de o "DevOps" em não programar, mas mesmo assim era o seu papel supervisionar o trabalho de envio de código. Isso é uma contradição, pois como alguém seria responsável por dizer o que entra ou não no "container" (como se isso fosse uma caixa, e o "DevOps" aqui seria o segurança portão que permite entrada ou não).
+Nesse "item" ele inicia citando a falta de necessidade de o "DevOps" em não programar, mas mesmo assim era o seu papel supervisionar o trabalho de envio de código. Isso é uma contradição, pois como alguém seria responsável por dizer o que entra ou não no "container" (como se isso fosse uma caixa, e o "DevOps" aqui seria o segurança portão que permite entrada ou não).
 
 O fato é: Ninguém sozinho deveria ser responsável por dizer o que entra ou não "no container", mas o ideal é que o time entenda as demandas, na escrita do código, faça uso do melhor algorítimo para escrita da lógica ideal, afim de atender a demanda do negócio para aquele código que se prentende ser colocado em produção. Falo pretende, porquê o esperado é que exista um processo de revisão de código, que pode ser feito por outros desenvolvedores, QA (Quality Assurance) ou até mesmo a pessoa responsável pela automação de infra ("DevOps"?).
 
@@ -38,7 +38,7 @@ Eu acho falsa a premissa que os desenvolvedores tinha o "controle" antes do micr
 
 A cultura DevOps não estimula que esse "controle" mude de lado e agora um outro time assuma essa responsabilidade. A premissa é **colaboração**, ou seja, o "controle" foi distribuído em partes menores e agora todos são corresponsáveis.
 
-Se você pretende trabalhar com cultura DevOps, toda vez que seus movimentos tiverem como objetivo concentrar em você o "controle", você além de estar desvirtuando a idéia inicial da cultura, você estará arrumando um grande problema pra ti, e terá pouco tempo pra fazer as coisas que as empresas normalmente esperará de você (Ex. Monitoramento de negócio, melhorias na arquitetura e afins).
+Se você pretende trabalhar com cultura DevOps, toda vez que seus movimentos tiverem como objetivo concentrar em você o "controle", você além de estar desvirtuando a idéia inicial da cultura, você estará arrumando um grande problema pra ti, e terá pouco tempo pra fazer as coisas que as empresas normalmente esperarão de você (Ex. Monitoramento de negócio, melhorias na arquitetura e afins).
 
 ## 4. Redução de custos
 
@@ -50,7 +50,7 @@ Isso até poderia ser algo que não mereceria nenhuma crítica a matéria, ao me
 
 Estaria aqui a possível redenção do artigo, mas infelizmente falha no alvo. Poderia entrar aqui o papel desse profissional "devops" no auxilio ao time de desenvolvedores sobre a perspectiva de infra no uso dos recursos de cloud, que tem bastante possibilidades de composições que impactam muito no custo e desempenho.
 
-O profissional "devops" aqui atuaria como consultor interno, junto ao time de desenvolvimento, para que a melhos solução fosse adotada, analisando a demanda na perspectiva de infraestrutura, desenvolvimento, qualidade, negócio, produtividade, segurança e afins.
+O profissional "devops" aqui atuaria como consultor interno, junto ao time de desenvolvimento, para que a melhor solução fosse adotada, analisando a demanda na perspectiva de infraestrutura, desenvolvimento, qualidade, negócio, produtividade, segurança e afins.
 
 ## 6. Demolição
 
