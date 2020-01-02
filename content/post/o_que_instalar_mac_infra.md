@@ -45,6 +45,8 @@ Fiz uma [postagem](https://twitter.com/gomex/status/1212585682650177537) no Twit
     - [Popeye](#popeye)
     - [Stern](#stern)
     - [Kubectx + Kubens](#kubectx--kubens)
+    - [Insomnia](#insomnia)
+    - [Docker Compose](#docker-compose)
 - [Agradecimentos](#agradecimentos)
 
 <!-- /TOC -->
@@ -287,6 +289,20 @@ Mais uma ferramente sugerida pelo [@badtux_](https://twitter.com/badtux_) para a
  - Valor: Opensource
 
 De novo o [@badtux_](https://twitter.com/badtux_) com sugestões massas para ajudar na gestão do kubernetes. Essas oferecem funcionalidades de rápida troca de namespace e cluster kubernetes . Outra aposta. Valeu [@badtux_](https://twitter.com/badtux_).
+
+### .4.11. Insomnia
+
+ - Site: [https://insomnia.rest/](https://insomnia.rest/)
+ - Valor: Opensource
+
+Esse foi amplamente pedido por várias pessoas em diversos canais (Obrigado Jab e [@malaquiasdev](https://twitter.com/malaquiasdev) por serem os primeiros). Resolvi testar e gostei. Está na lista, como uma boa aposta.
+
+### .4.12. Docker Compose
+
+- Site: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
+- Valor: Opensource
+
+Não menos importante, mas eu sempre esqueço dele e só vou instalar depois que preciso. Essa ferramente é responsável por gerenciar a execução de múltiplos containers com apenas um comando e um arquivo de configuração. É uma ótima ferramenta para iniciar infraestrutura complexa localmente na máquina de uma pessoa que desenvolve o produto.
 
 ## .5. Agradecimentos
 
