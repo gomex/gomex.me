@@ -32,8 +32,8 @@ Vou passar rapidamente aplicativo por aplicativo para defender porque escolhi el
 
 ### Alfred
 
-Site: [https://www.alfredapp.com/](https://www.alfredapp.com/)
-Valor: Grátis, com exceção do Powerpack
+ - Site: [https://www.alfredapp.com/](https://www.alfredapp.com/)
+ - Valor: Grátis, com exceção do Powerpack
 
 Esse é uma aposta, pois todo mundo fala, mas até então não tinha testado ainda. Tenho pouco a falar dele, que tem como objetivo substituir o spotlight (Aquela busca do CMD+Barra de espaço). Dizem que ele tem mais funcionalidades, é mais rápido e afins.
 
@@ -41,8 +41,8 @@ Eu ja tive muitos problemas com o spotlight, dai estou apostando no Alfred.
 
 ### Docker
 
-Site: [https://docs.docker.com/docker-for-mac/](https://docs.docker.com/docker-for-mac/)
-Valor: Opensource 
+ - Site: [https://docs.docker.com/docker-for-mac/](https://docs.docker.com/docker-for-mac/)
+ - Valor: Opensource 
 
 Esse eu preciso de pouco pra defender, correto? Ele é basicamente hoje a base da maioria das pessoas que trabalham com automação de infraestrutura. Eu mesmo uso ele para praticamente tudo. Eu não instalo o aws-cli, terraform, packer e afins, pois eu uso um container com esses binários dentro a partir do docker. Por exemplo:
 
@@ -54,36 +54,36 @@ Com esse comando eu tenho uma cli com terraform mais atualizado instalado com su
 
 ### Firefox e Chrome
 
-Site: [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) e [https://www.mozilla.org/pt-BR/firefox/new/](https://www.mozilla.org/pt-BR/firefox/new/)
-Valor: Opensource (Firefox) e Grátis (Chrome)
+ - Site: [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) e [https://www.mozilla.org/pt-BR/firefox/new/](https://www.mozilla.org/pt-BR/firefox/new/)
+ - Valor: Opensource (Firefox) e Grátis (Chrome)
 
 Outra opção meio padrão para maioria das pessoas, pois o uso do navegador Safari é bem baixa ainda. Eu tenho maior uso do Chrome, pois ele tem uma funcionalidade de múltiplos perfis de conta por janela de navegador. Dai eu consigo gerenciar meu perfil pessoal e profissional alternando as janelas.
 
 ### Grammarly
 
-Site: [https://www.grammarly.com/](https://www.grammarly.com/)
-Valor: Grátis com limites (Versão paga no plano anual sai USD$ 11,66 por mês)
+ - Site: [https://www.grammarly.com/](https://www.grammarly.com/)
+ - Valor: Grátis com limites (Versão paga no plano anual sai USD$ 11,66 por mês)
 
 Se você não é tão bom escrita de inglês quanto eu, e precisar escrever coisas com algumas constância, você deveria considerar um app como esse. Eu adoro o Grammarly, pois ele não verificar apenas erro de ortografia, ele verifica concordância e outros aspectos que um corretor comum não dá conta. Ele faz sugestões quando você repete demais a palavra e afins. Funciona bem. Eu aconselho.
 
 ### Iterm2
 
-Site: [https://iterm2.com/](https://iterm2.com/)
-Valor: Opensource
+ - Site: [https://iterm2.com/](https://iterm2.com/)
+ - Valor: Opensource
 
 Aqui temos outra unanimidade, pois a maioria esmagadora das pessoas que conhecem o Iterm2, acabam usando ele como padrão e esquecem o terminal padrão do Mac por completo.
 
 ### Slack
 
-Site: [https://slack.com/intl/pt-br/](https://slack.com/intl/pt-br/)
-Valor: Grátis
+ - Site: [https://slack.com/intl/pt-br/](https://slack.com/intl/pt-br/)
+ - Valor: Grátis
 
 A maioria esmagadora das empresas que já trabalhei usam o Slack como ferramente de comunicação interna, sendo assim fica difícil não instalar esse app. Ele consome MUITA memória, mas necessidade não se discute, né?
 
 ### Spectacle
 
-Site: [https://www.spectacleapp.com/](https://www.spectacleapp.com/)
-Valor: Grátis
+ - Site: [https://www.spectacleapp.com/](https://www.spectacleapp.com/)
+ - Valor: Grátis
 
 O Mac não tem teclas de atalho para gerenciamento da posição das janelas. As vezes você quer colocar a janela ocupando toda tela, mas não quer tela cheia, pois o Mac tem um comportamento diferente e deixa todas as outras telas em preto, ou seja, não da pra ficar no Mac sem um software que ofereça opções para  isso. O Spectacle é uma boa opção. Com o atalho ```control + CMD + F``` você faz com que a janela do software atual ocupe toda tela. 
 
@@ -93,8 +93,8 @@ Vale a pena olhar esse novo. Vou continuar com o Spectacle, pois ele me atende t
 
 ### Telegram
 
-Site: https://telegram.org/
-Valor: Opensource
+ - Site: https://telegram.org/
+ - Valor: Opensource
 
 Uma ótima ferramente de troca de mensagens. No Brasil a maioria das comunidades técnicas estão nesse software de bate papo. A prova disso é esse extensa lista de grupos no telegram: [https://listatelegram.github.io/](https://listatelegram.github.io/)
 
@@ -103,8 +103,8 @@ Ele é praticamente igual ao Whatsapp, só que com mais funcionalidades, e sem n
 
 ### Vanilla
 
-Site: https://matthewpalmer.net/vanilla/
-Valor: Grátis com limites
+ - Site: https://matthewpalmer.net/vanilla/
+ - Valor: Grátis com limites
 
 Se você instala uma grande lista de apps e isso lota sua barra de notificação (Aquela que fica ao lado do relógio), esse app é pra você, pois ele oculta e mostra os apps com apenas um clique.
 
@@ -112,8 +112,8 @@ Simples e direto. Gostei.
 
 ### Visual Studio Code
 
-Site: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-Valor: Opensource
+ - Site: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+ - Valor: Opensource
 
 Esse editor de código tem crescido cada vez mais entre as pessoas que trabalham com infra/devops/automação. Acredito que por conta dos plugins/extensões que aumentam bastante a sua produtividade.
 
@@ -121,57 +121,57 @@ Prometo que depois faço um artigo apenas sobre as extensões do meu Visual Stud
 
 ### Whatsapp
 
-Site: [https://www.whatsapp.com/](https://www.whatsapp.com/)
-Valor: Grátis
+ - Site: [https://www.whatsapp.com/](https://www.whatsapp.com/)
+ - Valor: Grátis
 
 É praticamente um padrão de comunicação entre as pessoas no Brasil. Por mais que não curto esse mensageiro, sou obrigado a usá-lo por conta disso.
 
 ### GPG Suite
 
-Site: [https://gpgtools.org/](https://gpgtools.org/)
-Valor: Opensource
+ - Site: [https://gpgtools.org/](https://gpgtools.org/)
+ - Valor: Opensource
 
 Se você encripta seus emails, arquivos e afins, acredito que esse app é essencial pra você.
 
 ### Keybase
 
-Site: [https://keybase.io/](https://keybase.io/)
-Valor: Opensource
+ - Site: [https://keybase.io/](https://keybase.io/)
+ - Valor: Opensource
 
 Esse é uma outra aposta. Muita gente fala bem dele, mas confesso que ainda não usei de verdade. A ideia dele é oferecer uma plataforma segura para comunicação, troca de arquivos e afins.
 
 ### Transmission
 
-Site: [https://transmissionbt.com/](https://transmissionbt.com/)
-Valor: Opensource
+ - Site: [https://transmissionbt.com/](https://transmissionbt.com/)
+ - Valor: Opensource
 
 Um cliente para baixar arquivos via BitTorrent. Muito leve e bom.
 
 ### Spotify
 
-Site: [https://www.spotify.com/br/](https://www.spotify.com/br/)
-Valor: Grátis com limites
+ - Site: [https://www.spotify.com/br/](https://www.spotify.com/br/)
+ - Valor: Grátis com limites
 
 Um cliente para uma plataforma de músicas online, que também oferece opção para Podcasts. Muito usado por boa parte das pessoas. 
 
 ### Flycut
 
-Site: [https://apps.apple.com/br/app/flycut-clipboard-manager/id442160987?mt=12](https://apps.apple.com/br/app/flycut-clipboard-manager/id442160987?mt=12)
-Valor: Grátis
+ - Site: [https://apps.apple.com/br/app/flycut-clipboard-manager/id442160987?mt=12](https://apps.apple.com/br/app/flycut-clipboard-manager/id442160987?mt=12)
+ - Valor: Grátis
 
 Outra aposta. O objetivo dessa ferramenta é oferecer uma opção mais potente de gerenciamento de área de transferência (O que você pega no ```CMD+C``` ).
 
 ### Kubernetes-cli
 
-Site: [https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos)
-Valor: Opensource
+ - Site: [https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos)
+ - Valor: Opensource
 
 Se você trabalha com kubernetes de alguma forma, essa ferramenta é necessária. Ela é usada para se comunicar com o cluster kubernetes. 
 
 ### JQ
 
-Site: [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)
-Valor: Opensource
+ - Site: [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)
+ - Valor: Opensource
 
 Essa ferramenta é considerada o ```sed``` para formato JSON. É muito potente na coleta e manipulação de dados que contenham o formato JSON. 
 
@@ -179,22 +179,22 @@ Se quiser aprender um pouco como usar, veja esse [link](https://stedolan.github.
 
 ### Nmap
 
-Site: [https://nmap.org/](https://nmap.org/)
-Valor: Opensource
+ - Site: [https://nmap.org/](https://nmap.org/)
+ - Valor: Opensource
 
 Ferramenta potente e extremamente extensível para descoberta e auditoria de segurança de rede. Muito bom para descobrir quais portas estão abertas no seu servidor e afins.
 
 ### Openssl
 
-Site: [https://www.openssl.org/](https://www.openssl.org/)
-Valor: Opensource
+ - Site: [https://www.openssl.org/](https://www.openssl.org/)
+ - Valor: Opensource
 
 Ferramenta necessária para gerenciamento e criação de certificados SSL/TLS. 
 
 ### Watch
 
-Site: [https://en.wikipedia.org/wiki/Watch_(Unix)](https://en.wikipedia.org/wiki/Watch_(Unix))
-Valor: Opensource
+ - Site: [https://en.wikipedia.org/wiki/Watch_(Unix)](https://en.wikipedia.org/wiki/Watch_(Unix))
+ - Valor: Opensource
 
 Ferramente que é usada para mostrar repetidamente a mesma tela, atualizando automaticamente periodicamente com base em um espaço de tempo que você estipulou.
 
