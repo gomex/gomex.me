@@ -295,7 +295,7 @@ De novo o [@badtux_](https://twitter.com/badtux_) com sugestões massas para aju
  - Site: [https://insomnia.rest/](https://insomnia.rest/)
  - Valor: Opensource
 
-Esse foi amplamente pedido por várias pessoas em diversos canais (Obrigado Jab e [@malaquiasdev](https://twitter.com/malaquiasdev) por serem os primeiros). Resolvi testar e gostei. Está na lista, como uma boa aposta.
+Esse foi amplamente pedido por várias pessoas em diversos canais (Obrigado [@@jabezerra](https://twitter.com/jabezerra) e [@malaquiasdev](https://twitter.com/malaquiasdev) por serem os primeiros). Resolvi testar e gostei. Está na lista, como uma boa aposta.
 
 ### .4.12. Docker Compose
 
@@ -309,6 +309,7 @@ Não menos importante, mas eu sempre esqueço dele e só vou instalar depois que
  - Obrigado a todo mundo que ajudou nessa [thread](https://twitter.com/gomex/status/1212585682650177537).
  - Obrigado a [@somatorio](https://twitter.com/Somatorio) que sempre revisa meus trabalhos ;) <3
  - Obrigado a [@jjunior0x2A](https://twitter.com/jjunior0x2A) que deu uns pitacos também.
- - Obrigado a [@badtux_](https://twitter.com/badtux_) que colocou bastante coisa de Kubernetes na lista
+ - Obrigado a [@badtux_](https://twitter.com/badtux_) que colocou bastante coisa de Kubernetes na lista.
+ - Obrigado a [@@jabezerra](https://twitter.com/jabezerra) e [@malaquiasdev](https://twitter.com/malaquiasdev) pelo lembrete do Insomnia.
  
 
