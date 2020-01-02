@@ -281,7 +281,7 @@ Ferramenta interessante para scan de cluster kubernetes, que reporta possíveis 
  - Site: [https://github.com/wercker/stern](https://github.com/wercker/stern)
  - Valor: Opensource
 
-Mais uma ferramente sugerida pelo [@badtux_](https://twitter.com/badtux_) para ajudar na gestão do 
+Mais uma ferramente sugerida pelo [@badtux_](https://twitter.com/badtux_) para ajudar na gestão de logs de múltiplos pods em um cluster kubernetes.
 
 ### .4.10. Kubectx + Kubens
 
