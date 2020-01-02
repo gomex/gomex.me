@@ -26,7 +26,32 @@ brew bundle install
 
 Ele instala tudo pra você. Segue meu [Brewfile](https://github.com/gomex/mac-setup/blob/master/Brewfile)
 
-## Aplicativos
+## Aplicativos fora do Brew
+
+Vou começar com os aplicativos que não estão no Brew, pois esses você precisará entrar no site e instalar manualmente mesmo. Seguindo a documentação de cada um deles.
+
+### Dash
+
+ - Site: [https://kapeli.com/dash](https://kapeli.com/dash)
+ - Valor: Grátis com limitações
+
+É uma ferramenta muito interessante de documentação, tudo a partir de um campo de busca centralizado. A melhor parte dele é a possibilidade de pesquisar offline.
+
+### Amphetamine
+
+ - Site: [https://apps.apple.com/us/app/amphetamine/id937984704?mt=12](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+ - Valor: Grátis
+
+Um aplicativo simples que pode ser usado para manter seu Mac ligado por um espaço específico de tempo. É ótimo para quem faz apresentações sem carregador e não quer que o Mac desligue no meio de apresentação, mas quer quer que esse comportamento volte depois da palestra.
+
+### Oh My ZSH
+
+ - Site: [https://ohmyz.sh/](https://ohmyz.sh/)
+ - Valor: Opensource
+
+É um framework para gerenciamento de seu console Zsh, onde deixa ele mais bonito e bem mais produtivo, com vários atalhos e funcionalidades novas.
+
+## Aplicativos com Brew
 
 Vou passar rapidamente aplicativo por aplicativo para defender porque escolhi ele:
 
