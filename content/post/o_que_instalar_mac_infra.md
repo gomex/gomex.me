@@ -45,6 +45,7 @@ Fiz uma [postagem](https://twitter.com/gomex/status/1212585682650177537) no Twit
     - [Popeye](#popeye)
     - [Stern](#stern)
     - [Kubectx + Kubens](#kubectx--kubens)
+- [Agradecimentos](#agradecimentos)
 
 <!-- /TOC -->
 
@@ -286,3 +287,12 @@ Mais uma ferramente sugerida pelo [@badtux_](https://twitter.com/badtux_) para a
  - Valor: Opensource
 
 De novo o [@badtux_](https://twitter.com/badtux_) com sugestões massas para ajudar na gestão do kubernetes. Essas oferecem funcionalidades de rápida troca de namespace e cluster kubernetes . Outra aposta. Valeu [@badtux_](https://twitter.com/badtux_).
+
+## .5. Agradecimentos
+
+ - Obrigado a todo mundo que ajudou nessa [thread](https://twitter.com/gomex/status/1212585682650177537).
+ - Obrigado a [@somatorio](https://twitter.com/Somatorio) que sempre revisa meus trabalhos ;) <3
+ - Obrigado a [@jjunior0x2A](https://twitter.com/jjunior0x2A) que deu uns pitacos também.
+ - Obrigado a [@badtux_](https://twitter.com/badtux_) que colocou bastante coisa de Kubernetes na lista
+ 
+
