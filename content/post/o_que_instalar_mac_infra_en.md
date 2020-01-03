@@ -14,9 +14,8 @@ I created this article to document the setup to myself and share it with the com
 
 - [.1. Using brew](#1-using-brew)
 - [.2. Applications outside brew](#2-applications-outside-brew)
-  * [.2.1. Dash](#21-dash)
-  * [.2.2. Amphetamine](#2-2-amphetamine)
-  * [.2.3. Oh My ZSH](#2-3-oh-my-zsh)
+  * [.2.1. Amphetamine](#2-1-amphetamine)
+  * [.2.2. Oh My ZSH](#2-2-oh-my-zsh)
 - [.3. Generic apps (Using Brew)](#3-generic-apps--using-brew-)
   * [.3.1. Firefox e Chrome](#3-1-firefox-e-chrome)
   * [.3.2. Iterm2](#3-2-iterm2)
@@ -39,6 +38,7 @@ I created this article to document the setup to myself and share it with the com
   * [.4.9. Stern](#4-9-stern)
   * [.4.10. Kubectx + Kubens](#4-10-kubectx---kubens)
   * [.4.11. Insomnia](#4-11-insomnia)
+  * [.4.12. Dash](#4-12-dash)
 - [.5. Thanks](#5-thanks)
 
 ## .1. Using brew
@@ -69,23 +69,16 @@ Here is my [Brewfile](https://github.com/gomex/mac-setup/blob/master/Brewfile).
 
 ## .2. Applications outside brew
 
-You can't find some apps on the brew, and because of it, I will explain first the apps that you should install using other methods.
+You can't find some apps at brew, and because of it, I will explain first the apps that you should install using other methods.
 
-### .2.1. Dash
-
- - Website: [https://kapeli.com/dash](https://kapeli.com/dash)
- - Price: Free with limitations
-
-Dash is an API Documentation Browser and Code Snippet Manager. The best thing is that you can search offline too.
-
-### .2.2. Amphetamine
+### .2.1. Amphetamine
 
  - Website: [https://apps.apple.com/us/app/amphetamine/id937984704?mt=12](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
  - Price: Free
 
 The simple app used to keep your Mac awake on a specific time frame.  This is really useful on presentations, can you imagine your Mac hibernate in the middle of your talk because you didn't use your power supply? Amphetamine can save you.
 
-### .2.3. Oh My ZSH
+### .2.2. Oh My ZSH
 
  - Website: [https://ohmyz.sh/](https://ohmyz.sh/)
  - Price: Opensource
@@ -252,6 +245,13 @@ Do you use multiple clusters/namespaces Kubernetes? This tool can help you to sw
  - Price: Opensource
 
 Do you need to test REST or GraphQL API? This straightforward tool can help with that.  You may use postman, this is an alternate option.
+
+### .4.12. Dash
+
+ - Website: [https://kapeli.com/dash](https://kapeli.com/dash)
+ - Price: Free with limitations
+
+Dash is an API Documentation Browser and Code Snippet Manager. The best thing is that you can search offline too.
 
 ## .5. Thanks
 
