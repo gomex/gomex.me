@@ -1,6 +1,6 @@
 +++
 title = "What I should install on my Mac?"
-date = "2020-01-02"
+date = "2020-01-03"
 draft = false
 Categories = ["devops", "mac", "english"]
 Tags = ["english", "devops", "mac", "brew", "saas"]
