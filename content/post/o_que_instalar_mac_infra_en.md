@@ -10,7 +10,36 @@ Starting the year, I decided to do a backup and format my Macbook, restart from 
 
 I started a twitter [thread](https://twitter.com/gomex/status/1212585682650177537) (Portuguese only) to get some good options.
 
-I created this article to document the setup to myself and share it with the community to receive more feedback too. Please share your opinions. 
+I created this article to document the setup to myself and share it with the community to receive more feedback too. Please share your opinions.
+
+- [.1. Using brew](#1-using-brew)
+- [.2. Applications outside brew](#2-applications-outside-brew)
+  * [.2.1. Dash](#21-dash)
+  * [.2.2. Amphetamine](#2-2-amphetamine)
+  * [.2.3. Oh My ZSH](#2-3-oh-my-zsh)
+- [.3. Generic apps (Using Brew)](#3-generic-apps--using-brew-)
+  * [.3.1. Firefox e Chrome](#3-1-firefox-e-chrome)
+  * [.3.2. Iterm2](#3-2-iterm2)
+  * [.3.3. Slack](#3-3-slack)
+  * [.3.4. Spectacle](#3-4-spectacle)
+  * [.3.5. Telegram](#3-5-telegram)
+  * [.3.6. Whatsapp](#3-6-whatsapp)
+  * [.3.7. Transmission](#3-7-transmission)
+  * [.3.8. Spotify](#3-8-spotify)
+  * [.3.9. Flycut](#3-9-flycut)
+- [.4. Automation apps (With Brew)](#4-automation-apps--with-brew-)
+  * [.4.1. Visual Studio Code](#4-1-visual-studio-code)
+  * [.4.2. JQ](#4-2-jq)
+  * [.4.3. Nmap](#4-3-nmap)
+  * [.4.4. Watch](#4-4-watch)
+  * [.4.5. Docker](#4-5-docker)
+  * [.4.6. Docker Compose](#4-6-docker-compose)
+  * [.4.7. Kubernetes-cli](#4-7-kubernetes-cli)
+  * [.4.8. Popeye](#4-8-popeye)
+  * [.4.9. Stern](#4-9-stern)
+  * [.4.10. Kubectx + Kubens](#4-10-kubectx---kubens)
+  * [.4.11. Insomnia](#4-11-insomnia)
+- [.5. Thanks](#5-thanks)
 
 ## .1. Using brew
 
@@ -70,28 +99,28 @@ I will separate the details of apps (using brew) in two categories:
 Generic: Apps that everyone could install. These are not related to my role.
 Automation: Apps related to my role (Infrastructure Automation).
 
-### .3.2. Firefox e Chrome
+### .3.1. Firefox e Chrome
 
  - Website: [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) e [https://www.mozilla.org/pt-BR/firefox/new/](https://www.mozilla.org/pt-BR/firefox/new/)
  - Price: Opensource (Firefox) and Free (Chrome)
 
 I don't need to explain these. IMHO it would be best if you had both because you need to troubleshoot problems of web apps in a particular browser.
 
-### .3.4. Iterm2
+### .3.2. Iterm2
 
  - Website: [https://iterm2.com/](https://iterm2.com/)
  - Price: Opensource
 
 This terminal is impressive. So many features and it is more beautiful than the regular Mac terminal too.
 
-### .3.5. Slack
+### .3.3. Slack
 
  - Website: [https://slack.com/](https://slack.com)
  - Price: Free
 
 This is used by all companies that I already worked, and we can't avoid to install it. This app has relevant problems to consume CPU and RAM memory, but we need to have it.
 
-### .3.6. Spectacle
+### .3.4. Spectacle
 
  - Website: [https://www.spectacleapp.com/](https://www.spectacleapp.com/)
  - Price: Free
@@ -102,42 +131,42 @@ My best shortcut is ```control + CMD + F``` to force my apps's windows to use al
 
 If you wanna try another option, you may install [Rectangle](https://github.com/rxhanson/Rectangle).
 
-### .3.7. Telegram
+### .3.5. Telegram
 
  - Website: https://telegram.org/
  - Price: Opensource
 
 IMHO the best chat app ever, simple, clean, and enjoyable features (poor security, I know). This tool is really used for the Brazillian IT community (i.e., Dockerbr group has ~5k members).
 
-### .3.9. Whatsapp
+### .3.6. Whatsapp
 
  - Website: [https://www.whatsapp.com/](https://www.whatsapp.com/)
  - Price: Free
 
 This app is viral in Brazil, most people use this, and we can't avoid it to talk with families and friends outside the "tech world".
 
-### .3.12. Transmission
+### .3.7. Transmission
 
  - Website: [https://transmissionbt.com/](https://transmissionbt.com/)
  - Price: Opensource
 
 IMHO the most straightforward BitTorrent client for Mac. 
 
-### .3.13. Spotify
+### .3.8. Spotify
 
  - Website: [https://www.spotify.com/br/](https://www.spotify.com/br/)
  - Price: Free with limitations
 
 "Spotify is a digital music service that gives you access to millions of songs." I love songs, if you like it too, you may install and pay for it.
 
-### .3.14. Flycut
+### .3.9. Flycut
 
  - Website: [https://apps.apple.com/br/app/flycut-clipboard-manager/id442160987?mt=12](https://apps.apple.com/br/app/flycut-clipboard-manager/id442160987?mt=12)
  - Price: Free
 
 "Flycut is a clean and simple clipboard manager for developers. Every time you copy code pieces Flycut store it in history. Later you can past it using Shift-Command-V even if you have something different in your current clipboard. You can change hotkey and other settings in preferences."
 
-## .4. Automation apps (Com Brew)
+## .4. Automation apps (With Brew)
 
 ### .4.1. Visual Studio Code
 
@@ -146,28 +175,28 @@ IMHO the most straightforward BitTorrent client for Mac.
 
 "Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications." Microsoft won this "race". IMHO VScode is the better code editor. 
 
-### .4.3. JQ
+### .4.2. JQ
 
  - Website: [https://stedolan.github.io/jq/](https://stedolan.github.io/jq/)
  - Price: Opensource
 
 If you need to handle data on JSON format, this tool may help you. JQ is considered the ```sed``` of JSON documents.  You can learn more about this tool [here](https://stedolan.github.io/jq/tutorial/). 
 
-### .4.4. Nmap
+### .4.3. Nmap
 
  - Website: [https://nmap.org/](https://nmap.org/)
  - Price: Opensource
 
 If you need to check open ports and other network discoveries, you should consider to install it. You can install plugins to extend the tool, and they have a vast community with a lot of documents and new ideas of usage too.
 
-### .4.6. Watch
+### .4.4. Watch
 
  - Website: [https://en.wikipedia.org/wiki/Watch_(Unix)](https://en.wikipedia.org/wiki/Watch_(Unix))
  - Price: Opensource
 
 If you need to run the same command continuous to refresh the data (.i.e., ps to check process), you should use the watch to don't add too many entries on your shell history and keep it updating until you are free to check something else.
 
-### .4.7. Docker
+### .4.5. Docker
 
  - Website: [https://docs.docker.com/docker-for-mac/](https://docs.docker.com/docker-for-mac/)
  - Price: Opensource 
@@ -182,21 +211,21 @@ docker run -it -v $PWD:/app -w /app --entrypoint="" terraform:light sh
 
 I can use the terraform, and I didn't install it on my Mac, and I can specify the version of terraform too.
 
-### .4.8. Docker Compose
+### .4.6. Docker Compose
 
 - Website: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
 - Price: Opensource
 
 This tool is handy to set up a sophisticated container set up locally.  If you work with containers, you should install it.
 
-### .4.9. Kubernetes-cli
+### .4.7. Kubernetes-cli
 
  - Website: [https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos](https://kubernetes.io/docs/tasks/tools/install-kubectl/#install-kubectl-on-macos)
  - Price: Opensource
 
 If you work with Kubernetes, you need this tool. This is the CLI binary to interact with your Kubernetes cluster.
 
-### .4.10. Popeye
+### .4.8. Popeye
 
  - Website: [https://github.com/derailed/popeye](https://github.com/derailed/popeye)
  - Price: Opensource
