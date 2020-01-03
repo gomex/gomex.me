@@ -17,7 +17,7 @@ I created this article to document the setup to myself and share it with the com
   * [.2.1. Amphetamine](#2-1-amphetamine)
   * [.2.2. Oh My ZSH](#2-2-oh-my-zsh)
 - [.3. Generic apps (Using Brew)](#3-generic-apps--using-brew-)
-  * [.3.1. Firefox e Chrome](#3-1-firefox-e-chrome)
+  * [.3.1. Firefox and Chrome](#3-1-firefox-and-chrome)
   * [.3.2. Iterm2](#3-2-iterm2)
   * [.3.3. Slack](#3-3-slack)
   * [.3.4. Spectacle](#3-4-spectacle)
@@ -92,7 +92,7 @@ I will separate the details of apps (using brew) in two categories:
 Generic: Apps that everyone could install. These are not related to my role.
 Automation: Apps related to my role (Infrastructure Automation).
 
-### .3.1. Firefox e Chrome
+### .3.1. Firefox and Chrome
 
  - Website: [https://www.google.com/intl/pt-BR/chrome/](https://www.google.com/intl/pt-BR/chrome/) e [https://www.mozilla.org/pt-BR/firefox/new/](https://www.mozilla.org/pt-BR/firefox/new/)
  - Price: Opensource (Firefox) and Free (Chrome)
@@ -187,7 +187,7 @@ If you need to check open ports and other network discoveries, you should consid
  - Website: [https://en.wikipedia.org/wiki/Watch_(Unix)](https://en.wikipedia.org/wiki/Watch_(Unix))
  - Price: Opensource
 
-If you need to run the same command continuous to refresh the data (.i.e., ps to check process), you should use the watch to don't add too many entries on your shell history and keep it updating until you are free to check something else.
+If you need to run the same command continuously to refresh the data (.i.e., ps to check process), you should use the watch to don't add too many entries on your shell history and keep it updating until you are free to check something else.
 
 ### .4.5. Docker
 
