@@ -51,11 +51,13 @@ Brew has an outstanding [feature](https://github.com/Homebrew/homebrew-bundle) t
 
 To use it you need to create a ```Brewfile``` with the list following this convention:
 
+```
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 cask "alfred"
 brew "jq"
+```
 
 To understand the ```Brewfile```: **tap** is the repository to get the app, **cask** is to install this app using cask and **brew** using brew.  Please read this document (https://apple.stackexchange.com/questions/125468/what-is-the-difference-between-brew-and-brew-cask) to understand the difference between brew and brew cask.
 
