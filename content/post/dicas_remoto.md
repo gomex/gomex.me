@@ -14,7 +14,7 @@ Eu tenho aproximadamente 4 anos trabalhando remoto, tanto para empresas que eu v
 
 As dicas tem como objetivo deixar seu trabalho mais efetivo, com menos interrupção e saudável.
 
-### 2. Você precisa de um grande acordo em casa, com criança e tudo.
+### 1. Você precisa de um grande acordo em casa, com criança e tudo.
 
 Antes de qualquer coisa. Você precisa conversar com todas pessoas que moram em sua casa sobre seu novo modelo de trabalho. Você precisa estabelecer um acordo com todos eles. Deixar MUITO claro que você está trabalhando e não de férias.
 
@@ -22,7 +22,7 @@ O meu acordo é o seguinte: Quando eu estiver no meu escritório, estou trabalha
 
 As pessoas vão lhe interromper bastante no começo, mas você precisa reforçar isso para que seu trabalho não seja afetado. A cada interrupção, reforce o acordo que você fez anteriormente e peça para que lhe envie uma mensagem. Você olhará essa mensagem em algum momento.
 
-### 3. Lembra do acordo? Se você tiver criança pequena será bem dificil
+### 2. Lembra do acordo? Se você tiver criança pequena será bem dificil
 
 A criança demanda atenção, e a ideia do acordo será dificil com ela, pois a criança sente saudade e quer bastante atenção. Dessa forma já dedique algumas pausas para estar 100% com ela, brincando mesmo, mas antes de sair fale claramente com ela que você precisa trabalhar, quando você parar ele não poderá brincar com você até a próxima pausa.
 
@@ -36,19 +36,19 @@ Uma dica de ouro: NUNCA grite com a criança. Eu sei que é tentador usar a auto
 
 PS: Eu já perdi a paciência algumas vezes, mas sempre peço desculpas e tento não perder mais.
 
-### 5. Você precisa de um escritório
+### 3. Você precisa de um escritório
 
 Quando falo escritório, não precisa ser uma sala tradicional de escritório. A ideia é que seja um lugar onde as pessoas entendam que você está trabalhando e não faça barulho próximo e nem fiquem passando atrás de você enquanto tiver em reunião por videoconferência.
 
 O ideal é verificar se esse local tem um bom acesso a internet, eu prefiro rede cabeada, mas se não puder, verifique se seu sinal wifi funciona bem. Teste uma videoconferência com um colega para validar se a velocidade está boa.
 
-### 6. Antes de trabalhar garanta que tem tudo a mão
+### 4. Antes de trabalhar garanta que tem tudo a mão
 
 É realmente muito ruim lembrar a cada momento que falta algo para você trabalhar (ex. celular para autenticação de multiplos fatores, mouse e afins)
 
 Organize sua mesa. Não caia na tentação de deixar tudo bagunçado, pois isso normalmente será um problema quando precisar de algo.
 
-### 7. Fique atento a suas pausas para comer
+### 5. Fique atento a suas pausas para comer
 
 Organize alguns alarmes para não perder os momentos de comer, eu faço da seguinte forma:
 
@@ -58,7 +58,7 @@ Organize alguns alarmes para não perder os momentos de comer, eu faço da segui
  - Paro novamente as 15:00 para um novo lanche rápido
  - Paro por fim por volta das 19:00 para jantar e normalmente não volto mais para o trabalho.
 
-### 8. Equipamentos
+### 6. Equipamentos
 
 Se você puder investir em alguns equipamentos, faça, pois vale a pena.
 
@@ -80,13 +80,13 @@ Fone: Edifier com microfone (Antigo, nem acho mais a referência)
 Monitor: AOC LED 27"
 Cadeira: NORDI cadeira executiva alta
 
-### 9. Foco
+### 7. Foco
 
 O trabalho em casa exige um foco diferente do escritório da empresa, pois existem diversas distrações dentro da sua casa que podem drenar sua produtividade, sendo assim tente estabelecer alguns acordos mentais consigo para evitar isso.
 
 Faça uma lista do que pretende entregar naquele dia e sempre que ficar "sem nada pra fazer" visite a lista para pegar uma nova tarefa. Essa lista pode sobrar tarefas para outro dia, mas evite colocar uma lista grande demais, para não causar angustia. 
 
-### 10. Comunicação
+### 8. Comunicação
 
 O trabalho em casa exige uma comunicação diferente do escritório da empresa, pois as pessoas não estão vendo o que está fazendo, sendo assim você precisa deixar MUITO claro os passos do seu trabalho. Assim que iniciar uma tarefa nova, comunique ao time de alguma forma, e faça o mesmo ao encontrar algum bloqueio, demonstre tudo que fez pra tentar ultrapassar o bloqueio e fale de forma clara e direta o que você acredita que deve ser feito para retirar o bloqueio.
 
@@ -109,7 +109,7 @@ Fique atento que se houver um site com todos procedimentos de solicitação, voc
 
 Normalmente esse tipo de interação funciona bem. E quando não funcionar, você pode falar com seu líder ou algo do tipo, mas nunca apontando o dedo. Sempre dando o benefício da dúvida, afinal a pessoa que você solicitou de fato pode está muito ocupada.
 
-### 11. Atualize seu status
+### 9. Atualize seu status
 
 Algumas ferramentas de chat permitem que você adicione seu status, ou seja, se fizer uma pausa coloque que está em pausa. Normalmente algumas pessoa usam o termo AFK (Away from keyboard - Longe do teclado), sendo assim a pessoa que está do outro lado sabe que se pedir algo nesse momento demorará um pouco mais de ser respondido.
 
