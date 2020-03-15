@@ -52,11 +52,11 @@ Organize sua mesa. Não caia na tentação de deixar tudo bagunçado, pois isso 
 
 Organize alguns alarmes para não perder os momentos de comer, eu faço da seguinte forma:
 
-Acordo pela manhã e não começo o trabalho antes de tomar café
-Tenho uma pausa por volta das 10:00 para um lanche
-Paro por volta das 12:00 para almoçar
-Paro novamente as 15:00 para um novo lanche rápido
-Paro por fim por volta das 19:00 para jantar e normalmente não volto mais para o trabalho.
+ - Acordo pela manhã e não começo o trabalho antes de tomar café
+ - Tenho uma pausa por volta das 10:00 para um lanche
+ - Paro por volta das 12:00 para almoçar
+ - Paro novamente as 15:00 para um novo lanche rápido
+ - Paro por fim por volta das 19:00 para jantar e normalmente não volto mais para o trabalho.
 
 ### 8. Equipamentos
 
@@ -64,12 +64,12 @@ Se você puder investir em alguns equipamentos, faça, pois vale a pena.
 
 Segue a minha lista preferida:
 
-Um bom mouse (Eu gosto da marca Logitech)
-Um bom teclado (Se seu equipamento for da Apple, o teclado original é caro, mas vale a pena)
-Um equipamento wifi especifico para trabalho (O da sua casa normalmente não dará conta)
-Um bom fone de ouvido com microfone (O meu atual é Edifier, mas ja tive um USB da Microsoft que também era muito bom)
-Um monitor extra (Trabalhar com duas telas é muito bom)
-Uma boa cadeira (Isso aqui talvez será a compra mais cara da lista, mas vale a pena)
+ - Um bom mouse (Eu gosto da marca Logitech)
+ - Um bom teclado (Se seu equipamento for da Apple, o teclado original é caro, mas vale a pena)
+ - Um equipamento wifi especifico para trabalho (O da sua casa normalmente não dará conta)
+ - Um bom fone de ouvido com microfone (O meu atual é Edifier, mas ja tive um USB da Microsoft que também era muito bom)
+ - Um monitor extra (Trabalhar com duas telas é muito bom)
+ - Uma boa cadeira (Isso aqui talvez será a compra mais cara da lista, mas vale a pena)
 
 Meus equipamentos s	ão:
 
