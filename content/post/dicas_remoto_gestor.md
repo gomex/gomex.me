@@ -1,5 +1,5 @@
 +++
-title = "Você é gestor e está preocupado com o trabalho remoto em tempos de coronavírus?"
+title = "Você tem uma equipe de TI e tem dúvidas com o trabalho remoto em tempos de coronavírus?"
 date = "2020-03-16"
 draft = false
 Categories = ["portugues", "remoto", "dicas"]
