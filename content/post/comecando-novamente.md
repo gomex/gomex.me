@@ -37,7 +37,7 @@ para todos usuários, com isso não será necessário uso de banco de dados.
 Depois de algumas conversas com [somatorio](http://somatorio.org/pt-br/) resolvi
 usar o hugo. Criei um site estático bem rápido, a estrutura dele era uma landing
 page que serviria como hub para todos meus contatos e o blog era acessível através
-de um link, como vocês podem ver [aqui](gomex.github.io/minhahome), que ficará aqui
+de um link, como vocês podem ver [aqui](http://gomex.github.io/minhahome), que ficará aqui
 apenas para título de histórico.
 
 Fique satisfeito na época, mas algo ainda me incomodava, porém não conseguia explicar
