@@ -47,9 +47,9 @@ Vamos usar um exemplo abstrato. No processo de entrega de um software hipotétic
 
 Na sua opinião, qual seria o primeiro? Vamos analisar alguns dos candidatos:
 
-**Build do artefato** depende de outro passo? Não. Ele entrega valor? Entrega sim, pois se o build quebrar, a pessoa que está desenvolvendo saberá que tem problemas para fazer build, mas esse processo de build costuma demorar demasiadamente e isso pode fazer com que o feedback seja demorado. Vamos imaginar juntos: A pessoa manda o commit para o repositório, o pipeline automaticamente é executado e depois de alguns longos minutos a pessoa que mandou o commit poderá descobrir que errou, muitas vezes um detalhe bobo.
+**Build do artefato** depende de outro passo? Não. Ele entrega valor? Entrega sim, pois se o build quebrar, a pessoa que está desenvolvendo saberá que tem problemas para fazer build, mas esse processo de build costuma demorar demasiadamente e isso pode fazer com que o feedback seja demorado. Vamos imaginar juntos: A pessoa manda o commit para o repositório, o pipeline automaticamente é executado e depois de alguns longos minutos a pessoa que mandou o commit poderá descobrir que errou, pois a etapa de build vai executar a construção do artefato e assim pegará qualquer problema que apareça nesse processo. Muitas vezes um detalhe bobo pode levar a quebrar o pipeline nessa etapa.
 
-E se pensarmos no **teste unitário**? Depende de outro passo? Não. Ele entrega valor? Entrega sim, e aqui temos um detalhe diferente do **build do artefato**, pois o retorno é mais rápido, uma vez que, normalmente, nada precisa ser realmente construído. Por padrão os testes unitários demoram menos do que o build dos artefatos. Voltando ao processo de imaginação: A pessoa manda o commit para o repositório, o pipeline automaticamente é executado e depois de **segundos** ela já terá um feedback mais rápido que determinado teste não está passando. Tudo por culpa daquele "detalhe" bobo que falamos anteriormente.
+E se pensarmos no **teste unitário**? Depende de outro passo? Não. Ele entrega valor? Entrega sim, e aqui temos um detalhe diferente do **build do artefato**, pois o retorno é mais rápido, uma vez que, normalmente, nada precisa ser realmente construído. Por padrão os testes unitários demoram menos do que o build dos artefatos. Voltando ao processo de imaginação: A pessoa manda o commit para o repositório, o pipeline automaticamente é executado e depois de **segundos** ela já terá um feedback que um determinado teste não está passando. Tudo por culpa daquele "detalhe" bobo que falamos anteriormente.
 
 Seguindo essa lógica, o primeiro passo desse pipeline seria o **teste unitário**, pois não há nada que demore menos e ainda assim não dependa de outro passo. Vejam que são sempre multiplos fatores para determinar a ordem e em minha opinião são normalmente esses:
 
@@ -61,7 +61,7 @@ Quando eu falo de entrega de valor, a preocupação é com o processo de desenvo
 
 ## Considerações finais
 
-Nesse artigo foi iniciado uma analise sobre como organizar seus passos dentro de um pipeline, nos próximos artigos tentarei ir mais a fundo em cada passo, mostrando inclusive alguns exemplos práticos de como fazer de fato. 
+Nesse artigo foi iniciado uma análise sobre como organizar seus passos dentro de um pipeline, nos próximos artigos tentarei ir mais a fundo em cada passo, mostrando inclusive alguns exemplos práticos de como fazer de fato. 
 
 ## Agradecimentos
 
