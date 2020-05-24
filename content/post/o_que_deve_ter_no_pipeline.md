@@ -8,7 +8,7 @@ Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
 
 ## Contextualização
 
-Ao longo de alguns anos de experiência tenho percebido que muitas pessoas tem dúvidas, ou desconhecem os elementos que podem ser usados para compor um pipeline de entrega de produto.
+Ao longo de alguns anos de experiência tenho percebido que muitas pessoas tem dúvidas sobre quais os elementos que podem ser usados para compor um pipeline de entrega de produto.
 
 Pretendo iniciar uma série de artigos para tentar compartilhar o pouco que sei sobre o assunto.
 
