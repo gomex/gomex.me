@@ -1,6 +1,6 @@
 +++
 title = "O que deve ter no seu pipeline? Parte 1"
-date = "2020-05-23"
+date = "2020-05-24"
 draft = false
 Categories = ["portugues", "pipeline"]
 Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
