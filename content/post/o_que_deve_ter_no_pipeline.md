@@ -48,7 +48,7 @@ Vamos usar um exemplo abstrato. No processo de entrega de um software hipotétic
 - Deploy de pré-produção
 - Deploy de produção
 
-Na sua opinião, qual seria o primeiro? Vamos analisar cada passo:
+Na sua opinião, qual seria o primeiro? Vamos analisar alguns dos candidatos:
 
 **Build do artefato** precisa de outro passo? Não. Ele entrega valor? Entrega sim, pois se o build quebrar, a pessoa que está desenvolvendo saberá que tem problemas para fazer build, mas esse processo de build costuma demorar demasiadamente e isso pode fazer com que o feedback seja demora. Vamos imaginar juntos: A pessoa manda o commit para o repositório, o pipeline automaticamente é executado e depois de alguns longos minutos a pessoa que mandou o commit poderá descobrir que errou, muitas vezes um detalhe bobo.
 
