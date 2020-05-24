@@ -39,14 +39,14 @@ Uma das vantagens de usar pipeline no processo de entregar de software é a idei
 
 Vamos usar um exemplo abstrato. No processo de entrega de um software hipotético, temos os seguintes passos:
 
-Build do artefato
-Teste unitário
-Provisionamento da infra pré-produção
-Teste de integração
-Teste de aceitação
-Provisionamento de infra produção
-Deploy de pré-produção
-Deploy de produção
+- Build do artefato
+- Teste unitário
+- Provisionamento da infra pré-produção
+- Teste de integração
+- Teste de aceitação
+- Provisionamento de infra produção
+- Deploy de pré-produção
+- Deploy de produção
 
 Na sua opinião, qual seria o primeiro? Vamos analisar cada passo:
 
