@@ -14,7 +14,7 @@ Pretendo iniciar uma série de artigos para tentar compartilhar o pouco que sei 
 
 Não tenho pretenção alguma de aqui fundar nenhum padrão ou ideia nova. O que apresento aqui é nada mais do que a soma de experiências, algumas minhas, mas muito mais de outras pessoas, então não tenho intenção alguma de tomar para mim todo crédito, afinal toda construção de novo conteúdo é assim, correto? 10% experiência própria e 90% de aprendizado prévio.
 
-Não vou me aprofundar sobre o que é pipeline, nem muito menos tentar lhe convencer a usá-lo, pois se chegou até aqui por esse título, acredito que você já tenha interesse. Prometo que se tiver demanda sobre um artigo especifico sobre o que é pipelione, eu escrevo em outra oportunidade sobre esses assuntos.
+Não vou me aprofundar sobre o que é pipeline, nem muito menos tentar lhe convencer a usá-lo, pois se chegou até aqui por esse título, acredito que você já tenha interesse. Prometo que se tiver demanda sobre um artigo especifico sobre o que é pipeline, eu escrevo em outra oportunidade sobre esses assuntos.
 
 Vou levar em consideração também que você já sabe o que [pipeline as code](https://www.thoughtworks.com/radar/techniques/pipelines-as-code) significa, mas se não souber, não causará muito problema ao seu aprendizado.
 
@@ -24,14 +24,11 @@ Antes de "colocar a mão na massa" e iniciar o processo de construção do seu p
 
 Quando você inicia a construção de um pipeline, normalmente, seu objetivo é entregar um produto. Seja ele de software ou infraestrutura. 
 
-Se a solução do problema aqui é entregar o produto de forma automatizada, você precisa entender quais são os passos que seu produto precisa seguir para ser colocado em produção.
-
-Existem alguns passos que seguem alguns padrões, e são esses que serão foco nesse artigo. 
+Se a solução do problema aqui é entregar o produto de forma automatizada, você precisa entender quais são os passos que seu produto precisa seguir para ser colocado em produção. 
 
 ## A ordem importa? 
 
 Antes de apresentar os passos, precisamos primeiro entender que a ordem das etapas do pipeline importam **e muito**, sendo assim apresentarei as etapas aqui na ordem que elas devem estar no seu pipeline. 
-
 
 ### Por que a ordem importa?
 
@@ -62,7 +59,11 @@ Seguindo essa lógica, o primeiro passo desse pipeline seria o **teste unitário
 
 Quando eu falo de entrega de valor, a preocupação é com o processo de desenvolvimento e não apenas com o produto finalizado. Para o produto finalizando o build talvez seja mais importante do que o teste unitário, pois levando em consideração o processo de desenvolvimento eles tem importâncias bem próximas.
 
-### Agradecimentos
+## Considerações finais
+
+Nesse artigo foi iniciado uma analise sobre como organizar seus passos dentro de um pipeline, nos próximos artigos tentarei ir mais a fundo em cada passo, mostrando inclusive alguns exemplos práticos de como fazer de fato. 
+
+## Agradecimentos
 
 Obrigado a [Somatório](https://twitter.com/somatorio) que, como sempre, revisou esse material antes dele sair.
 
@@ -72,5 +73,6 @@ Escrevi esse artigo ouvindo:
 - Yung Buda
 - Racionais
 - Sabotagem
+- Bethoven
 - Outras músicas do meu Daily Mix do Spotify
 
