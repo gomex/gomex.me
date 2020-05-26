@@ -73,6 +73,6 @@ Escrevi esse artigo ouvindo:
 - Yung Buda
 - Racionais
 - Sabotagem
-- Bethoven
+- Beethoven
 - Outras músicas do meu Daily Mix do Spotify
 
