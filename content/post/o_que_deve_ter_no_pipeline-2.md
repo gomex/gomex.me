@@ -31,7 +31,7 @@ Se a ferramenta não tiver suporte a definir meu pipeline como código, eu nem c
 
 É a possibilidade de colocar as descrição de cada passo do seu pipeline em um arquivo definição, ao invés de ficar clicando em uma interface web e armazenando essas configurações em uma base de dados.
 
-Segue abaixo as vantagens de que colocar as definições em um arquivo:
+Segue abaixo as vantagens de ter as definições em um arquivo:
 
  - Os passos que sua aplicação segue até o deploy em produção estarão documentados em um arquivo dentro do seu repositório de código, ou seja, qualquer pessoa que ler essa informação estará rapidamente ciente de todo processo;
  - O arquivo de definição será versionado junto com seu código, isso indica que você pode ver quando um determinado passo mudou e afetou o comportamento do seu pipeline;
