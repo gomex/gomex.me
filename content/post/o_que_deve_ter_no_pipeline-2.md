@@ -1,5 +1,5 @@
 +++
-title = "O que deve ter no seu pipeline? Parte 2"
+title = "Qual software de pipeline (CI/CD) você deve usar?"
 date = "2020-05-28"
 draft = false
 Categories = ["portugues", "pipeline"]
@@ -8,7 +8,7 @@ Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
 
 ## Contextualização
 
-Essa é a segunda parte da série ["O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
+Esse artigo faz parte dada série ["O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
 
 Quando pensei em escrever sobre "O que deve ter no seu pipeline?" muitas pessoas pediram para eu fazer comparações entre ferramentas de CI/CD, e por conta disso vou escrever um artigo especificamente sobre isso.
 
