@@ -16,11 +16,11 @@ Quando pensei em escrever sobre "O que deve ter no seu pipeline?" muitas pessoas
 
 Antes de você iniciar uma saga para encontrar a melhor ferramenta de CI/CD que você possa, tente elaborar um pouco quais são seus requisitos. Os meus são nessa ordem:
 
-Suporte a pipeline as code
-Suporte a builds com container docker
-Boa documentação
-Opensource
-Comunidade ativa
+ - Suporte a pipeline as code
+ - Suporte a builds com container docker
+ - Boa documentação
+ - Opensource
+ - Comunidade ativa
 
 ### Suporte a pipeline as code
 
