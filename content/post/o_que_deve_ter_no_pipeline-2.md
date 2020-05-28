@@ -122,7 +122,7 @@ Não há ferramenta perfeita, mas existem algumas funcionalidades que você não
 ## Agradecimentos
 
 Obrigado a [Somatório](https://twitter.com/somatorio) que, como sempre, revisou esse material antes dele sair.
-Obrigado também a [Morvana](https://twitter.com/morvanabonin) e [Giu](https://twitter.com/ReginaSauro) que também revisaram esse artigo antes dele sair.
+Obrigado também a [Morvana](https://twitter.com/morvanabonin), [Giu](https://twitter.com/ReginaSauro) e [Victor](https://twitter.com/vcrmartinez) que também revisaram esse artigo antes dele sair.
 
 Escrevi esse artigo ouvindo:
 
