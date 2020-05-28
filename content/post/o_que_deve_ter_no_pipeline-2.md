@@ -33,11 +33,9 @@ Se a ferramenta não tiver suporte a definir meu pipeline como código, eu nem c
 
 Segue abaixo as vantagens de que colocar as definições em um arquivo:
 
-Os passos que sua aplicação segue até o deploy em produção estarão documentados em um arquivo dentro do seu repositório de código, ou seja, qualquer pessoa que ler essa informação estará rapidamente ciente de todo processo;
-O arquivo de definição será versionado junto com seu código, isso indica que você pode ver quando um determinado passo mudou e afetou o comportamento do seu pipeline;
-Uma vez versionado esse arquivo fica aberta a sugestões e qualquer pessoa pode mandar um PR (pull request) como proposta para mudar o comportamento do seu pipeline. É possível inclusive configurar seu pipeline para que esse PR seja executado com o arquivo proposto, dessa forma validando, ou não, a hipótese da pessoa que enviou o PR.
-
-Resumindo, são muitas as vantagens e a maioria das ferramentas de mercado já oferecem essa funcionalidade.
+ - Os passos que sua aplicação segue até o deploy em produção estarão documentados em um arquivo dentro do seu repositório de código, ou seja, qualquer pessoa que ler essa informação estará rapidamente ciente de todo processo;
+ - O arquivo de definição será versionado junto com seu código, isso indica que você pode ver quando um determinado passo mudou e afetou o comportamento do seu pipeline;
+ - Uma vez versionado esse arquivo fica aberta a sugestões e qualquer pessoa pode mandar um PR (pull request) como proposta para mudar o comportamento do seu pipeline. É possível inclusive configurar seu pipeline para que esse PR seja executado com o arquivo proposto, dessa forma validando, ou não, a hipótese da pessoa que enviou o PR.
 
 Segue um exemplo de um arquivo pipeline as code:
 
@@ -116,6 +114,8 @@ A ideia é que qualquer dado que precise ser usado em outra etapa que seja persi
 Se for uma imagem, biblioteca ou pacote, esse deve ir para um repositório e então no passo que precise ser usado, deve conter um comando para baixar a dependência e instalar.
 
 ### Conclusão
+
+Não é necessário detalhes sobre "Boa documentação", "OpenSource" e "Comunidade ativa". Basta que cada item desse seja verdadeiro para ser considerado como um ponto positivo.
 
 Não há ferramenta perfeita, mas existem algumas funcionalidades que você não deveria abrir mão na hora de escolher a sua. Use algumas, veja qual seu time usaria melhor e proponha um teste, pois afinal de contas não importa qual ferramenta você usa e sim como você configura seu pipeline.
 
