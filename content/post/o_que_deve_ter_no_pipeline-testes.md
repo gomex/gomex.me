@@ -8,13 +8,13 @@ Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
 
 ## Contextualização
 
-Essa é a segunda parte da série "O que deve ter no seu pipeline?", que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
+Essa é a segunda parte da [série "O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
 
 ## Github actions
 
 Usarei o Github action como ferramenta de pipeline, pois para softwares livres ele funciona bem e precisa de quase nada para começar a usar.
 
-Crie a pasta .github/workflows na raiz do seu repositório. Vamos precisar posteriormente.
+Crie a pasta **.github/workflows** na raiz do seu repositório. Vamos precisar posteriormente.
 
 Se você ainda tem dúvida de qual ferramenta usar e quer ler um pouco sobre isso. Veja esse artigo.
 
@@ -143,7 +143,7 @@ Em cada passo você pode informar:
 
 
 name: O nome do passo. Ele serve para que você possa saber qual passo falhou e por qual motivo no dashboard.
-uses: Aqui é informado a ação a ser executada. Uma ação é um bloco de código que executa uma determina função. Ela pode ser de um repositório externo ou dentro do seu repositório. Por hora vamos usar apenas de outros repositórios. Se quiser mais detalhe pode ler aqui(https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses)
+uses: Aqui é informado a ação a ser executada. Uma ação é um bloco de código que executa uma determina função. Ela pode ser de um repositório externo ou dentro do seu repositório. Por hora vamos usar apenas de outros repositórios. Se quiser mais detalhe pode ler [aqui](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses)
 run: É uma alternativa do **uses** e deve ser usado sempre que você for apenas rodar um comando no sistema operacional escolhido na opção **runs-on** (ubuntu-20.04).
 with: Você pode especificar variáveis de ambiente, que normalmente são necessários para utilizar uma determinada ação no **uses**. Cada ação especifica em sua documentação individual quais variáveis de ambiente é necessário informar. Acesse a [documentação](https://github.com/actions/setup-go) do setup-go e veja isso na prática.
 
