@@ -16,15 +16,15 @@ Usarei o Github action como ferramenta de pipeline, pois para softwares livres e
 
 Crie a pasta **.github/workflows** na raiz do seu repositório. Vamos precisar posteriormente.
 
-Se você ainda tem dúvida de qual ferramenta usar e quer ler um pouco sobre isso. Veja esse artigo.
+Se você ainda tem dúvida de qual ferramenta usar e quer ler um pouco sobre isso. Veja [esse artigo](https://gomex.me/2020/05/28/qual-software-de-pipeline-ci/cd-voc%C3%AA-deve-usar/).
 
 ## Código exemplo
 
-Usarei esse repositório como exemplo para demonstrar a implantação de todos os passos.
+Usarei [esse](https://github.com/gomex/go-example-app) repositório como exemplo para demonstrar a implantação de todos os passos.
 
 ## O que deve ter no seu pipeline?
 
-Como já exaustivamente explicado neste artigo, sabemos que o teste estático de código é uma das primeiras etapas de um pipeline, sendo assim vamos demonstrar aqui como executar o teste unitário da aplicação exemplo escrita em go.
+Como já exaustivamente explicado em outros artigos dessa série, sabemos que o teste estático de código é uma das primeiras etapas de um pipeline, sendo assim vamos demonstrar aqui como executar o teste unitário da aplicação exemplo escrita em go.
 
 ### Teste estático de código
 
