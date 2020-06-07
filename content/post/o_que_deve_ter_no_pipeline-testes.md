@@ -8,7 +8,7 @@ Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
 
 ## Contextualização
 
-Essa é a segunda parte da [série "O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
+Essa é a continuação da [série "O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
 
 ## Github actions
 
@@ -24,13 +24,13 @@ Usarei [esse](https://github.com/gomex/go-example-app) repositório como exemplo
 
 ## O que deve ter no seu pipeline?
 
-Como já exaustivamente explicado em outros artigos dessa série, sabemos que o teste estático de código é uma das primeiras etapas de um pipeline, sendo assim vamos demonstrar aqui como executar o teste unitário da aplicação exemplo escrita em go.
+Como já exaustivamente explicado em outros artigos dessa série, sabemos que o teste estático de código é uma das primeiras etapas de um pipeline, sendo assim vamos demonstrar aqui como executar o teste unitário de uma aplicação exemplo escrita em go.
 
-### Teste estático de código
+### Teste unitário
 
-Para código de software, aqui pode ser um ótimo momento para executar os testes unitários, eles devem ser escritos pelas pessoas que desenvolvem o código.
+Para executar o teste é necessário uma série de passos e vamos detalhar eles um pouco mais nos tópicos a seguir.
 
-Dentro da pasta .github/workflows crie um arquivo chamado validate.yml
+Dentro da pasta .github/workflows crie um arquivo chamado validate.yml com o seguinte conteúdo:
 
 ```yaml
 name: Go
@@ -142,10 +142,10 @@ Na descrição seguinte temos a descrição dos passos. Lembre-se que elas segue
 Em cada passo você pode informar:
 
 
-name: O nome do passo. Ele serve para que você possa saber qual passo falhou e por qual motivo no dashboard.
-uses: Aqui é informado a ação a ser executada. Uma ação é um bloco de código que executa uma determina função. Ela pode ser de um repositório externo ou dentro do seu repositório. Por hora vamos usar apenas de outros repositórios. Se quiser mais detalhe pode ler [aqui](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses)
-run: É uma alternativa do **uses** e deve ser usado sempre que você for apenas rodar um comando no sistema operacional escolhido na opção **runs-on** (ubuntu-20.04).
-with: Você pode especificar variáveis de ambiente, que normalmente são necessários para utilizar uma determinada ação no **uses**. Cada ação especifica em sua documentação individual quais variáveis de ambiente é necessário informar. Acesse a [documentação](https://github.com/actions/setup-go) do setup-go e veja isso na prática.
+ - **name**: O nome do passo. Ele serve para que você possa saber qual passo falhou e por qual motivo no dashboard.
+ - **uses**: Aqui é informado a ação a ser executada. Uma ação é um bloco de código que executa uma determina função. Ela pode ser de um repositório externo ou dentro do seu repositório. Por hora vamos usar apenas de outros repositórios. Se quiser mais detalhe pode ler [aqui](https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idstepsuses)
+ - **run**: É uma alternativa do **uses** e deve ser usado sempre que você for apenas rodar um comando no sistema operacional escolhido na opção **runs-on** (ubuntu-20.04).
+ - **with**: Você pode especificar variáveis de ambiente, que normalmente são necessários para utilizar uma determinada ação no **uses**. Cada ação especifica em sua documentação individual quais variáveis de ambiente é necessário informar. Acesse a [documentação](https://github.com/actions/setup-go) do setup-go e veja isso na prática.
 
 O primeiro passo desse fluxo é o **Set up Go 1.14** ele é responsável por configurar o ambiente para se utilizar o go na versão que você deseja. Aqui é basicamente o momento que será instalado tudo que você precisa do go no ubuntu que foi especificado anteriormente nesse arquivo.
 
