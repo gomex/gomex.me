@@ -12,7 +12,7 @@ Essa é a continuação da série ["O que deve ter no seu pipeline?"](https://go
 
 ## Github actions
 
-Lembra que falamos sobre ["Qual software de pipeline (CI/CD) você deve usar?"](https://gomex.me/2020/05/28/qual-software-de-pipeline-ci/cd-voc%C3%AA-deve-usar/), para demonstrar aqui na prática o que deve ter no seu pipeline eu usarei o [Github actions](https://github.com/features/actions) como ferramenta de pipeline, pois para softwares livres ele funciona sem custos e precisa de quase nada para começar a usar.
+Lembra que falamos sobre ["Qual software de pipeline (CI/CD) você deve usar?"](https://gomex.me/2020/05/28/qual-software-de-pipeline-ci/cd-voc%C3%AA-deve-usar/), para demonstrar aqui na prática o que deve ter no seu pipeline eu usarei o [Github actions](https://github.com/features/actions) como ferramenta de pipeline, pois para repositórios públicos ele funciona sem custos e precisa de quase nada para começar a usar.
 
 Crie a pasta **.github/workflows** na raiz do seu repositório. Vamos precisar posteriormente.
 
