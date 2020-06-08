@@ -174,6 +174,8 @@ Dentro do passo **Test** o comando acompanha a opção **-coverprofile=coverage.
 
 ## Agradecimentos
 
+Meu agradecimento a [Victor](https://twitter.com/vcrmartinez) que revisou esse artigo antes dele sair.
+
 Escrevi esse artigo ouvindo:
 
 - Foo Fighters
