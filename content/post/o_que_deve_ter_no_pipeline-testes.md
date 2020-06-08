@@ -1,6 +1,6 @@
 +++
 title = "O que deve ter no seu pipeline? Testes!"
-date = "2020-05-28"
+date = "2020-06-08"
 draft = false
 Categories = ["portugues", "pipeline"]
 Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
