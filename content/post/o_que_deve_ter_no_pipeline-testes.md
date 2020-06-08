@@ -8,15 +8,15 @@ Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
 
 ## Contextualização
 
-Essa é a continuação da [série "O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
+Essa é a continuação da série ["O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
 
 ## Github actions
 
-Usarei o Github action como ferramenta de pipeline, pois para softwares livres ele funciona bem e precisa de quase nada para começar a usar.
+Lembra que falamos sobre ["Qual software de pipeline (CI/CD) você deve usar?"](https://gomex.me/2020/05/28/qual-software-de-pipeline-ci/cd-voc%C3%AA-deve-usar/), para demonstrar aqui na prática o que deve ter no seu pipeline eu usarei o [Github actions](https://github.com/features/actions) como ferramenta de pipeline, pois para softwares livres ele funciona sem custos e precisa de quase nada para começar a usar.
 
 Crie a pasta **.github/workflows** na raiz do seu repositório. Vamos precisar posteriormente.
 
-Se você ainda tem dúvida de qual ferramenta usar e quer ler um pouco sobre isso. Veja [esse artigo](https://gomex.me/2020/05/28/qual-software-de-pipeline-ci/cd-voc%C3%AA-deve-usar/).
+Se você ainda tem dúvida de qual ferramenta usar e quer ler um pouco sobre isso. Leia de novo [esse](https://gomex.me/2020/05/28/qual-software-de-pipeline-ci/cd-voc%C3%AA-deve-usar/) artigo.
 
 ## Código exemplo
 
@@ -24,7 +24,7 @@ Usarei [esse](https://github.com/gomex/go-example-app) repositório como exemplo
 
 ## O que deve ter no seu pipeline?
 
-Como já exaustivamente explicado em outros artigos dessa série, sabemos que o teste estático de código é uma das primeiras etapas de um pipeline, sendo assim vamos demonstrar aqui como executar o teste unitário de uma aplicação exemplo escrita em go.
+Como já exaustivamente explicado em outros momentos dessa série, sabemos que o teste estático de código é uma das primeiras etapas de um pipeline, sendo assim vamos demonstrar aqui como executar o teste unitário de uma aplicação exemplo escrita em go.
 
 ### Teste unitário
 
@@ -83,14 +83,27 @@ Se houver um commit direto na master, esse workflow executará automaticamente e
 
 Vale a pena reforçar que esse fluxo de etapas acontecerá com alguma frequência. Evite tarefas que não precisem **necessariamente** serem executadas a cada PR. Alguns exemplos de etapas que não fazem sentido de executar quando alguém abrir um PR:
 
-Build, tag e push de uma imagem
-Deploy em staging ou produção
+ - Build, tag e push de um artefato
+ - Deploy em staging ou produção
 
-##### Por que não deve fazer determinadas tarefas a cada PR?
+##### O que é PR (Pull request)?
+
+No git você tem a possibilidade criar várias branchs a partir de uma branch existente. A branch padrão normalmente é a master, dai normalmente o fluxo de trabalho para quem usa git é:
+
+ - Criar uma branch nova de trabalho a partir da branch master;
+ - Enviar suas modificações para esse branch de trabalho recém criada;
+ - Em algum momento seu trabalho estará pronto para ser compartilhado com o time;
+ - Você abre um **pull request**, que é o pedido para que o contéudo da sua branch seja copiada para a master;
+ - Outras pessoas do seu time avaliam o seu pedido e olham se o código enviado de fato atende da melhor forma possível;
+ - Essas pessoas aceitam o seu PR e seu código agora faz parte da branch master, onde o ciclo todo pode começar de novo com outra pessoa ou você novamente.
+
+ Obs: O **pull request** pode ser aberto de qualquer branch para uma outra a sua escolha. O exemplo acima foi apenas para apresentar o conceito de forma prática
+
+##### Por que determinadas tarefas não devem executar a cada PR?
 
 Imagine que o PR é uma ferramenta que deve ser usado por qualquer pessoa da sua empresa. Isso deve ser estimulado, pois a transparência e ampla colaboração tende a colaborar a qualidade do seu código.
 
-Levando com consideração que qualquer pessoa pode abrir um PR, você quer mesmo que seu pipeline gaste tempo gerando uma imagem nova, aplicando uma tag qualquer e então enviando essa imagem para um repositório centralizado. Repositório esse que normalmente tem seu custo associado a quantidade de uso., ou seja, quanto mais push, mais caro será sua conta.
+Levando com consideração que qualquer pessoa pode abrir um PR, você quer mesmo que seu pipeline gaste tempo gerando um artefato novo a cada PR? Se é um pedido, que deve ser revisado, existe motivo para que um artefato seja gerado, aplicado tag e enviado para um repositório centralizado? Repositório esse que normalmente tem seu custo associado a quantidade de uso, ou seja, quanto mais push de artefatos novos, mais caro será sua conta.
 
 Uma consequência similar acontece no deploy, pois se você permite que o PR acione automaticamente um deploy em staging ou production, você não está fornecendo o tempo necessário que uma pessoa possa revisar devidamente o código antes dele ser aceito em staging ou production, ao abrir o PR o github action fará o deploy automaticamente.
 
