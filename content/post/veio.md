@@ -21,3 +21,5 @@ Quem o ver sorrir, não sente a dor e o peso da responsabilidade de ser o que el
 Hoje é o aniversário dele e ele não merecia menos do que isso. Já que não posso dar um abraço, aqui vai meu abraço virtual.
 
 Te amo,
+
+OBS: Obrigado Cascadura por [essa](https://www.youtube.com/watch?v=eG8vnPdB1pM) música sensacional. Ela me inspirou nesse texto.
