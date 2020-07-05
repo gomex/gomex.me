@@ -43,7 +43,7 @@ Você pode estar se perguntando "E se alguém nesse meio tempo adicionou uma fun
 
 Se a funcionalidade for feita no mesmo local de código, mesmas linhas e afins, não terá problema, mas caso contrário teremos um conflito e trataremos disso em outro artigo.
 
-A minha sugestão é funcionalidades diferentes sejam tratadas de forma isolada, afim de não causar conflito algum no processo.
+A minha sugestão é funcionalidades diferentes sejam tratadas de forma isolada, a fim de não causar conflito algum no processo.
 
 Todo esse processo que descrevi aqui, ele pode ser feito também baseado em branch, mas a pessoa que colabora precisa ser membro do repositório e não uma pessoa aleatória na internet, pois ela precisa ter permissão para criar branch no repositório. No fim é o mesmo propósito, mas ao invés de repositório inteiro, tudo que expliquei aqui acontece no nível de ramificações.
 
@@ -96,7 +96,7 @@ Os testes descritos no PR são o suficiente?
 
 Um exemplo:
 
-Você abre o PR sobre idade de gatos, lê a descrição e não está claro pra ti se ideia seja criar uma forma separada para calcular idade de outros animais ou apenas colocar uma opção na lógica atual feita para cachorro, sendo assim seu comentário poderia ser: 
+Você abre o PR sobre idade de gatos, lê a descrição e não está claro pra ti se ideia é criar uma forma separada para calcular idade de outros animais ou apenas colocar uma opção na lógica atual feita para cachorro, sendo assim seu comentário poderia ser: 
 
 "Não está claro pra mim se você colocou a lógica de calcular idade pra gato separado porque seja de fato a forma que você acha que seja ideal ou se fez isso apenas para não conflitar com o código original por agora e refatorar no futuro. Eu vou analisar seu código atual separado mesmo, mas adianto que mudar para que evite repetição de código seja uma boa no futuro"
 
@@ -163,7 +163,7 @@ Uma ferramenta ideal, que se usada sabiamente, pode ser muito poderosa!
 
 Obrigado a [Somatório](https://twitter.com/somatorio) que, como sempre, revisou esse material antes dele sair.
 
-Meu agradecimento a [Giu](https://twitter.com/ReginaSauro) que revisou esse artigo antes dele sair.
+Meu agradecimento a [Morvana](https://twitter.com/morvanabonin) e [Giu](https://twitter.com/ReginaSauro) que revisaram esse artigo antes dele sair.
 
 Escrevi esse artigo ouvindo:
 
