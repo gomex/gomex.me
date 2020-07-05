@@ -161,6 +161,8 @@ Uma ferramenta ideal, que se usada sabiamente, pode ser muito poderosa!
 
 ## Agradecimentos
 
+Obrigado a [Somatório](https://twitter.com/somatorio) que, como sempre, revisou esse material antes dele sair.
+
 Meu agradecimento a [Giu](https://twitter.com/ReginaSauro) que revisou esse artigo antes dele sair.
 
 Escrevi esse artigo ouvindo:
