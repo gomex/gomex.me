@@ -151,7 +151,7 @@ Uma dica aqui é fazer com que seu PR seja o menor possível, pois quanto menor 
 
 Algumas empresas colocam no mínimo duas, outra colocam três, mas existem muitas que com apenas uma revisão já torna o PR disponível para ser de fato aceito. Isso depende da empresa.
 
-O ideal seriam duas pessoas, mas se isso atrasar demais o andamento do seu projeto, uma deve ser o suficiente, mas lembre que essa pessoa a revisar terá **muito** mais responsabilidade e normalmente não poderá ser uma pessoa com pouca experiência. Isso quer dizer que você estará usando ainda mais o tempo de pessoas mais experiente para avaliação de código do que de fato produzindo códigos.
+O ideal seriam duas pessoas, mas se isso atrasar demais o andamento do seu projeto, uma deve ser o suficiente, mas lembre que essa pessoa a revisar terá **muito** mais responsabilidade e normalmente não poderá ser uma pessoa com pouca experiência. Isso quer dizer que você estará usando ainda mais o tempo de pessoas mais experientes para avaliação de código do que de fato produzindo códigos.
 
 ## Conclusão
 
