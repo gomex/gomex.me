@@ -165,6 +165,8 @@ Obrigado a [Somatório](https://twitter.com/somatorio) que, como sempre, revisou
 
 Meu agradecimento a [Morvana](https://twitter.com/morvanabonin) e [Giu](https://twitter.com/ReginaSauro) que revisaram esse artigo antes dele sair.
 
+Uma honra esse artigo ter sido revisado pelo meu ídolo [Guto Carvalho](https://twitter.com/gutocarvalho)! Obrigado!
+
 Escrevi esse artigo ouvindo:
 
 - Megadeth
