@@ -176,4 +176,4 @@ Escrevi esse artigo ouvindo:
 - Fantasmão
 - Outras músicas do meu Daily Mix do Spotify
 
-[1]: https://docs.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors
+[1]: https://docs.github.com/pt/github/building-a-strong-community/setting-guidelines-for-repository-contributors
