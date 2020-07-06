@@ -49,9 +49,9 @@ Todo esse processo que descrevi aqui, ele pode ser feito também baseado em bran
 
 ## Como usar Pull Request para o processo de revisão?
 
-A maioria das organizações utiliza o pull request  como mecanismo padrão para revisão de código, pois ele é basicamente a "porta de entrada" para a base "oficial" de código, seja a nível de repositório ou de branch.
+A maioria das organizações utiliza o pull request  como mecanismo padrão para revisão de código, pois ele é basicamente a "porta de entrada" para a base "oficial" de código, seja em relação ao repositório ou branch.
 
-Normalmente as branchs que serão usadas para construir o artefato final do repositório oficial são protegidas e não podem receber commits diretos, ou seja, tudo que entra nessas branchs devem entrar por um PR (pull request). Existe a possibilidade do administrador do repositório mandar o código direto, mas isso deve ser apenas uma exceção. Dito isso, eu reforço, **mesmo os administradores do repositório**, **pessoas desenvolvedoras experientes**, ou até mesmo o **líder técnica** do time devem mandar suas mudanças por PR e elas devem ser avaliadas por outras pessoas.
+Normalmente as branchs que serão usadas para construir o artefato final do repositório oficial são protegidas e não podem receber commits diretos, ou seja, tudo que entra nessas branchs devem entrar por um PR (pull request). Existe a possibilidade do administrador do repositório mandar o código direto, mas isso deve ser apenas uma exceção. Dito isso, eu reforço, **mesmo os administradores do repositório**, **pessoas desenvolvedoras experientes**, ou até mesmo a **liderança técnica** do time devem mandar suas mudanças por PR e elas devem ser avaliadas por outras pessoas.
 
 Quando começar a trabalhar em uma funcionalidade nova do repositório. Eu faço parte da organização? Tenho acesso a criar uma branch? Caso positivo, eu crio uma branch.
 
@@ -69,9 +69,9 @@ Segue abaixo um ótimo exemplo:
 
 O ideal é que o PR tenha o seguinte conteúdo:
 
-Descrição clara e objetiva do comportamento que será adicionado caso o PR seja aceito.
-Um mínimo de detalhe sobre como a nova funcionalidade é usada, talvez um link para uma documentação externa seja uma boa, caso o detalhe seja muito grande
-E um passo a passo sobre como testar, da forma **mais direta e clara** possível e quais comportamentos esperados para os testes executados, ou seja, se for para clicar, diga onde clicar e o que deve acontecer se clicar no lugar informado, se possível diga também o que **não** deve acontecer.
+ - Descrição clara e objetiva do comportamento que será adicionado caso o PR seja aceito;
+ - Mínimo de detalhe sobre como a nova funcionalidade é usada, talvez um link para uma documentação externa seja uma boa, caso o detalhe seja muito grande;
+ - Passo a passo sobre como testar, da forma **mais direta e clara** possível e quais comportamentos esperados para os testes executados, ou seja, se for para clicar, diga onde clicar e o que deve acontecer se clicar no lugar informado, se possível diga também o que **não** deve acontecer.
 
 Uma descrição seguindo esse modelo ajudará a pessoa que vai avaliar seu PR e ela talvez não precisará lhe perguntar nada, pois tudo que precisa saber sobre o trabalho e como avaliar ele está descrito lá.
 
@@ -85,10 +85,10 @@ Algumas pessoas criam uma PR draft (rascunho) para ir atualizando a medida que v
 
 A pessoa que vai olhar um PR ela precisa ter em mente alguns pontos:
 
-Qual o objetivo daquele PR? Ele está claro na descrição? 
-As mudanças que estão sendo propostas no PR seguem o padrão que é usado nessa organização?
-A forma que a pessoa entregou à funcionalidade é a melhor? Existe maneira mais eficiente de fazer a mesma coisa? 
-Os testes descritos no PR são o suficiente?
+ - Qual o objetivo daquele PR? Ele está claro na descrição? 
+ - As mudanças que estão sendo propostas no PR seguem o padrão que é usado nessa organização?
+ - A forma que a pessoa entregou à funcionalidade é a melhor? Existe maneira mais eficiente de fazer a mesma coisa? 
+ - Os testes descritos no PR são o suficiente?
 
 ### Qual o objetivo daquele PR? Ele está claro na descrição? 
 
