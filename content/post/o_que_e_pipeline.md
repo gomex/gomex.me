@@ -73,7 +73,6 @@ Imagina ter de instalar uma máquina, especificar todos os pacotes, bibliotecas 
 Vale salientar que mesmo utilizando containers como agente, ainda é aconselhável ter uma outra máquina, pois é nela que será instalado o software responsável pela gerência dos containers e onde será iniciado os containers, ou seja, basicamente os **jobs** serão executadas nesse agente, mas não no sistema operacional padrão e sim naquela que foi iniciado dentro do container.
 
 Se você ainda não sabe como funciona containers, aconselhamos a leitura do livro [Docker Para Desenvolvedores](https://leanpub.com/dockerparadesenvolvedores), mas acredito que o conhecimento de containers não vai afetar a sua capacidade de assimilar esse conceito sobre pipelines. Basta saber que o container é um processo rodando em um sistema operacional isolado, mas que todos os containers do mesmo **host** rodam na mesma máquina.
-
  
 ## Quebrando o pipeline
 
@@ -85,9 +84,7 @@ A automatização das validações e construções são parte central de um proc
 
 ### Conclusão
 
-Não é necessário detalhes sobre "Boa documentação", "OpenSource" e "Comunidade ativa". Basta que cada item desse seja verdadeiro para ser considerado como um ponto positivo.
-
-Não há ferramenta perfeita, mas existem algumas funcionalidades que você não deveria abrir mão na hora de escolher a sua. Use algumas, veja qual seu time usaria melhor e proponha um teste, pois afinal de contas não importa qual ferramenta você usa e sim como você configura seu pipeline.
+O pipeline é uma abstração, onde temos **jobs** e **steps** compondo as etapas para construção de um produto a ser entregue no final da esteira. Tendo isso em mente, podemos pensar que muito mais do que apenas a ferramenta, o pipeline serve também para criar um fluxo rápido de feedback, onde em caso de quebra podemos entender que aquele código precisa de cuidados até que o problema seja resolvido.
 
 ## Agradecimentos
 
