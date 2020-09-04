@@ -10,7 +10,10 @@ TBD
 ## Portuguese
 Soteropolitano, hacker urbano e consultor de infraestrutura, formado na Universidade de Salvador no curso de Gestão de Redes.
 
-Trabalho atualmente na Paycertify, focado em infraestrutura como código, cultura devops e cloud. Autor do livro "Docker para desenvolvedores": https://leanpub.com/dockerparadesenvolvedores
+Trabalho atualmente na DNSFilter, focado em infraestrutura como código. Organizador e Autor dos livros:
+
+"Docker para desenvolvedores": https://leanpub.com/dockerparadesenvolvedores
+"Deploy em produção para desenvolvedores:" https://leanpub.com/deployemprodparadevs
 
 Core Organizer do DevOpsDays: https://www.devopsdays.org/about/
 
