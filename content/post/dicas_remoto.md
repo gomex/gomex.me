@@ -71,7 +71,7 @@ Segue a minha lista preferida:
  - Um monitor extra (Trabalhar com duas telas é muito bom)
  - Uma boa cadeira (Isso aqui talvez será a compra mais cara da lista, mas vale a pena)
 
-Meus equipamentos s	ão:
+Meus equipamentos são:
 
 Mouse:  Logitech M170
 Teclado: Magic Keyboard (Apple)
