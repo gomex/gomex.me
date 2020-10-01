@@ -125,7 +125,7 @@ Material sugerido para Google Cloud:
 
 Material sugerido para Azure:
 
-- [Portal de treinamentos gratuitos de Azure criado pela Microsoft](http://aka.ms/azureskillspt)
+- [Portal de treinamentos gratuitos de Azure criado pela Microsoft](https://aka.ms/azureskillspt)
 - [Microsoft Virtual Academy - Academia virtual da Microsoft com treinamentos gratuitos de Azure](https://mva.microsoft.com/search/SearchResults.aspx#!q=Azure&prod=Azure)
 - [Lista curada de aprendizado de Azure - Ricardo Martins](https://github.com/rmmartins/AzureReadiness)
 
@@ -147,7 +147,7 @@ Material sugerido para Chef:
 
 Material sugerido para Ansible:
 
-- [Ansible - Getting started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
+- [Ansible - Getting started](https://docs.ansible.com/ansible/latest/intro_getting_started.html)
 - [Webinars oficiais do Ansible](https://www.ansible.com/resources/webinars-training)
 
 Atualmente, em 2020, aconselho o Ansible como ferramenta para gerenciamento de configurações, principalmente pela ampla adoção no mercado.
@@ -160,7 +160,7 @@ Material sugerido para Docker:
 
 - [Livro Containers com Docker - Daniel Romero ](https://www.casadocodigo.com.br/products/livro-docker)
 - [Livro Aprendendo Docker - Wellington da Silva ](https://www.amazon.com.br/Aprendendo-Docker-Wellington-Figueira-Silva/dp/8575224867?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=65e71e4e-1464-4ddc-a0a5-491e02f24552)
-- [Livro Descomplicando Docker - Jeferson Fernando Noronha](http://www.brasport.com.br/informatica-e-tecnologia/arquitetura-de-nuvem/descomplicando-o-docker/)
+- [Livro Descomplicando Docker - Jeferson Fernando Noronha](https://www.brasport.com.br/informatica-e-tecnologia/arquitetura-de-nuvem/descomplicando-o-docker-2a-edicao-br/)
 - [Livro Docker para desenvolvedores - Livro Código Aberto - Rafael Gomes](https://leanpub.com/dockerparadesenvolvedores)
 
 Material sugerido para Kubernetes:
@@ -187,7 +187,7 @@ O Jenkins "reina" com uma vantagem considerável entre as ferramentas mais comum
 
 Material sugerido para Jenkins:
 
-- [Curso online pago - Master Jenkins CI For DevOps and Developer](http://bit.ly/2COXw2U)
+- [Curso online pago - Master Jenkins CI For DevOps and Developer](https://bit.ly/2COXw2U)
 - [Livro Jenkins - Automatize tudo sem complicações - Fernando Boaglio](https://www.casadocodigo.com.br/products/livro-jenkins)
 
 Como ferramentas alternativas temos o [GoCD](https://docs.gocd.org/current/), [TeamCity](https://confluence.jetbrains.com/display/TCD10/TeamCity+Documentation) e outras também relevantes, mas estudando o Jenkins você terá a base sólida sobre uso de ferramentas de CI/CD. Fique atento aos conceitos informados no livro "Entrega Contínua".
@@ -204,5 +204,5 @@ A todos do canal [DevOpsBR no Telegram](https://t.me/devopsbr) que colaboram em 
 
 ### Fontes
 
-- [Guto Carvalho](http://gutocarvalho.net/blog/2016/09/06/por-onde-iniciar-os-estudos-sobre-devops/)
+- [Guto Carvalho](https://gutocarvalho.net/blog/2016/09/06/por-onde-iniciar-os-estudos-sobre-devops/)
 - [Awesome DevOps-BR](https://github.com/devops-br/awesome-devops-br)

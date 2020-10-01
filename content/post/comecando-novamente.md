@@ -14,11 +14,11 @@ um novo modelo mais simples, porém ainda usando site com conteúdo estático.
 ## Público alvo
 
 Esse texto é para qualquer pessoa interessada em ler sobre experiências 
-de mudanças de blogs e escrita de contéudo técnico.
+de mudanças de blogs e escrita de conteúdo técnico.
 
 ### Introdução
 
-Eu já tenho um [blog](http://techfree.com.br), mas ele está em um wordpress, uma
+Eu já tinha um blog, mas ele está em um wordpress, uma
 plataforma CMS, que por mais que sua proposta tenha como foco a usabilidade, manter
 ela a nível de infra não é uma tarefa extremamente simples. Quando falo simples,
 estou querendo reduzir à de fato não ter trabalho praticamente nenhum para ter
@@ -34,17 +34,17 @@ para todos usuários, com isso não será necessário uso de banco de dados.
 
 ### Um pouco da história
 
-Depois de algumas conversas com [somatorio](http://somatorio.org/pt-br/) resolvi
+Depois de algumas conversas com Somatório - http://somatorio.org/pt-br/ - resolvi
 usar o hugo. Criei um site estático bem rápido, a estrutura dele era uma landing
 page que serviria como hub para todos meus contatos e o blog era acessível através
-de um link, como vocês podem ver [aqui](gomex.github.io/minhahome), que ficará aqui
+de um link, como vocês podem ver [aqui](https://gomex.github.io/minhahome), que ficará aqui
 apenas para título de histórico.
 
 Fique satisfeito na época, mas algo ainda me incomodava, porém não conseguia explicar
 o porque.
 
 Depois de ver o site do [Fike](https://www.fernandoike.com) entendi o motivo. O fato 
-do meu contéudo estar atrás de um link e não na página inicial, isso me fazia sentir que 
+do meu conteúdo estar atrás de um link e não na página inicial, isso me fazia sentir que 
 algo estava errado.
 
 Percebi que ele hospeda seu site em um repositório público, e assim resolvi cloná-lo e

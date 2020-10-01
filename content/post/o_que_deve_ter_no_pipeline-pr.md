@@ -14,7 +14,7 @@ Nesse artigo falaremos sobre o processo de revisão de código no Github baseado
 
 ## O que é Pull Request?
 
-Antes de entender o que é um Pull Request é necessário entender os conceito de branchs , fork e o básico de repositórios git. Esse [site](http://rogerdudler.github.io/git-guide/index.pt_BR.html) pode lhe ajudar nisso.
+Antes de entender o que é um Pull Request é necessário entender os conceito de branchs , fork e o básico de repositórios git. Esse [site](https://rogerdudler.github.io/git-guide/index.pt_BR.html) pode lhe ajudar nisso.
 
 Uma vez que você já sabe que a branch é uma ramificação do código, eu acrescento que o fork é uma cópia inteira do seu repositório. Essa cópia mantém uma ligação simbólica entre o fork e o repositório origem. De forma prática, essa ligação não tem grande efeito no uso do dia a dia, ou seja, se alguém fizer fork do seu repositório e fizer mudanças nesse fork o seu repositório não será afetado automaticamente.
 
