@@ -8,7 +8,7 @@ Tags = ["portugues", "devops", "carreira"]
 
 ## TL;DR
 
-Quer entrar na carreira "DevOps" e não sabe por onde começar? Nesse texto falarei sobre possíveis caminhos para sua carreita técnica, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
+Quer entrar na carreira "DevOps" e não sabe por onde começar? Nesse texto falarei sobre possíveis caminhos para sua carreira técnica, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
 
 ### Motivação
 
@@ -24,7 +24,7 @@ Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já 
 
 ### O que é DevOps de verdade?
 
-É um mudança cultural, acredito que [esse](https://www.youtube.com/watch?v=9B2f3wcKp-I) vídeo e tenha uma ideia básica do que se trata. Esse vídeo tem legenda em português, caso precise.
+É uma mudança cultural, acredito que [esse](https://www.youtube.com/watch?v=9B2f3wcKp-I) vídeo possa ajudar você a ter uma ideia básica do que se trata. O vídeo tem legenda em português, caso precise.
 
 ### Requisitos
 
@@ -49,13 +49,13 @@ Material sugerido:
 - [Livro Redes de Computadores - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/redes-de-computadores/2516815423?q=Redes+de+Computadores)
 - [Redes de computadores e a internet uma nova abordagem - James Kurose e Keith Ross](https://www.estantevirtual.com.br/livros/james-f-kurose-keith-w-ross/redes-de-computadores-e-a-internet-uma-nova-abordagem/2190281067)
 
-Estude também sobre funcionamento do sistema operacional, o que são processos, como funciona o escolanamento de processamento e afins.
+Estude também sobre funcionamento do sistema operacional, o que são processos, como funciona o escalonamento de processamento e afins.
 
 Material sugerido:
 
 - [Livro Sistemas Operacionais Modernos - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/sistemas-operacionais-modernos/2487067088?q=Tanenbaum)
 
- Obs: Esses dois livros são enormes, então não precisa necessariamente ler todos. Apenas imagine que quanto mais você ler e absorver esses conhecimentos, melhor profissional você será.
+ Obs: Esses livros são enormes, então não precisa necessariamente ler todos. Apenas imagine que quanto mais você ler e absorver esses conhecimentos, melhor profissional você será.
 
 #### Assuntos básicos para pessoas inclinadas a infraestrutura de TI
 
@@ -79,8 +79,8 @@ Material sugerido:
 
 Se quiser validar seus conhecimentos, tem alguns sites que podem lhe ajudar nisso:
 
-- [Hacker Rank](https://www.hackerrank.com)
-- [Project Euler](https://projecteuler.net/)
+- [Hacker Rank](https://www.hackerrank.com) - Desafios em diversas linguagens e skills, utilizadas para codificação, com metodologia de gamificação e certificação gratuita. 
+- [Project Euler](https://projecteuler.net/) -  Desafios matemáticos, ótimos para o desenvolvimento da codificação.
 
 ### Conhecimentos comuns
 
@@ -131,7 +131,7 @@ Material sugerido para Azure:
 
 #### Conhecimento de gerência de configuração
 
-Você precisará automatizar a configuração dos seus ativos (servidores, switchs e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
+Você precisará automatizar a configuração dos seus ativos (servidores, switches e afins), com isso algumas ferramentas precisam de alguma atenção no seu estudo. Você precisa de um nível acima do básico em ao menos uma delas. Eu aconselho experimentar todas descritas abaixo, mas escolha uma para especialização:
 
 - Puppet
 - Chef
@@ -150,7 +150,9 @@ Material sugerido para Ansible:
 - [Ansible - Getting started](http://docs.ansible.com/ansible/latest/intro_getting_started.html)
 - [Webinars oficiais do Ansible](https://www.ansible.com/resources/webinars-training)
 
-#### Conhecimento de containeres
+Atualmente, em 2020, aconselho o Ansible como ferramenta para gerenciamento de configurações, principalmente pela ampla adoção no mercado.
+
+#### Conhecimento de containers
 
 Você precisará saber sobre containers e duas ferramentas dominam esse assunto, Docker e Kubernetes. Você precisa saber além do básico em ambos produtos.
 
@@ -163,6 +165,7 @@ Material sugerido para Docker:
 
 Material sugerido para Kubernetes:
 
+- [Descomplicando o Kubernetes - LinuxTips](https://github.com/badtuxx/DescomplicandoKubernetes)
 - [Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
 - [Treinamentos online grátis oficiais](https://kubernetes.io/docs/tutorials/)
 - [Kubernetes The Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
@@ -178,7 +181,7 @@ Como material sugerido, eu aconselho o que pra mim seria a bíblia do "DevOps":
 
 Esse livro é grande, mas uma leitura simples! Tem a versão traduzida se preferir:
 
-- [Entrega Contínua - Jez Humble e  David Farley](https://www.estantevirtual.com.br/martins-livreiro/jez-humble-e-david-farley-entrega-continua-como-entregar-software-de-forma-rapida-e-confiavel-931382091)
+- [Entrega Contínua - Jez Humble e  David Farley](https://loja.grupoa.com.br/entrega-continua-ebook-p988526)
 
 O Jenkins "reina" com uma vantagem considerável entre as ferramentas mais comum sobre esses assuntos.
 
