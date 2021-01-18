@@ -156,6 +156,10 @@ Atenção, para quem consome a role, a pasta **default** não deve ser editada p
 
 A pasta **vars/** praticamente não será usada em uma role, pois em minha humilde opinião, que posso estar errado e depois eu venho corrigir isso aqui, se for o caso, as variáveis não devem ser aplicadas dentro da **role**. 
 
+Vamos pensar juntos no processo de uso da role, você vai baixar a role de algum lugar, essa role segue um outro versionamento, você vai querer mesmo abrir a role, acessar a pasta **vars** dela só pra colocar um valor que você pode perfeitamente colocar em um arquivo que, esse sim, é rastreado pelo seu controle de versão?
+
+Mais detalhes sobre a precedência no uso de variáveis nesse [artigo](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable)
+
 # Organização das roles e playbooks
 
 Já foi dito que não deve usar o playbook para armazenar tudo que precisa para uma execução, como por exemplo colocar diversas **tasks** e **handlers** dentro do mesmo playbook.yml, que ao final do trabalho ficará enorme e insustentável do ponto de vista da organização e gestão de atualização.
