@@ -247,6 +247,6 @@ Obrigado a [somatorio](https://twitter.com/somatorio) que sempre revisa tudo que
 
 Obrigado também a lista de pessoas abaixo que também revisaram o texto:
 
- - [Kleber Cabral](https://twitter.com/klebercabral)
- - [Fábio Costa](https://www.linkedin.com/in/f%C3%A1bio-costa-4ba82614b)
+ - [Kleber Cabral](https://br.linkedin.com/in/klebercabral)
+ - [Fábio Costa](https://br.linkedin.com/in/f%C3%A1bio-costa-4ba82614b)
  - [Juan Maia](https://twitter.com/juanCM_10x)
