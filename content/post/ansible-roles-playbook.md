@@ -244,15 +244,5 @@ Obrigado a [somatorio](https://twitter.com/somatorio) que sempre revisa tudo que
 Obrigado também a lista de pessoas abaixo que também revisaram o texto:
 
  - [Kleber Cabral](https://twitter.com/klebercabral)
- - Fábio Costa
- - Juan Maia
-
-
-### Agradecimentos
-
-A todos do canal [DevOpsBR no Telegram](https://t.me/devopsbr) que colaboram em enriquecer o texto.
-
-### Fontes
-
-- [Guto Carvalho](http://gutocarvalho.net/blog/2016/09/06/por-onde-iniciar-os-estudos-sobre-devops/)
-- [Awesome DevOps-BR](https://github.com/devops-br/awesome-devops-br)
+ - [Fábio Costa](https://www.linkedin.com/in/f%C3%A1bio-costa-4ba82614b)
+ - [Juan Maia](https://twitter.com/juanCM_10x)
