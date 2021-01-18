@@ -24,7 +24,7 @@ O ansible tem o conceito de **playbook** e **roles**. Ambos têm como objetivo o
 
 ## Playbook
 
-Esse é o arquivo mais elementar do ansible, ao começar a usar ansible normalmente se aprende criando um [playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html) e algumas pessoas acabam usando apenas isso para o resto da vida, o que é bem ruim, mas trataremos disso depois.
+Esse é o arquivo mais elementar do ansible, ao começar a usar ansible, normalmente, se aprende criando um [playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html) e algumas pessoas acabam usando apenas isso para o resto da vida, o que é bem ruim, mas trataremos disso depois.
 
 O [playbook](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html) é um arquivo [YAML]() que tem a definição inicial do ansible, toda execução do ansible deve partir de um playbook. Segue abaixo um exemplo comum:
 
@@ -78,7 +78,7 @@ tasks:
       state: latest
 ```
 
-O bloco **tasks** é usado para iniciar as tarefas que serão executadas no servidor destino, no caso exemplo apresentado acima, ele usará o módulo **yum** para instalar o pacote httpd na máquina alvo. 
+O bloco **tasks** é usado para iniciar as tarefas que serão executadas no servidor destino, no caso exemplo apresentado acima, ele usará o [módulo yum](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/yum_module.html) para instalar o pacote httpd na máquina alvo.  
 
 É muito comum usar o bloco **tasks** para colocar todo tipo de tarefa e assim o playbook vira um arquivo único que tem todas as tarefas que você precisa. Quando esse arquivo tem apenas 2 ou 3 tasks talvez não demonstre o problema desse uso, mas ao aumentar o número de tasks se percebe o problema de gerência de um arquivo único.
 
@@ -86,7 +86,7 @@ Pensando nisso foi criado o conceito **role** do ansible.
 
 ## Role
 
-Essa é a melhor forma para organizar as plays do seu ansible, onde cada pasta tem suas função específica para facilitar tanto no uso como na implementação do que se desejar aplicar com aquela role.
+Essa é a melhor forma para organizar as plays do seu ansible, onde cada pasta tem suas função específica para facilitar tanto no uso como na implementação do que se deseja aplicar com aquela role.
 
 Normalmente dentro de uma role temos as seguintes pastas:
 
@@ -250,3 +250,4 @@ Obrigado também a lista de pessoas abaixo que também revisaram o texto:
  - [Kleber Cabral](https://br.linkedin.com/in/klebercabral)
  - [Fábio Costa](https://br.linkedin.com/in/f%C3%A1bio-costa-4ba82614b)
  - [Juan Maia](https://twitter.com/juanCM_10x)
+ - [Willian César](https://www.linkedin.com/in/willianccs)
