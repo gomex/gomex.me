@@ -154,7 +154,7 @@ No exemplo acima a variável **integration_test**, que será usada pelas tasks d
 
 Atenção, para quem consome a role, a pasta **default** não deve ser editada para que um novo valor de variável seja aplicado.
 
-A pasta **vars/** praticamente não será usada em uma role, pois em minha humilde opinião, que posso estar errado e depois eu venho corrigir isso aqui, se for o caso, as variáveis não devem ser aplicadas dentro da **role**. 
+A pasta **vars/** é usada para configurar variáveis que serão usadas para organização do que foi implementado na role e evitar repetição dentro do código, o conteúdo dessa pasta não deve ser alterado pelo usuário da role ao baixar a role para uso via playbook. Os valores das variáveis normalmente são aplicados no playbook, seja diretamente ou através de includes ou imports de arquivos de arquivos externos.
 
 Vamos pensar juntos no processo de uso da role, você vai baixar a role de algum lugar, essa role segue um outro versionamento, você vai querer mesmo abrir a role, acessar a pasta **vars** dela só pra colocar um valor que você pode perfeitamente colocar em um arquivo que, esse sim, é rastreado pelo seu controle de versão?
 
@@ -244,6 +244,8 @@ O resultado disso será uma pasta com o título **nome_da_sua_role**, essa será
 # Agradecimentos 
 
 Obrigado a [somatorio](https://twitter.com/somatorio) que sempre revisa tudo que escrevo.
+
+Obrigado a [Matheus Lao](https://matheuslao.dev/) que me lembrou que a pasta **vars/** pode ser usado dentro da role.
 
 Obrigado também a lista de pessoas abaixo que também revisaram o texto:
 
