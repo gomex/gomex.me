@@ -44,7 +44,9 @@ Você tem interesse em desenvolver/aprender suas habilidades de IaC?
 Tem tempo para estudar (ler e praticar) sobre o assunto? 
 Tem disposição para interagir com as pessoas nos chats e participar das reuniões? 
 
-Se todas as respostas foram sim, basta me procurar no [twitter](https://twitter.com/gomex) que eu lhe mando o link do chat para começarmos a interagir sobre o assunto.
+Se todas as respostas foram sim, basta entrar no servidor do discord do atual projeto: https://discord.gg/4H5K5EZ3Z2
+
+Quando já estiver nesse discord, entra no canal #infraestrutura e se apresenta. 
 
 # O que eu preciso saber previamente para começar?
 
