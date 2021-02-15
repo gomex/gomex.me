@@ -22,7 +22,7 @@ Quality Assurance (QA) é a disciplina que trata sobre prevenir erros ou falhas 
 
 QA pode e deve ser usado para códigos de infra, mas temos pouca literatura sugerindo esse tipo de prática, infelizmente.
 
-Esse texto terá um enfoque especial na ferramenta de gerência de configuração chamado [Ansible](), pois é um dos softwares de IaC mais usado na comunidade.
+Esse texto terá um enfoque especial na ferramenta de gerência de configuração chamado [Ansible](https://docs.ansible.com/ansible/latest/index.html), pois é um dos softwares de IaC mais usado na comunidade.
 
 Será apresentado formas de como validar o seu código antes dele ser compartilhado com outras pessoas do seu time e como garantir que o pipeline identifique rapidamente o erro no código que você ou outra pessoa do seu time compartilhou sem perceber que tinha problemas.
 
