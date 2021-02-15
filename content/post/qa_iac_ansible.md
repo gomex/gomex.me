@@ -276,6 +276,7 @@ Obrigado a [somatorio](https://twitter.com/somatorio) que sempre revisa tudo que
 Obrigado também a lista de pessoas abaixo que também revisaram o texto:
 
  - [Fábio Costa](https://www.linkedin.com/in/fabiomachadocosta/)
- - []()
- - []()
- - []()
+ - [Alynne Ferreira](https://www.linkedin.com/in/alynnefs)
+ - [Francílio Araújo](https://www.linkedin.com/in/francilio-ara%C3%BAjo-498b1a102/)
+ - [Willian César](https://www.linkedin.com/in/willianccs/)
+ - [Prof. Dr. Vicente Marçal](https://twitter.com/riverfount)
