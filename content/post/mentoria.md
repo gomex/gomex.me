@@ -44,7 +44,7 @@ Você tem interesse em desenvolver/aprender suas habilidades de IaC?
 Tem tempo para estudar (ler e praticar) sobre o assunto? 
 Tem disposição para interagir com as pessoas nos chats e participar das reuniões? 
 
-Se todas as respostas foram sim, basta entrar no servidor do discord do atual projeto: https://discord.gg/9bUYdZ5BYz
+Se todas as respostas foram sim, basta entrar no servidor do discord do atual projeto: https://discord.gg/se6gz6gAQr
 
 Quando já estiver nesse discord, entra no canal #infraestrutura e se apresenta. 
 
