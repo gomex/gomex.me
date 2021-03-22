@@ -9,7 +9,11 @@ description = "Mentoria IaC"
 
 É uma mentoria para ajudar trabalhadores a terem mais conhecimento e experiência com IaC. 
 
-O projeto de mentoria que esteja conectado com um projeto de software livre, que possua demanda suficiente de IaC para que as pessoas da mentoria possam ter oportunidade de passar pelo fluxo completo de uma entrega desse tipo.
+O projeto de mentoria tem como objetivo sempre colaborar com um projeto livro, com impacto social, que possua demanda suficiente de IaC para que as pessoas da mentoria possam ter oportunidade de passar pelo fluxo completo de uma entrega desse tipo.
+
+A proposta é oferecer um terreno fértil para trabalhadores possam estar expostos a um desafio real, com apoio de pessoas que já passaram por problemas parecidos ou com conhecimento técnico que possam colaborar a resolver e viver em coletivo essa nova experiência.
+
+É de trabalhador para trabalhador.
 
 [Nesse link](https://gomex.me/2021/02/08/como-funciona-a-mentoria-de-iac-em-projetos-de-software-livre/) tem mais detalhes sobre o que é a mentoria e como funciona.
 
