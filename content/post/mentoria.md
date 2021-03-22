@@ -46,7 +46,7 @@ Tem disposição para interagir com as pessoas nos chats e participar das reuni�
 
 Se todas as respostas foram sim, basta entrar no servidor do discord do atual projeto: https://discord.gg/se6gz6gAQr
 
-Quando já estiver nesse discord, entra no canal #infraestrutura e se apresenta. 
+Quando já estiver no servidor discord do Mentoria de IaC, entra no canal #geral e se apresenta. 
 
 # O que eu preciso saber previamente para começar?
 
