@@ -65,6 +65,12 @@ DefaultContentLanguageInSubdir = true
       weight = 3
       identifier = "about"
       url = "/about/"
+    [[menu.main]]
+      name = "Mentoria IaC"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 3
+      identifier = "mentoriaiac"
+      url = "/mentoriaiac/"
 
 
   #  [[menu.main]]
