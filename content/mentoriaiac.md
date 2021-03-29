@@ -21,5 +21,5 @@ A proposta é oferecer um terreno fértil para trabalhadores possam estar expost
 
 [Nesse vídeo](https://www.youtube.com/watch?v=wRkrTDMmRtA&ab_channel=RafaelGomex) você terá detalhes sobre como funciona a mentoria, de forma mais ampla, sem entrar em detalhes técnicos. Falando sobre os pontos mais relevantes de dinâmica e como faremos assim que acabar as demandas do projeto atual.
 
-[Nesse vídeo](https://www.youtube.com/watch?v=sz-o5JxoIyM&ab_channel=RafaelGomex) você verá os detalhes técnicos da infra do projeto Dados Abertos de Feira de Santana. Nesse vídeo você terá um panorama das tecnolgias usadas no projeto e qual nosso plano para esse projeto. Se você não leu os outros links, talvez você fique perdido ao ver esse vídeo.
+[Nesse vídeo](https://www.youtube.com/watch?v=sz-o5JxoIyM&ab_channel=RafaelGomex) você verá os detalhes técnicos da infra do projeto Dados Abertos de Feira de Santana. Nesse vídeo você terá um panorama das tecnologias usadas no projeto e qual nosso plano para esse projeto. Se você não leu os outros links, talvez você fique perdido ao ver esse vídeo.
 
