@@ -22,7 +22,7 @@ We need to point out that a service running in container model isn't a machine. 
 
 If you will use more than one process per container, you need a process manager, since your container does not have this by default because it wasn't made for this usage. This is usually done by "init" in a standard "Unix-like" operation system. Remember, we are already beyond the limits of best practices.
 
-My advice is: (Supervisord)[http://supervisord.org/index.html]
+My advice is: [Supervisord](http://supervisord.org/index.html)
 
 Supervisor is a software client/server type that allows you control multiple processes in the Unix-like family operating system. Each process managed by supervisor is started as a subprocess.
 
@@ -199,7 +199,7 @@ This command will show all managed processes and their status, which can be the 
 - **FATAL**: Subprocess can't be successfully initialized
 - **UNKNOWN**: Subprocess is in an unknown state (Normally a supervisor error)
 
-<img alt="supervisor-subprocess-transitions" src="http://supervisord.org/_images/subprocess-transitions.png" />
+![supervisor-subprocess-transitions](http://supervisord.org/_images/subprocess-transitions.png)
 
 The most commonly used commands are:
 
@@ -219,10 +219,10 @@ This command will apply all the changes and will perform the *restart* on proces
 
 ### Thanks
 
-My co-workers from Crossover](http://crossover.com) who collaborate in presenting options and especially to [Evgeny Udalov](https://www.linkedin.com/in/evgenyudalov/) who played a lot in this debate.
+My co-workers from [Crossover](https://crossover.com) who collaborate in presenting options and especially to [Evgeny Udalov](https://www.linkedin.com/in/evgenyudalov/) who played a lot in this debate.
 
 ### Sources
 
 - [Supervisor](http://supervisord.org)
-- [Redirecting to stdout](http://veithen.github.io/2015/01/08/supervisord-redirecting-stdout.html)
+- [Redirecting to stdout](https://veithen.github.io/2015/01/08/supervisord-redirecting-stdout.html)
 - [Multi-process Docker Service](https://rcaguilar.wordpress.com/2017/11/06/multi-process-docker-service/)

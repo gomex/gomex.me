@@ -9,4 +9,4 @@
 	url = https://github.com/mgjohansen/hucore
 [submodule "themes/hyde-x"]
 	path = themes/hyde-x
-	url = git@github.com:fike/hyde-x.git
+	url = https://github.com/fike/hyde-x

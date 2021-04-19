@@ -19,7 +19,7 @@ Core Organizer do DevOpsDays: https://www.devopsdays.org/about/
 
 Minhas apresentações estão aqui, se você quiser entrar em contato para conversar ou convidar para apresentar um dos assuntos acima, preencha o formulário abaixo.
 
-<form method="POST" action="http://formspree.io/linux@gmail.com">
+<form method="POST" action="https://formspree.io/linux@gmail.com">
   <p>
   <input type="name" name="name" placeholder="Your name" size="40">
   </p>

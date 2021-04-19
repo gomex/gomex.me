@@ -72,7 +72,7 @@ Pronto!
 
 ### Agradecimentos
 
-A todos do canal [Hora Extra Salvador](http://horaextra.org) que colaboram em apresentar opções e especialmente para [Massimo Rangoni](https://stackoverflow.com/users/1375596/manzapanza) que teve total paciência pra me ajudar nessa.
+A todos do canal Hora Extra Salvador - http://horaextra.org - que colaboram em apresentar opções e especialmente para [Massimo Rangoni](https://stackoverflow.com/users/1375596/manzapanza) que teve total paciência pra me ajudar nessa.
 
 ### Fontes
 

@@ -22,7 +22,7 @@ Precisamos ressaltar que um serviço executando em modelo de container não é u
 
 Se você usará mais do que um processo por container, você precisa de um gerenciador para tal, uma vez que seu container não tem isso por padrão, pois não foi feito pra esse função. Isso normalmente é feito pelo "init" em um sistema "Unix-like" padrão. Lembre-se, já estamos além dos limites das melhores práticas. 
 
-Meu conselho é: Utilize (Supervisord)[http://supervisord.org/index.html]
+Meu conselho é: Utilize [Supervisord](https://supervisord.org/index.html)
 
 Supervisor é um software, do tipo cliente/servidor, que permite usuários controlarem múltiplos processos em sistema operacional da família "Unix-like". Os processos controlados por ele são iniciados como sub-processo de sí.
 
@@ -77,7 +77,7 @@ events = PROCESS_LOG
 result_handler = supervisor_stdout:event_handler
 ```
 
-[Eventlistener](http://supervisord.org/configuration.html#eventlistener-x-section-settings) é uma funcionalidade do **supervisor** que tem como objetivo possibilitar que um processo escute [eventos](http://supervisord.org/events.html#events) de sub-processos e possa tratá-lo de forma devida. 
+[Eventlistener](https://supervisord.org/configuration.html#eventlistener-x-section-settings) é uma funcionalidade do **supervisor** que tem como objetivo possibilitar que um processo escute [eventos](http://supervisord.org/events.html#events) de sub-processos e possa tratá-lo de forma devida. 
 
 Em nosso uso o [supervisor_stdout](https://github.com/coderanger/supervisor-stdout) é um processo criado para redirecionamento de logs dos sub-processos para as saída padrão e de erro do supervisor. 
 
