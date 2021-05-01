@@ -8,7 +8,7 @@ Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
 
 ## Contextualização
 
-Esse artigo faz parte dada série ["O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
+Esse artigo faz parte da série ["O que deve ter no seu pipeline?"](https://gomex.me/categories/pipeline/), que tem como objetivo apresentar as melhores práticas para construção de um pipeline, baseada em minha experiência, seja em projetos ou em leitura.
 
 Quando pensei em escrever sobre "O que deve ter no seu pipeline?" muitas pessoas pediram para eu fazer comparações entre ferramentas de CI/CD, e por conta disso vou escrever um artigo especificamente sobre isso.
 
@@ -27,7 +27,6 @@ Antes de você iniciar uma saga para encontrar a melhor ferramenta de CI/CD que 
 Se a ferramenta não tiver suporte a definir meu pipeline como código, eu nem cogito a testar a ferramenta.
 
 #### O que é Pipeline as code?
-
 
 É a possibilidade de colocar as descrição de cada passo do seu pipeline em um arquivo definição, ao invés de ficar clicando em uma interface web e armazenando essas configurações em uma base de dados.
 
@@ -101,7 +100,7 @@ Vejam no exemplo abaixo:
 
 Se você não informar a versão específica de qual bundler você quer instalar, ele instalará a mais atual do momento e isso pode ser um problema, pois pacotes são atualizados o tempo todo e seu pipeline poderá quebrar porque você instalou de forma equivocada de algum binário a ser usado, pois o comportamento mudará.
 
-Uma das coisas mais importantes de um pipeline é garantir que ele é garantir o comportamento esperado. Quanto mais mecanismos você acrescentar para que cada execução de um pipeline sempre aconteça de maneira esperada, melhor ele será para você encontrar o problema de fato quando quebrar, pois você não terá dúvida que o motivo esteja de fato relacionado a modificação do código em questão.
+Uma das coisas mais importantes de um pipeline é garantir que ele tenha o comportamento esperado. Quanto mais mecanismos você acrescentar para que cada execução de um pipeline sempre aconteça de maneira esperada, melhor ele será para você encontrar o problema de fato quando quebrar, pois você não terá dúvida que o motivo esteja de fato relacionado a modificação do código em questão.
 
 #### Desvantagem ao utilizar "builds em container docker"? 
 
