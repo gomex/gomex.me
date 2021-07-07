@@ -14,7 +14,7 @@ Pretendo iniciar uma série de artigos para tentar compartilhar o pouco que sei 
 
 Não tenho pretenção alguma de aqui fundar nenhum padrão ou ideia nova. O que apresento aqui é nada mais do que a soma de experiências, algumas minhas, mas muito mais de outras pessoas, então não tenho intenção alguma de tomar para mim todo crédito, afinal toda construção de novo conteúdo é assim, correto? 10% experiência própria e 90% de aprendizado prévio.
 
-Não vou me aprofundar sobre o que é pipeline, nem muito menos tentar lhe convencer a usá-lo, pois se chegou até aqui por esse título, acredito que você já tenha interesse. Prometo que se tiver demanda sobre um artigo especifico sobre o que é pipeline, eu escrevo em outra oportunidade sobre esses assuntos.
+Não vou me aprofundar sobre o que é pipeline, nem muito menos tentar lhe convencer a usá-lo, pois se chegou até aqui por esse título, acredito que você já tenha interesse. Prometo que se tiver demanda sobre um artigo específico sobre o que é pipeline, eu escrevo em outra oportunidade sobre esses assuntos.
 
 Vou levar em consideração também que você já sabe o que [pipeline as code](https://www.thoughtworks.com/radar/techniques/pipelines-as-code) significa, mas se não souber, não causará muito problema ao seu aprendizado.
 
@@ -51,7 +51,7 @@ Na sua opinião, qual seria o primeiro? Vamos analisar alguns dos candidatos:
 
 E se pensarmos no **teste unitário**? Depende de outro passo? Não. Ele entrega valor? Entrega sim, e aqui temos um detalhe diferente do **build do artefato**, pois o retorno é mais rápido, uma vez que, normalmente, nada precisa ser realmente construído. Por padrão os testes unitários demoram menos do que o build dos artefatos. Voltando ao processo de imaginação: A pessoa manda o commit para o repositório, o pipeline automaticamente é executado e depois de **segundos** ela já terá um feedback que um determinado teste não está passando. Tudo por culpa daquele "detalhe" bobo que falamos anteriormente.
 
-Seguindo essa lógica, o primeiro passo desse pipeline seria o **teste unitário**, pois não há nada que demore menos e ainda assim não dependa de outro passo. Vejam que são sempre multiplos fatores para determinar a ordem e em minha opinião são normalmente esses:
+Seguindo essa lógica, o primeiro passo desse pipeline seria o **teste unitário**, pois não há nada que demore menos e ainda assim não dependa de outro passo. Vejam que são sempre múltiplos fatores para determinar a ordem e em minha opinião são normalmente esses:
 
 - Dependência de outro passo
 - Entrega de valor
