@@ -24,8 +24,8 @@ Imagine a necessidade de criar e manter um servidor web para servir um código P
 
 Nesse servidor precisa ser instalado alguns softwares principais:
 
-[FPM](https://www.php.net/manual/pt_BR/install.fpm.php): que é responsável pela tradução do código PHP.
-[NGINX](https://www.nginx.com/): que é responsável por fazer o proxy da requisição do usuário para o FPM.
+ - [FPM](https://www.php.net/manual/pt_BR/install.fpm.php): que é responsável pela tradução do código PHP.
+ - [NGINX](https://www.nginx.com/): que é responsável por fazer o proxy da requisição do usuário para o FPM.
 
 Esses softwares precisam ser devidamente instalados e configurados de acordo com definições do seu uso.
 
