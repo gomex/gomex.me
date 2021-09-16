@@ -35,7 +35,7 @@ Segue abaixo as vantagens de ter as definições em um arquivo:
 
  - Os passos que sua aplicação segue até o deploy em produção estarão documentados em um arquivo dentro do seu repositório de código, ou seja, qualquer pessoa que ler essa informação estará rapidamente ciente de todo processo;
  - O arquivo de definição será versionado junto com seu código, isso indica que você pode ver quando um determinado passo mudou e afetou o comportamento do seu pipeline;
- - Uma vez versionado esse arquivo fica aberta a sugestões e qualquer pessoa pode mandar um PR (pull request) como proposta para mudar o comportamento do seu pipeline. É possível inclusive configurar seu pipeline para que esse PR seja executado com o arquivo proposto, dessa forma validando, ou não, a hipótese da pessoa que enviou o PR.
+ - Uma vez versionado esse arquivo fica aberta as sugestões e qualquer pessoa pode mandar um PR (pull request) como proposta para mudar o comportamento do seu pipeline. É possível inclusive configurar seu pipeline para que esse PR seja executado com o arquivo proposto, dessa forma validando, ou não, a hipótese da pessoa que enviou o PR.
 
 Segue um exemplo de um arquivo pipeline as code:
 
@@ -77,7 +77,7 @@ Essa máquina tem binários que foram instalados e configurados previamente. E s
 
 Um agente de build nesse modelo descrito acima é normalmente compartilhado. Isso quer dizer que um comando para atualizar o pacote, poderá afetar outro time, ou até mesmo seu próprio time na execução de pipelines antigos para simulação de comportamentos anteriores ao código atual.
 
-Quando seu pipeline tem suporte a execução das etapas em container docker, isso quer dizer que cada passo do seu pipeline iniciará um container docker a partir de uma imagem descrita por quem idealizou o pipeline. Isso implica que você pode informar a imagem que deseja usar, colocar todos os comandos para atualizar a biblioteca ou binário e então executar o teste sem culpa, pois ao terminar  todos os comandos desse passo o container será destruído e reconstruído do zero na próxima execução.
+Quando seu pipeline tem suporte a execução das etapas em container docker, isso quer dizer que cada passo do seu pipeline iniciará um container docker a partir de uma imagem descrita por quem idealizou o pipeline. Isso implica que você pode informar a imagem que deseja usar, colocar todos os comandos para atualizar a biblioteca ou binário e então executar o teste sem culpa, pois ao terminar  todos os comandos desse passo, o container será destruído e reconstruído do zero na próxima execução.
 
 Se você precisar executar um pipeline antigo, não terá problema, pois nesse pipeline estará a versão que funcionava, inclusive com os comandos específicos para instalação dos pacotes necessários. Aqui entra uma dica MUITO importante:
 
