@@ -38,7 +38,7 @@ Essa reunião individual serve para alinhamento de expectativas individuais, par
 
 Oriente seus funcionários a usarem o chat escolhido para compartilhar informações e evitar outros espaços não oficiais para troca de informação, pois assim todos podem estar cientes do que está acontecendo.
 
-Eu sei que nesse momento você estará um pouco ansioso para saber se a pessoa está trabalhando ou não, mas tente dar o benefício da dúvida para todos. Espere o melhor das pessoas e tente captar o que está rolando através dos status no chat e nas reunIões diárias. Se perceber que algo está fora do esperado, chame a pessoa no privado e converse, evite constrangimento em público.
+Eu sei que nesse momento você estará um pouco ansioso para saber se a pessoa está trabalhando ou não, mas tente dar o benefício da dúvida para todos. Espere o melhor das pessoas e tente captar o que está rolando através dos status no chat e nas reuniões diárias. Se perceber que algo está fora do esperado, chame a pessoa no privado e converse, evite constrangimento em público.
 
 Essa ideia de "dar exemplo" em público não funciona bem. Isso criará um ambiente hostil e as pessoas passarão a esconder as coisas de você.
 
