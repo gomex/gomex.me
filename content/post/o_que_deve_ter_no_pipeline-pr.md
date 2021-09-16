@@ -104,17 +104,17 @@ Pronto, com isso você está dizendo que sua análise não levará em conta a qu
 
 ### As mudanças que estão sendo propostas no PR seguem o padrão que é usado nessa organização?
 
-A maioria das organizações seguem alguns padrões para como escrever código, seja em sua  formatação (ex. quatro espaço, ponto e vírgula em cima ou embaixo)  ou em como organizar funções, métodos e afins.
+A maioria das organizações segue alguns padrões/estilos na escrita do código, seja em sua  formatação (ex. quatro espaços, ponto e vírgula em cima ou embaixo)  ou em como organizar funções, métodos e afins. Essas regras devem estar disponíveis em algum lugar para serem utilizadas por quem quiser contribuir com o projeto. O [GitHub sugere][1] que elas sejam publicadas em um arquivo chamado `CONTRIBUTING.md`, disponibilizado no próprio repositório do projeto.
 
-Esse padrão deve estar claro em algum lugar, e a pessoa que vai colaborar deve ler isso antes, mas nem sempre isso é possível e dessa forma a colaboração pode não seguir esse padrão. Você que está avaliando deve deixar bem claro para pessoa qual regra ela está infligindo e qual parte do código isso acontece. O github oferece a funcionalidade de comentar nas linhas do código do PR.
+Assim, à pessoa que submete mudanças cabe ler e respeitar as regras (seria a "etiqueta"), mas sabemos que nem sempre isso é possível e, dessa forma, a colaboração pode não seguir os padrões. Caso o PR submetido para avaliação não respeite alguma das diretivas do projeto, você - que está avaliando - deve deixar bem claro para a pessoa qual regra ela está infringindo e em qual parte do código isso acontece. Para facilitar essa comunicação, o GitHub oferece possibilidade de adicionarmos comentários às linhas de código do PR.
 
 ![Comentário no review](/img/pullrequest4.png)
 
-Depois que comentar todo o PR, não se esqueça de finalizar sua revisão, pois caso não faça isso a pessoa que fez o PR não verá seu comentário.
+Depois que comentar todos os pontos relevantes, não se esqueça de finalizar sua revisão, pois caso não faça isso quem fez o PR não verá seu comentário.
 
 ![Revisão de PR](/img/pullrequest5.png)
 
-Se precisar que a pessoa atualize algo para que o PR seja aceito escolha a opção de "Request changes" (Solicita mudanças), caso contrário aprove ou comente sem aprovar, caso precise de mais tempo para decidir sobre aceitar ou não.
+Se precisar que a pessoa atualize algo para que o PR seja aceito, escolha a opção "Request changes" (Solicitar mudanças); caso precise de mais tempo para decidir sobre aceitar ou não, comente sem aprovar; caso esteja tudo certo, aprove.
 
 ### A forma que a pessoa entregou à funcionalidade é a melhor? Existe maneira mais eficiente de fazer a mesma coisa? 
 
@@ -176,3 +176,4 @@ Escrevi esse artigo ouvindo:
 - Fantasmão
 - Outras músicas do meu Daily Mix do Spotify
 
+[1]: https://docs.github.com/pt/github/building-a-strong-community/setting-guidelines-for-repository-contributors
