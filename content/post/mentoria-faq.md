@@ -22,7 +22,7 @@ Não, mas quem nunca usou nenhum dessas ferramentas terá um tempo maior até co
 
 Quem nunca usou terá dois caminhos:
  
- - Entrar em um canal espécifico para estudar a ferramanta, nos usaremos sempre algum material para ajudar a você aprender ao menos o básico;
+ - Entrar em um canal espécifico para estudar a ferramenta, nos usaremos sempre algum material para ajudar a você aprender ao menos o básico;
  - Parear com pessoas que tem algum conhecimento na ferramenta, a pessoa lhe ajudará a entender o básico. Use esse tempo pra perguntar tudo que precisa pra entender cada passo. Não deixe que a pessoa apenas faça sem sua interação o tempo todo, pois a ideia não é essa, ok?
 
 # Quanto tempo eu preciso dedicar para participar?
