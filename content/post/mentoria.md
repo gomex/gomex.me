@@ -44,7 +44,7 @@ Você tem interesse em desenvolver/aprender suas habilidades de IaC?
 Tem tempo para estudar (ler e praticar) sobre o assunto? 
 Tem disposição para interagir com as pessoas nos chats e participar das reuniões? 
 
-Se todas as respostas foram sim, basta entrar no servidor do discord do atual projeto: https://discord.gg/se6gz6gAQr
+Se todas as respostas foram sim, basta entrar no servidor do discord do atual projeto: https://discord.gg/Vsua55ZxMp
 
 Quando já estiver no servidor discord do Mentoria de IaC, entra no canal #geral e se apresenta. 
 
