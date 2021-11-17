@@ -7,7 +7,7 @@ description = "Mentoria IaC"
 
 # Mentoria Infraestrutura como código
 
-É uma mentoria para ajudar trabalhadores a terem mais conhecimento e experiência com IaC. 
+É uma mentoria para ajudar pessoas trabalhadoras a terem mais conhecimento e experiência com IaC. 
 
 A mentoria tem como objetivo ser uma comunidade de aprendizado, onde você aprende fazendo IaC em um projeto real. Mesmo sem saber nada, pois você pode, e irá **(eu acredito)**, aprender no processo.
 
