@@ -9,11 +9,15 @@ description = "Mentoria IaC"
 
 É uma mentoria para ajudar trabalhadores a terem mais conhecimento e experiência com IaC. 
 
-O projeto de mentoria tem como objetivo sempre colaborar com um projeto livro, com impacto social, que possua demanda suficiente de IaC para que as pessoas da mentoria possam ter oportunidade de passar pelo fluxo completo de uma entrega desse tipo.
+A mentoria tem como objetivo ser uma comunidade de aprendizado, onde você aprende fazendo IaC em um projeto real. Mesmo sem saber nada, pois você pode, e irá **(eu acredito)**, aprender no processo.
 
-A proposta é oferecer um terreno fértil para trabalhadores possam estar expostos a um desafio real, com apoio de pessoas que já passaram por problemas parecidos ou com conhecimento técnico que possam colaborar a resolver e viver em coletivo essa nova experiência.
+Não é uma pegadinha para lhe vender cursos depois. Acredite. É o poder da comunidade. De trabalhador para trabalhado. São pessoas que trabalham com TI ajudando outras que trabalham, o querem trabalhar, com TI. A comunidade de software livre já provou a muito tempo o poder da comunidade. O poder que as pessoas que trabalham podem colaborar para um bem comum e assim melhorar a vida de toda sociedade. Podemos e faremos isso para aprender IaC.
 
-É de trabalhador para trabalhador.
+Para começar você precisa entrar no [servidor discord](https://discord.gg/se6gz6gAQr).
+
+Ao entrar no grupo, siga os passos descritos em nossa automatização de recebimento de novas pessoas. Se ainda você precisar de mais ajuda, você pode perguntar no canal #geral ou entrar e perguntar em qualquer um dos temáticos do tema que precisa ajuda. Se nada disse funcionar, pode procurar uma das pessoas que estão na moderação, que você pode encontrar no canto superior direito de cada canal. Escolha uma dessas e inicie um papo no privado. Aguarde com carinho e você será respondido assim que possível.
+
+Temos outros links para outros documentos que visam se aprofundar a cada assunto.
 
 [Nesse link](https://gomex.me/2021/02/08/como-funciona-a-mentoria-de-iac-em-projetos-de-software-livre/) tem mais detalhes sobre o que é a mentoria e como funciona.
 
