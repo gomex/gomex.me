@@ -16,7 +16,7 @@ DefaultContentLanguageInSubdir = true
 [permalinks]
     # Optional. Change the permalink format for the 'post' content type.
     # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/:year/:month/:day/:title"
+    post = "blog/:year/:month/:day/:title"
 
 [taxonomies]
   tag = "tags"
@@ -29,7 +29,7 @@ DefaultContentLanguageInSubdir = true
   hideReadingTime = false
   theme = "theme-base-07"
   googleAnalytics = "UA-111345881-1"
-  home = "Home"
+  home = "blog"
   github = "https://github.com/gomex"
   bitbucket = ""
   stackOverflow = "https://stackoverflow.com/users/2081868/rafael-brito-gomes"
