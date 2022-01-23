@@ -1,80 +1,67 @@
-baseurl = "https://gomex.me/"
-# Shown in the side menu
+baseURL = "https://gomex.me/"
+DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
+languageCode = "en-us"
+title = "Gomex"
 copyright = "&copy; 2016. Some rights reserved."
-canonifyurls = true
-paginate = 10
-theme = "hyde-x"
-disqusShortname = "gomex-me"
-DefaultContentLanguage = "en"
-DefaultContentLanguageInSubdir = true
+theme = "diary"
+googleAnalytics = "UA-111345881-1"
 
-
-[author]
-    name = "Rafael Gomes (a.k.a Gomex)"
-    homepage = "https://gomex.me"
-
-[permalinks]
-    # Optional. Change the permalink format for the 'post' content type.
-    # The format shown here is the same one Jekyll/Octopress uses by default.
-    post = "/:year/:month/:day/:title"
-
-[taxonomies]
-  tag = "tags"
-  topic = "categories"
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "perldoc"
+    tabWidth = 4
 
 [params]
-  # Shown in the home page
-  truncate = true
-  defaultDescription = "Sharing the code"
-  hideReadingTime = false
-  theme = "theme-base-07"
-  googleAnalytics = "UA-111345881-1"
-  home = "Home"
-  github = "https://github.com/gomex"
-  bitbucket = ""
-  stackOverflow = "https://stackoverflow.com/users/2081868/rafael-brito-gomes"
-  linkedin = "https://www.linkedin.com/in/rbgomes/"
-  googleplus = ""
-  facebook = ""
-  twitter = "https://twitter.com/gomex"
-  youtube = "https://www.youtube.com/channel/UCPNrIITPNFFLmcU3VfoKuGQ"
+subtitle = "Conhecimento retido é conhecimento perdido."
+enableGitalk = false
 
-  [menu]
-    # Shown in the side menu.
-    [[menu.main]]
-      name = "Home"
-      pre = "<i class='fa fa-home fa-fw'></i>"
-      weight = 0
-      identifier = "home"
-      url = "/"
-    [[menu.main]]
-      name = "Portuguese"
-      pre = "<i class='fa fa-list fa-fw'></i>"
-      weight = 1
-      identifier = "portuguese"
-      url = "https://gomex.me/tags/portugues"
-    [[menu.main]]
-      name = "English"
-      pre = "<i class='fa fa-list fa-fw'></i>"
-      weight = 2
-      identifier = "english"
-      url = "https://gomex.me/tags/english"
-    [[menu.main]]
-      name = "About"
-      pre = "<i class='fa fa-user fa-fw'></i>"
-      weight = 3
-      identifier = "about"
-      url = "/about/"
-    [[menu.main]]
-      name = "Mentoria IaC"
-      pre = "<i class='fa fa-user fa-fw'></i>"
-      weight = 3
-      identifier = "mentoriaiac"
-      url = "/mentoriaiac/"
+# Twitter Card and Open Graph settings
+enableOpenGraph = true
+enableTwitterCards = true
+title = "Meu Blog" # will set 'og:site_name'
+description = "Conhecimento retido é conhecimento perdido"  # will set 'og:description'
 
+[params.gitalk]
+  owner = "user"
+  repo = "repo name"
+  client_id = "your client id"
+  client_secret = "your client secret"
+[taxonomies]
+   tag = "tags"
+   category = "categories"
 
-  #  [[menu.main]]
-  #    name = "Contact"
-  #    pre = "<i class='fa fa-phone fa-fw'></i>"
-  #    weight = 3
-  #    url = "/contact/"
+[params.utterances]
+repo="your repo"
+term="[ENTER TERM HERE]"
+label="your label"
+theme="github-light"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 3
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Todos posts"
+weight = 1
+[[menu.main]]
+url = "/index.xml"
+name = "RSS Feed"
+weight = 4
+[[menu.main]]
+name = "Mentoria IaC"
+pre = "<i class='fa fa-user fa-fw'></i>"
+weight = 2
+identifier = "mentoriaiac"
+url = "/mentoriaiac/"
