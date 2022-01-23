@@ -1,0 +1,3 @@
+[submodule "themes/diary"]
+	path = themes/diary
+	url = https://github.com/AmazingRise/hugo-theme-diary.git
