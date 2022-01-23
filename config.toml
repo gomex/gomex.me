@@ -1,4 +1,4 @@
-baseURL = "https://gomex.me/"
+#baseURL = "https://gomex.me/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "Gomex"
