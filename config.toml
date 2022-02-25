@@ -1,67 +1,47 @@
-#baseURL = "https://gomex.me/"
-DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
-languageCode = "en-us"
-title = "Gomex"
-copyright = "&copy; 2016. Some rights reserved."
-theme = "diary"
-googleAnalytics = "UA-111345881-1"
+baseURL = "https://gomex.me/"
+languageCode = "en-US"
+title = "Rafael Gomex"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "perldoc"
-    tabWidth = 4
+[permalinks]
+  post = "/:year/:month/:day/:slug"
 
 [params]
-subtitle = "Conhecimento retido é conhecimento perdido."
-enableGitalk = false
+  avatar = "img/profile.jpeg"
+  author = "Gomex"
+  description = "Conhecimento retido é conhecimento perdido"
 
-# Twitter Card and Open Graph settings
-enableOpenGraph = true
-enableTwitterCards = true
-title = "Meu Blog" # will set 'og:site_name'
-description = "Conhecimento retido é conhecimento perdido"  # will set 'og:description'
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
 
-[params.gitalk]
-  owner = "user"
-  repo = "repo name"
-  client_id = "your client id"
-  client_secret = "your client secret"
-[taxonomies]
-   tag = "tags"
-   category = "categories"
+[params.social]
+  Github        = "gomex"
+  Email         = "me@gomex.me"
+  Twitter       = "gomex"
+  LinkedIn      = "rbgomes"
+  Stackoverflow = "gomex"
+  Medium        = "gomex"
+  Telegram      = "gomex"
+  RSS           = "/blog/index.xml"
 
-[params.utterances]
-repo="your repo"
-term="[ENTER TERM HERE]"
-label="your label"
-theme="github-light"
-
+## Main Menu
 [[menu.main]]
-url = "/categories"
-name = "Categories"
-weight = 3
+  name = "blog"
+  weight = 100
+  identifier = "blog"
+  url = "/blog/"
 [[menu.main]]
-url = "/tags"
-name = "Tags"
-weight = 3
+  name = "mentoria iac"
+  identifier = "mentoriaiac"
+  weight = 200
+  url = "/mentoriaiac/"
 [[menu.main]]
-url = "/posts"
-name = "Todos posts"
-weight = 1
-[[menu.main]]
-url = "/index.xml"
-name = "RSS Feed"
-weight = 4
-[[menu.main]]
-name = "Mentoria IaC"
-pre = "<i class='fa fa-user fa-fw'></i>"
-weight = 2
-identifier = "mentoriaiac"
-url = "/mentoriaiac/"
+  name = "resume"
+  identifier = "resume"
+  weight = 300
+  url = "https://gomex.github.io/"
