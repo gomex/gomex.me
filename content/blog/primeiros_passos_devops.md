@@ -12,9 +12,11 @@ Esse texto tem como objetivo oferecer o meu ponto de vista sobre o início na �
 
 É importante ressaltar que comecei minha carreira a 16 anos atrás, ou seja, estou fazendo um grande esforço para demonstrar quais são os passos mais relevantes a serem dados por quem está começando hoje, dadas as necessidades, expectativas e o contexto atual do mercado.
 
+A ideia é melhorar esse documento a medida que eu for recebendo retornos das pessoas, ou seja, se você leu esse material no lançamento, talvez precise voltar aqui depois e olhar a novidades.
+
 # Colaboração
 
-Imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Ele provavelmente sofrerá alteração ao longo do tempo. Isso quer dizer que se você acha que algo deve ser colocado aqui, comente para que eu possa analisar o seu ponto de vista e acrescentar no texto, se for o caso.
+Imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Ele provavelmente sofrerá alteração ao longo do tempo. Isso quer dizer que se você acha que algo deve ser colocado aqui, envie um [pull request](https://gomex.me/blog/o_que_deve_ter_no_pipeline-pr/) para modificação [desse arquivo](https://github.com/gomex/gomex.me/blob/master/content/blog/primeiros_passos_devops.md), para que eu possa analisar o seu ponto de vista e acrescentar no texto, se for o caso.
 
 # DevOps é carreira?
 
