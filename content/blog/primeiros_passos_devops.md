@@ -113,12 +113,11 @@ Um bom material pra começar é o [Pense Python](https://penseallen.github.io/Pe
 
 Se quiser se aprofundar em desenvolvimento de software, segue abaixo algumas sugestões:
 
-- [Site do Aurélio Marinho Vargas - shell] (https://aurelio.net/shell/)
+- [Site do Aurélio Marinho Vargas - shell](https://aurelio.net/shell/)
 
-- [Livro Shell Script Profissional do Aurélio] (https://www.novatec.com.br/livros/shellscript/?idA=12)
+- [Livro Shell Script Profissional do Aurélio](https://www.novatec.com.br/livros/shellscript/?idA=12)
 
-
- - [Python Fluente de Luciano Ramalho](https://novatec.com.br/livros/pythonfluente/) é uma obra prima e merece sua atenção.
+- [Python Fluente de Luciano Ramalho](https://novatec.com.br/livros/pythonfluente/) é uma obra prima e merece sua atenção.
 
 
 ##  2. <a name='Prximospassos'></a>Próximos passos
