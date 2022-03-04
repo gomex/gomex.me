@@ -323,3 +323,4 @@ Agradeço também as contribuições das pessoas que seguem abaixo:
 - [Infoslack](https://twitter.com/infoslack)
 - [Saulo](https://twitter.com/madalozzo)
 - [Guto Carvalho](https://twitter.com/gutocarvalho)
+- [Edson](https://twitter.com/tuxpilgrim)
