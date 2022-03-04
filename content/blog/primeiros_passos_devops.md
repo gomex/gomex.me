@@ -145,7 +145,7 @@ Pra começar eu indico alguns materiais:
  - [Uma série de vídeos em português do Um Inventor Qualquer sobre AWS](https://www.youtube.com/watch?v=j6yImUbs4OA&list=PLOF5f9_x-OYUaqJar6EKRAonJNSHDFZUm&ab_channel=UmInventorQualquer)
  - [Vídeo completo da live do Bonde do OCI da Linuxtips](https://www.youtube.com/watch?v=jWG3gVf2YWE&ab_channel=LINUXtips) OCI é a cloud da Oracle. Não é a mais usada, mas ajuda você a entender os fundamentos das clouds em geral.
  - [Material oficial da Oracle sobre sua cloud](https://videohub.oracle.com/playlist/details/1_msn4b3ax/categoryId/158145621)
- - [Cursos oficiais e grátis da AWS (em inglês)](https://explore.skillbuilder.aws/)
+ - [Cursos oficiais e grátis da AWS (a maioria em inglês, mas tem cursos em português)](https://explore.skillbuilder.aws/)
 
 
 **O que você precisa saber para começar** é qual a ideia geral de uma cloud e um entendimento básico dos seus produtos mais comuns, que são os produtos que configuram sua rede, cria máquinas, banco de dados, permissão de acesso e object store.
