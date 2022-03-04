@@ -6,28 +6,48 @@ Categories = ["portugues", "devops", "carreira"]
 Tags = ["portugues", "devops", "carreira"]
 +++
 
-## Resumo
+# Resumo
 
 Esse texto tem como objetivo oferecer o meu ponto de vista sobre o início na “carreira de DevOps”. Falarei sobre quais caminhos você pode seguir e o que eu faria se estivesse começando hoje. 
 
 É importante ressaltar que comecei minha carreira a 16 anos atrás, ou seja, estou fazendo um grande esforço para demonstrar quais são os passos mais relevantes a serem dados por quem está começando hoje, dadas as necessidades, expectativas e o contexto atual do mercado.
 
-
-## Colaboração
+# Colaboração
 
 Imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Ele provavelmente sofrerá alteração ao longo do tempo. Isso quer dizer que se você acha que algo deve ser colocado aqui, comente para que eu possa analisar o seu ponto de vista e acrescentar no texto, se for o caso.
 
-## DevOps é carreira?
+# DevOps é carreira?
 
 Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já usa esse termo para denominar pessoas e vagas de trabalho relacionadas à entrega contínua, infraestrutura ágil e afins, não entrarei nesse embate no texto. Assumirei que quando falarmos de "carreira devops" estaremos falando sobre tudo o que o mercado entende a respeito disso, ok?
 
 Não adianta lutar contra isso, pois é uma batalha perdida.
 
-## Metodologia
+# Metodologia
 
 Organizarei os conteúdos/temas  com base nos elementos mais básicos que você precisará para começar. Tentarei definir o nível de aprofundamento necessário que você precisará ter/buscar em cada um deles, mas tudo isso é muito subjetivo, sendo assim continue estudando até se sentir confiante.
 
-### Por onde começar? 
+<!-- vscode-markdown-toc -->
+* 1. [Por onde começar?](#Porondecomear)
+	* 1.1. [Sistemas operacionais](#Sistemasoperacionais)
+	* 1.2. [Redes](#Redes)
+	* 1.3. [Programação](#Programao)
+* 2. [Próximos passos](#Prximospassos)
+	* 2.1. [Cloud](#Cloud)
+	* 2.2. [Containers](#Containers)
+	* 2.3. [Infraestrutura como código](#Infraestruturacomocdigo)
+	* 2.4. [CICD](#CICD)
+	* 2.5. [Kubernetes](#Kubernetes)
+* 3. [Outros assuntos importantes](#Outrosassuntosimportantes)
+	* 3.1. [Git](#Git)
+	* 3.2. [Comunicação HTTP](#ComunicaoHTTP)
+
+<!-- vscode-markdown-toc-config
+	numbering=true
+	autoSave=true
+	/vscode-markdown-toc-config -->
+<!-- /vscode-markdown-toc -->
+
+##  1. <a name='Porondecomear'></a>Por onde começar? 
 
 Existem algumas tecnologias, padrões e conceitos que serão a base de tudo que você irá aprender durante toda sua carreira, logo, se eu fosse começar hoje daria especial atenção para esses "pré requisitos".
 
@@ -42,7 +62,7 @@ Os domínios são:
  - Redes
  - Programação
 
-#### Sistemas operacionais
+###  1.1. <a name='Sistemasoperacionais'></a>Sistemas operacionais
 
 Você precisa entender minimamente o que é um sistema operacional, e o mais usado em servidores é o Linux. Eu diria que se você estudar o Linux, aprender o Windows será uma tarefa menos complexa no futuro.
 
@@ -68,7 +88,7 @@ Se quiser aprofundar com livro, esse é uma boa opção:
 
 PS: Log é normalmente um arquivo de texto com informações sobre como sua aplicação está lidando com seu trabalho.
 
-#### Redes
+###  1.2. <a name='Redes'></a>Redes
 
 Você precisa entender minimamente como uma máquina se comunica com a outra. Não acho que será necessário se aprofundar em todos os protocolos possíveis, mas entender o básico de um endereçamento IP, a pilha TCP/IP, cabeçalho HTTP, socket de rede, rotas e saber o que é loopback. 
 
@@ -83,7 +103,7 @@ Se quiser aprofundar com livro, esses são uma boa opção:
 
 PS: Os livros da sessão de redes são muito densos, ou seja, não precisa ler todo para começar.
 
-#### Programação
+###  1.3. <a name='Programao'></a>Programação
 
 Você precisa ter noção de programação para as automatizações, não são necessários conhecimentos aprofundados em algoritmos, porém o básico das linguagens deve ser entendido. A maioria dos scripts podem ser feitos em Shell, para tarefas mais complexas, mas eu aconselho fortemente que você aprenda, ao menos o básico, de Python, Ruby ou Golang.
 
@@ -101,12 +121,11 @@ Se quiser se aprofundar em desenvolvimento de software, segue abaixo algumas sug
  - [Python Fluente de Luciano Ramalho](https://novatec.com.br/livros/pythonfluente/) é uma obra prima e merece sua atenção.
 
 
-### Próximos passos
+##  2. <a name='Prximospassos'></a>Próximos passos
 
 Com o básico, você pode iniciar o aprendizado em elementos mais centrais do que seria o seu dia a dia de trabalho. São em sua maioria ferramentas que serão utilizadas, com base nos conhecimentos dos domínios básicos que apresentei anteriormente.
 
 Os novos domínios são
-
 
   - Cloud
   - Containers
@@ -114,7 +133,7 @@ Os novos domínios são
   - CICD
   - Kubernetes
 
-#### Cloud
+###  2.1. <a name='Cloud'></a>Cloud
 
 Você precisa entender o que é a Cloud, como proposta de entrega de serviços mantidos por outra empresa e como usar as ofertas mais comuns, da cloud mais usada.
 
@@ -135,7 +154,7 @@ Na coursera tem cursos que também são muito bons:
 
 - [Cursos Cloud Computing](https://www.coursera.org/specializations/cloud-computing#courses)
 
-#### Containers
+###  2.2. <a name='Containers'></a>Containers
 
 Você precisa entender o que é um container. Não caia na armadilha de considerar ele uma máquina mais enxuta, pois esse é o erro mais comum de todo mundo que começa estudar containers.
 
@@ -153,7 +172,7 @@ Se quiser se aprofundar, a Linuxtips é uma boa opção, mas é pago:
 
  - [Treinamento Container Expert](https://www.linuxtips.io/products/treinamento-container-expert)
 
-#### Infraestrutura como código 
+###  2.3. <a name='Infraestruturacomocdigo'></a>Infraestrutura como código 
 
 Você precisa entender o objetivo da Infraestrutura como código (IaS - Infra as Code). É mandatório saber qual problema esse modelo de manutenção de infraestrutura resolve. Resumidamente podemos dizer que IaC tem como objetivo criar a possibilidade de que a partir de um arquivo com definições específicas a sua infra será criada automaticamente, sem necessidade de intervenção manual.
 
@@ -211,7 +230,7 @@ Materiais para se aprofundar:
  - [Livro Ansible for Devops do Jeff Geerling](https://leanpub.com/ansible-for-devops)
  - [Plataforma de labs da Hashicorp](https://learn.hashicorp.com/terraform?utm_source=terraform_io)
 
-#### CICD
+###  2.4. <a name='CICD'></a>CICD
 
 Você precisa entender que CICD são duas coisas em uma, separando temos CI, que é Continuous Integration (Integração contínua) que é a ideia de você está sempre reunindo seu código em uma local, para que ele possa ser validado/tratado e ter um feedback rápido sobre a sua situação, pois a ideia é que cada membro do time possa fazer alterações no mesmo.
 
@@ -231,7 +250,7 @@ Se quiser se aprofundar, o meu conselho é investir nesse livro aqui:
 
  - [Entrega Contínua do Jezz Humble e David Farley](https://www.amazon.com.br/Entrega-Cont%C3%ADnua-Entregar-Software-Confi%C3%A1vel/dp/8582601034) O livro é caro, mas vale a pena como investimento.
 
-#### Kubernetes
+###  2.5. <a name='Kubernetes'></a>Kubernetes
 
 Você precisa entender que o kubernetes, também comumente chamado de **k8s**, é um orquestrador de containers, isso quer dizer que ele é responsável por iniciar o container e prover todas as funcionalidades necessárias para ele funcionar corretamente. Tal como guardar segredos, configurações, localização de containers por nome, agrupamento por tags, alta disponibilidade, escalabilidade e afins.
 
@@ -248,11 +267,11 @@ Se quiser se aprofundar:
 
  - [Curso descomplicando kubernetes da Linuxtips](https://www.linuxtips.io/products/descomplicando-o-kubernetes)
 
-### Outros assuntos importantes
+##  3. <a name='Outrosassuntosimportantes'></a>Outros assuntos importantes
 
 Existem outros assuntos que merecem atenção, e eles podem ser encarados depois de você iniciar em tudo que falei até o momento, mas perceba que isso não é uma regra. Tanto faz a ordem, desde que você consiga avançar.
 
-#### Git
+###  3.1. <a name='Git'></a>Git
 
 Git é uma ferramenta para fornecer controle de versão dos seus códigos. É usada para garantir que você terá o controle de cada mudança do seu código. É dessa forma que você conseguirá voltar para uma versão anterior, caso a mais nova esteja com problemas, por exemplo.
 
@@ -267,7 +286,7 @@ Para quem deseja se aprofundar, a documentação dele é uma boa pedida:
 
  - [Documentação](https://git-scm.com/doc)
 
-#### Comunicação HTTP
+###  3.2. <a name='ComunicaoHTTP'></a>Comunicação HTTP
 
 
 Você precisa entender que a maioria da comunicação que será feita nas aplicações que você tomará conta será com HTTP, sendo assim, é importante ter um conhecimento mínimo do assunto.
@@ -284,11 +303,11 @@ Materiais para se aprofundar:
 
  - [Livro Desconstruindo a web do Willian Molinari (PotHix) ](https://www.casadocodigo.com.br/products/livro-desconstruindo-web)
 
-## Conclusão
+# Conclusão
 
 É importante perceber que isso aqui são os primeiros passos, ou seja, talvez uma vaga ou outra precise de outros assuntos, mas eu tentei apresentar os assuntos que fazem sentido ter minimamente para a maioria das vagas que já tive oportunidade de conhecer.
 
-## Agradecimentos
+# Agradecimentos
 
 [Somatório](https://twitter.com/somatorio) que sempre revisa tudo que escrevo.
 
