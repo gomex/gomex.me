@@ -14,6 +14,8 @@ Esse texto tem como objetivo oferecer o meu ponto de vista sobre o início na �
 
 A ideia é melhorar esse documento a medida que eu for recebendo retornos das pessoas, ou seja, se você leu esse material no lançamento, talvez precise voltar aqui depois e olhar a novidades.
 
+Esse artigo é uma versão melhorada [do artigo antigo](https://gomex.me/blog/carreira-devops/) (de 2018), que tinha o mesmo objetivo.
+
 # Colaboração
 
 Imagine esse texto como uma colagem de muitas ideias e materiais produzidos por outras pessoas. Ele provavelmente sofrerá alteração ao longo do tempo. Isso quer dizer que se você acha que algo deve ser colocado aqui, envie um [pull request](https://gomex.me/blog/o_que_deve_ter_no_pipeline-pr/) para modificação [desse arquivo](https://github.com/gomex/gomex.me/blob/master/content/blog/primeiros_passos_devops.md), para que eu possa analisar o seu ponto de vista e acrescentar no texto, se for o caso.
