@@ -105,7 +105,7 @@ PS: Os livros da sessão de redes são muito densos, ou seja, não precisa ler t
 
 ###  1.3. <a name='Programao'></a>Programação
 
-Você precisa ter noção de programação para as automatizações, não são necessários conhecimentos aprofundados em algoritmos, porém o básico das linguagens deve ser entendido. A maioria dos scripts podem ser feitos em Shell, para tarefas mais complexas, mas eu aconselho fortemente que você aprenda, ao menos o básico, de Python, Ruby ou Golang.
+Você precisa ter noções de programação para as automatizações, contudo, não são necessários conhecimentos aprofundados em algorítmos, porém, o básico das linguagens deve ser entendido. A maioria dos scripts podem ser feitos em Shell e para tarefas mais complexas eu aconselho fortemente que você aprenda ao menos o básico de Python, Ruby ou Golang.
 
 Um bom material pra começar é o [Pense Python](https://penseallen.github.io/PensePython2e/), que lhe ensinará algoritimo ao mesmo tempo que passa conhecimentos sobre python também. Os exercícios são a parte mais importante desse material, não deixe de fazer.
 
