@@ -111,7 +111,7 @@ PS: Os livros da sessão de redes são muito densos, ou seja, não precisa ler t
 
 Você precisa ter noções de programação para as automatizações, contudo, não são necessários conhecimentos aprofundados em algorítmos, porém, o básico das linguagens deve ser entendido. A maioria dos scripts simples podem ser feitos em Shell. Para tarefas mais complexas, aconselho que você aprenda o básico de Python, Ruby ou Golang.
 
-Um bom material pra começar é o [Pense Python](https://penseallen.github.io/PensePython2e/), que lhe ensinará algoritimo ao mesmo tempo que passa conhecimentos sobre python também. Os exercícios são a parte mais importante desse material, não deixe de fazer.
+Um bom material pra começar é o [Pense Python](https://penseallen.github.io/PensePython2e/), que lhe ensinará algoritmo ao mesmo tempo que passa conhecimentos sobre python também. Os exercícios são a parte mais importante desse material, não deixe de fazer.
 
 **O que você precisa saber para começar** é entender como funciona minimamente um processo de desenvolvimento de software. Saber rodar, entender como funciona o processo de **debug**, que consiste em pesquisar onde está o problema daquele software, e por fim ter empatia com quem escreve software, pois você entende minimamente que não é algo simples.
 
@@ -145,6 +145,7 @@ Pra começar eu indico alguns materiais:
  - [Uma série de vídeos em português do Um Inventor Qualquer sobre AWS](https://www.youtube.com/watch?v=j6yImUbs4OA&list=PLOF5f9_x-OYUaqJar6EKRAonJNSHDFZUm&ab_channel=UmInventorQualquer)
  - [Vídeo completo da live do Bonde do OCI da Linuxtips](https://www.youtube.com/watch?v=jWG3gVf2YWE&ab_channel=LINUXtips) OCI é a cloud da Oracle. Não é a mais usada, mas ajuda você a entender os fundamentos das clouds em geral.
  - [Material oficial da Oracle sobre sua cloud](https://videohub.oracle.com/playlist/details/1_msn4b3ax/categoryId/158145621)
+ - [Cursos oficiais e grátis da AWS (em inglês)](https://explore.skillbuilder.aws/)
 
 
 **O que você precisa saber para começar** é qual a ideia geral de uma cloud e um entendimento básico dos seus produtos mais comuns, que são os produtos que configuram sua rede, cria máquinas, banco de dados, permissão de acesso e object store.
@@ -155,7 +156,7 @@ Se quiser se aprofundar, a Linuxtips é uma boa opção, mas é pago:
 
 Na coursera tem cursos que também são muito bons:
 
-- [Cursos Cloud Computing](https://www.coursera.org/specializations/cloud-computing#courses)
+- [Cursos Cloud Computing (em inglês)](https://www.coursera.org/specializations/cloud-computing#courses)
 
 ###  2.2. <a name='Containers'></a>Containers
 
@@ -177,7 +178,7 @@ Se quiser se aprofundar, a Linuxtips é uma boa opção, mas é pago:
 
 ###  2.3. <a name='Infraestruturacomocdigo'></a>Infraestrutura como código 
 
-Você precisa entender o objetivo da Infraestrutura como código (IaS - Infra as Code). É mandatório saber qual problema esse modelo de manutenção de infraestrutura resolve. Resumidamente podemos dizer que IaC tem como objetivo criar a possibilidade de que a partir de um arquivo com definições específicas a sua infra será criada automaticamente, sem necessidade de intervenção manual.
+Você precisa entender o objetivo da Infraestrutura como código (IaC - Infra as Code). É mandatório saber qual problema esse modelo de manutenção de infraestrutura resolve. Resumidamente podemos dizer que IaC tem como objetivo criar a possibilidade de que a partir de um arquivo com definições específicas a sua infra será criada automaticamente, sem necessidade de intervenção manual.
 
 É como se você pudesse dizer para a ferramenta assim:
 
@@ -224,6 +225,7 @@ Como materiais para começar, eu aconselho esses abaixo:
  - [Ansible 101 - Infraestrutura como Código com Ansible do Caio Delgado](https://www.youtube.com/watch?v=GfOj2wgxyF4&ab_channel=CaioDelgado)
  - [Terraform 101 - Instalação e Deploy AWS EC2 o Caio Delgado](https://www.youtube.com/watch?v=bYvdJKTwx_I&ab_channel=CaioDelgado)
  - [Descomplicando o Terraform | HashiWeek comigo e Badtux do Linuxtips](https://www.youtube.com/watch?v=4FellihAcV8&ab_channel=LINUXtips)
+ - [Curso do Igor sobre Terraform](https://www.youtube.com/watch?v=JayShFpuRdY&list=PLVGIivuHGmJpyciRgdZ-x4avdzlsdCTmH&ab_channel=IgorSouza)
 
 **O que você precisa saber pra começar** é como usar os recursos fundamentais de ferramentas de criação de infra baixa, que o mais famoso é terraform, e o mesmo para uma ferramenta de gerência de configuração, que é o ansible, ou seja, aprendendo de terraform e ansible você já tem uma boa fundação para começar.
 
