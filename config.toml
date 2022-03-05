@@ -4,7 +4,7 @@ title = "Rafael Gomex"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "gomex-me-1"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-111345881-1"
 theme = "hugo-sustain"
 
 [permalinks]
