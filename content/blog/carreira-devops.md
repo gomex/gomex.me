@@ -8,6 +8,8 @@ Tags = ["portugues", "devops", "carreira"]
 
 ## TL;DR
 
+ESSE ARTIGO ESTÁ DEPRECIADO! Favor acessar o [artigo novo](https://gomex.me/blog/primeiros_passos_devops).
+
 Quer entrar na carreira "DevOps" e não sabe por onde começar? Nesse texto falarei sobre possíveis caminhos para sua carreita técnica, com materiais para auxiliar no processo de aprendizado e dicas para acelerar seu processo.
 
 ### Motivação
