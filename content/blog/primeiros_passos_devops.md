@@ -55,7 +55,7 @@ Organizarei os conteúdos/temas  com base nos elementos mais básicos que você 
 
 Existem algumas tecnologias, padrões e conceitos que serão a base de tudo que você irá aprender durante toda sua carreira, logo, se eu fosse começar hoje daria especial atenção para esses "pré requisitos".
 
-![Por onde começar](/img/onde_comecar.png)
+<img src="/img/onde_comecar.png" alt="Por onde começar" width="200"/>
 
 
 Sei que cada um de nós vive uma realidade completamente distinta e, nem sempre é fácil estudar. Cada um tem seu tempo, processo de aprendizado e isso é muito distinto. Portanto, apresentarei o conteúdo de maneira geral e, vocês podem acessar de acordo com a necessidade, da forma que melhor se ajustar ao seu processo.
@@ -84,7 +84,7 @@ Se quiser se aprofundar com cursos, a Linuxtips é uma boa opção:
 
  - [Treinamento Linux Expert](https://www.linuxtips.io/products/treinamento-linux-expert)
 
-Se quiser aprofundar com livro, esse é uma boa opção:
+Se quiser aprofundar com livro, esse são uma boas opções:
 
  - [Livro Como Linux Funciona - Brian Ward ](https://www.amazon.com.br/Como-Linux-Funciona-Brian-Ward/dp/8575224190)
 
