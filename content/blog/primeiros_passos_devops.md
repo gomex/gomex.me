@@ -55,9 +55,6 @@ Organizarei os conteúdos/temas  com base nos elementos mais básicos que você 
 
 Existem algumas tecnologias, padrões e conceitos que serão a base de tudo que você irá aprender durante toda sua carreira, logo, se eu fosse começar hoje daria especial atenção para esses "pré requisitos".
 
-<img src="img/onde_comecar.png" width="200">
-
-
 Sei que cada um de nós vive uma realidade completamente distinta e, nem sempre é fácil estudar. Cada um tem seu tempo, processo de aprendizado e isso é muito distinto. Portanto, apresentarei o conteúdo de maneira geral e, vocês podem acessar de acordo com a necessidade, da forma que melhor se ajustar ao seu processo.
 
 Em minha opinião, existem 3 domínios que precisam ser estudados minimamente antes do que qualquer outra coisa, pois eles tem o básico que você precisa pra entender o restante. Isso não é uma regra que funciona com todo mundo, ou seja, se você achar mais legal estudar outra coisa avançada sem saber isso, sem problemas.
@@ -90,7 +87,9 @@ Se quiser aprofundar com livro, esse são uma boas opções:
 
  - [Livro Sistemas Operacionais Modernos - Andrew S Tanenbaum](https://www.estantevirtual.com.br/livros/andrew-s-tanenbaum/sistemas-operacionais-modernos/2487067088?q=Tanenbaum)
 
-**O que você precisa saber para começar** é importante que consiga ao menos executar comandos na console e fazer o que chamamos de "troubleshooting" básico, que é a atividade de executar comandos para obter dados do problema que você está investigando. Exemplo: Você inicia uma aplicação web e tenta acessar no seu navegador, mas ela não funciona, daí você executa ```ss -napt``` para listar todas portas com os ips que estão "escutando" o tráfego. Percebe que a sua porta não está lá e depois executa ```ps -aux``` para descobrir que o processo não está rodando, ou seja, algo aconteceu na inicialização do serviço, por fim, talvez seja o caso de olhar o log da aplicação para entender o que possa ter acontecido, ou iniciar ela em modo "debug", que é quando você inicia a aplicação de uma forma que ela informa mais sobre comportamento do que o normal.
+**O que você precisa saber para começar** é importante que consiga ao menos executar comandos na console e fazer o que chamamos de "troubleshooting" básico, que é a atividade de executar comandos para obter dados do problema que você está investigando. 
+
+Exemplo: Você inicia uma aplicação web e tenta acessar no seu navegador, mas ela não funciona, daí você executa ```ss -napt``` para listar todas portas com os ips que estão "escutando" o tráfego. Percebe que a sua porta não está lá e depois executa ```ps -aux``` para descobrir que o processo não está rodando, ou seja, algo aconteceu na inicialização do serviço, por fim, talvez seja o caso de olhar o log da aplicação para entender o que possa ter acontecido, ou iniciar ela em modo "debug", que é quando você inicia a aplicação de uma forma que ela informa mais sobre comportamento do que o normal.
 
 PS: Log é normalmente um arquivo de texto com informações sobre como sua aplicação está lidando com seu trabalho.
 
