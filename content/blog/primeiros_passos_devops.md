@@ -26,6 +26,13 @@ Então, a resposta direta e resumida é: NÃO, mas por outro lado o mercado já 
 
 Não adianta lutar contra isso, pois é uma batalha perdida.
 
+# Você precisa praticar
+
+Antes de lhe mostrar os livros, cursos e vídeos para estudo, é **muito** importante falar que se você não praticar, você dificilmente aprenderá de fato. Talvez consiga gravar um comando ou outro, mas aprender mesmo só praticando.
+
+O conselho mais importante é: Leu/assistiu algo? Pratica logo em seguida.
+
+Outra dica é criar projetos pessoais para praticar as habilidades acumuladas. Se tiver dificuldade em criar projetos pessoais, meu conselho é a [mentoria de IaC](https://mentoriaiac.com/).
 # Metodologia
 
 Organizarei os conteúdos/temas  com base nos elementos mais básicos que você precisará para começar. Tentarei definir o nível de aprofundamento necessário que você precisará ter/buscar em cada um deles, mas tudo isso é muito subjetivo, sendo assim continue estudando até se sentir confiante.
@@ -308,6 +315,7 @@ Materiais para começar:
 Materiais para se aprofundar:
 
  - [Livro Desconstruindo a web do Willian Molinari (PotHix) ](https://www.casadocodigo.com.br/products/livro-desconstruindo-web)
+
 
 # Conclusão
 
