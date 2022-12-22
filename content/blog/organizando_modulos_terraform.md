@@ -88,7 +88,7 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "main" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "var.instance_type"
   tags = {
@@ -203,6 +203,10 @@ Ao utilizar module, separe-o em um repositório diferente, chamando o mesmo a pa
 ## Agradecimentos
 
 [Juliana Gaioso](https://twitter.com/juligaioso) que ajudou na revisão desse artigo.
+
+### Correções
+
+[Lucas Viera dos Santos](https://www.linkedin.com/in/lucas-vieira-dos-santos/) que apontou um erro nos ponteiros do terraform. Obrigado!
 
 Escrevi esse artigo ouvindo:
 
