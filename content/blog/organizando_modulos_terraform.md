@@ -200,3 +200,11 @@ Por exemplo: Na versão v0.1.0 foi entregue a criação da máquina e apontament
 
 Ao utilizar module, separe-o em um repositório diferente, chamando o mesmo a partir de diversos repositórios de times e/ou de projetos diferentes. Especificando a versão do mesmo, você viabiliza o reuso do seu código, assim como oferece a garantia que o código testado não será modificado sem o consentimento de quem está consumindo o seu module.
 
+## Agradecimentos
+
+[Juliana Gaioso](https://twitter.com/juligaioso) que ajudou na revisão desse artigo.
+
+Escrevi esse artigo ouvindo:
+
+- 3 Hours Chopin for Studying, Concentration, Relaxation
+- Belle and Sebastian
