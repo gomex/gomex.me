@@ -36,10 +36,15 @@ theme = "hugo-sustain"
   identifier = "blog"
   url = "/blog/"
 [[menu.main]]
-  name = "mentoria iac"
-  identifier = "mentoriaiac"
+  name = "mentoria devops"
+  identifier = "mentoriadevops"
   weight = 200
-  url = "/mentoriaiac/"
+  url = "https://mentoriadevops.io/"
+[[menu.main]]
+  name = "about"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
 [[menu.main]]
   name = "resume"
   identifier = "resume"
