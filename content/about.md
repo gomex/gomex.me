@@ -10,14 +10,12 @@ TBD
 ## Portuguese
 Soteropolitano, hacker urbano e consultor de infraestrutura, formado na Universidade de Salvador no curso de Gestão de Redes.
 
-Trabalho atualmente na DNSFilter, focado em infraestrutura como código. Organizador e Autor dos livros:
+Trabalho atualmente na DNSFilter, focado em infraestrutura como código. Organizador e Autor dos seguintes livros:
 
-"Docker para desenvolvedores": https://leanpub.com/dockerparadesenvolvedores
-"Deploy em produção para desenvolvedores:" https://leanpub.com/deployemprodparadevs
+ - "Docker para desenvolvedores": https://leanpub.com/dockerparadesenvolvedores
+ - "Deploy em produção para desenvolvedores:" https://leanpub.com/deployemprodparadevs
 
-Core Organizer do DevOpsDays: https://www.devopsdays.org/about/
-
-Minhas apresentações estão aqui, se você quiser entrar em contato para conversar ou convidar para apresentar um dos assuntos acima, preencha o formulário abaixo.
+Faço parte do Core Organizer do DevOpsDays, HashiCorp Ambassador e Docker Captain.
 
 <form method="POST" action="http://formspree.io/linux@gmail.com">
   <p>
