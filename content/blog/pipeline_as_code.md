@@ -1,6 +1,6 @@
 +++
-title = "10 anos DevOpsDays e quem recebe o presente sou eu"
-date = "2019-11-11"
+title = "Pipelines como produto - Github actions e pipelines reutilizáveis"
+date = "2023-07-11"
 draft = false
 Categories = ["devops", "devopsdays"]
 Tags = ["devops", "devopsdays", "brasil"]
