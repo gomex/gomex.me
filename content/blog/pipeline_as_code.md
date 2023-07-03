@@ -1,6 +1,6 @@
 +++
 title = "Pipelines como produto - Github actions e pipelines reutilizáveis"
-date = "2023-07-11"
+date = "2023-07-03"
 draft = false
 Categories = ["devops", "IAC", "pipeline"]
 Tags = ["devops", "IAC", "pipeline"]
