@@ -338,5 +338,5 @@ Você pode focar inicialmente em etapas que talvez não sejam familiares para es
 
 [Somatório](https://twitter.com/somatorio) que sempre apoia em praticamente tudo que produzo.
 
-[Juliana Gaioso](https://twitter.com/juligaioso) obrigado pela revisão do texto inteiro. Ele ficou bem mais legal depois da sua revisão.
+[Juliana Gaioso](https://julianagaioso.wtf) obrigado pela revisão do texto inteiro. Ele ficou bem mais legal depois da sua revisão.
 
