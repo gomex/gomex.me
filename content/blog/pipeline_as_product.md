@@ -326,6 +326,10 @@ jobs:
 
 Com esse código você poderá usar um workflow padronizado informando que quer usar o python 3.8 em vez do padrão 3.9 e ainda passa um secrets que será usado nesse execução, mas cujo valor será definido no repositório do produto em questão.
 
+# Como organizar os workflows reutilizáveis no github
+
+A melhor forma seria começar com um repositório que pode ser chamado "pipeline_centralizado" ou algo do tipo, onde se concentra todos os workflows que podem ser reutilizados por outros times e a medida que eles forem crescendo você pode separar por assuntos ou qualquer outra organização do seu time.
+
 # Conclusão
 
 Utilizar um time especializado em pipelines para entregar pipelines como produto dentro da sua organização pode ser uma boa ideia, desde que esses pipelines sejam parametrizados e pensados junto com os times de produto que usarão os pipelines.
@@ -339,4 +343,6 @@ Você pode focar inicialmente em etapas que talvez não sejam familiares para es
 [Somatório](https://twitter.com/somatorio) que sempre apoia em praticamente tudo que produzo.
 
 [Juliana Gaioso](https://julianagaioso.wtf) obrigado pela revisão do texto inteiro. Ele ficou bem mais legal depois da sua revisão.
+
+[Timóteo Nascimento](https://www.linkedin.com/in/timoteonascimento/) obrigado pela pergunta o Linkedin que me permitiu falar um pouco mais sobre como organizar os workflows em um repositório github.
 
