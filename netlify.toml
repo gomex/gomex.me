@@ -1,5 +1,5 @@
 # https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
 
-[context.deploy-preview.environment]
-GO_VERSION = "1.20"
-HUGO_VERSION = "0.115.1"
+[build.environment]
+  GO_VERSION = "1.20"
+  HUGO_VERSION = "0.115.1"
