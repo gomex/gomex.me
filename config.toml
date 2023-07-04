@@ -5,7 +5,9 @@ title = "Rafael Gomex"
 disqusShortname = "gomex-me-1"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-111345881-1"
-theme = "hugo-sustain"
+
+[[module.imports]]
+	path = "github.com/suyundukov/hugo-sustain"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
