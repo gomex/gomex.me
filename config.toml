@@ -7,7 +7,7 @@ disqusShortname = "gomex-me-1"
 googleAnalytics = "UA-111345881-1"
 
 [[module.imports]]
-	path = "github.com/suyundukov/hugo-sustain"
+  path = "github.com/suyundukov/hugo-sustain"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
