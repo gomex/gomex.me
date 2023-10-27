@@ -239,10 +239,22 @@ resource "aws_instance" "example" {
 
 Com isso, seu fluxo de entrega de produtos será completamente descolado da configuração da máquina e, dessa forma, o terraform criará a máquina com todos os requisitos necessários para que seu software seja depositado sem longas esperas.
 
+```hcl
+  filter {
+    name   = "name"
+    values = ["seu-produto-*"]
+  }
+```
+
+É nessa parte do código recortado acima que está a mudança. Aqui o seu terraform pegará a imagem que criamos no pipeline do packer e não mais a imagem base oficial da Canonical. Agora você terá a imagem mantida pelo seu time.
+
 Teremos um pipeline para gerar imagens AMI específicas para seu produto e outro pipeline que usará a imagem mais recente criada pelo pipeline do packer para rodar seu software.
 
 Através desse mecanismo, você poderá colocar mais etapas na criação da imagem, que têm como objetivo oferecer mais qualidade para sua imagem. Você pode checar se algum pacote instalado está vulnerável. Você pode testar se a imagem de fato atende a expectativa rodando alguns testes automatizados no servidor recém criado antes de gerar a imagem AMI na AWS. Por fim, tudo isso acontecerá em um fluxo completamente à parte e gerenciado pela equipe focada em infraestrutura como código.
+
  
 ## Agradecimento
 
 Obrigado a [Saulo](https://twitter.com/madalozzo) e [Isis](https://www.instagram.com/isisduartef/) que colaboraram muito na revisão do texto. O texto está bem melhor com a colaboração de vocês.
+
+Obrigado a [Daniel Moreto](https://twitter.com/moretoend) que me ajudou a repensar o final do artigo para facilitar o entendimento para pessoas que ainda não tem conhecimento em Packer.
