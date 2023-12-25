@@ -121,6 +121,8 @@ Você precisa ter noções de programação para as automatizações, contudo, n
 
 Um bom material pra começar é o [Pense Python](https://penseallen.github.io/PensePython2e/), que lhe ensinará algoritmo ao mesmo tempo que passa conhecimentos sobre python também. Os exercícios são a parte mais importante desse material, não deixe de fazer.
 
+Uma ótima outra opção é o curso [Aprenda Go](https://www.youtube.com/playlist?list=PLCKpcjBB_VlBsxJ9IseNxFllf-UFEXOdg) da Ellen Korbes, completamente gratuito, muito procurado por DevOps cascudos que querem aprender Golang e aumentar suas possibilidades no meercado de trabalho, ao mesmo tempo que é super didático para os que estão dando os primeiros passos numa linguagem.
+
 **O que você precisa saber para começar** é entender como funciona minimamente um processo de desenvolvimento de software. Saber rodar, entender como funciona o processo de **debug**, que consiste em pesquisar onde está o problema daquele software, e por fim ter empatia com quem escreve software, pois você entende minimamente que não é algo simples.
 
 Se quiser se aprofundar em desenvolvimento de software, segue abaixo algumas sugestões:
