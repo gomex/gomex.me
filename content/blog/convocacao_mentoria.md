@@ -1,9 +1,9 @@
 +++
 title = "Carta de convocação voluntária para Mentoria DevOps"
-date = "2018-04-05"
+date = "2024-05-21"
 draft = false
-Categories = ["portugues", "devops", "carreira"]
-Tags = ["portugues", "devops", "carreira"]
+Categories = ["portugues", "devops", "mentoria"]
+Tags = ["portugues", "devops", "mentoria"]
 +++
 
 ## Carta de convocação voluntária para Mentoria DevOps
