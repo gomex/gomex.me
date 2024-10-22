@@ -16,7 +16,7 @@ Usando o **comparisons** você pode dizer para o ansible reiniciar o container t
 
 ## O que fala a documentação oficial
 
-De acordo com a documentação do ansible, é assim que funciona a opção comparisons do módulo **docker_container**:
+De acordo com a [documentação do ansible](https://docs.ansible.com/ansible/2.9/modules/docker_container_module.html#parameter-comparisons), é assim que funciona a opção comparisons do módulo **docker_container**:
 
 Permite especificar como as propriedades de contêineres existentes são comparadas com opções de módulo para decidir se o contêiner deve ser recriado/atualizado ou não.
 
