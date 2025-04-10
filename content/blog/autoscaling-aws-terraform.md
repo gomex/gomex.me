@@ -154,7 +154,9 @@ Terraform will perform the following actions:
 Plan: 0 to add, 1 to change, 0 to destroy.
 ```
 
-Perceba que apenas o **Launch Template** é modificado e por conta disso o **Autoscaling Group** não fará nada com a instância. Para corrigir esse problema forçaremos o **Autoscaling Group** ser modificado.
+Perceba que apenas o **Launch Template** é modificado e por conta disso o **Autoscaling Group** não fará nada com a instância. Eu esperava que existisse algum processo interno na AWS que percebesse a mudança de versão e assim executasse o **instance refresh** com a estratégia **Rolling**, que criaria uma maquina nova, com a AMI nova, esperaria 30 segundos, que foi configurado no **instance_warmup** e desligaria a instancia com a AMI antiga, mas nada acontece. 
+
+Para corrigir esse problema forçaremos o **Autoscaling Group** ser modificado.
 
 No bloco **launch_template** do **Autoscaling Group** faremos a modificação desse código:
 
