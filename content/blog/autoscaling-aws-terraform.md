@@ -222,4 +222,6 @@ As vezes é importante avaliar se o controle não pode estar no seu código terr
 
 # Agradecimentos 
 
-TBD
+Obrigado a [somatorio](https://bsky.app/profile/somatorio.bsky.social) que sempre revisa tudo que escrevo.
+
+Obrigado a [Flávia](https://www.instagram.com/flaviataide/) e [Roberta](https://www.instagram.com/roberta.oliveiraj/) que leram e me deram feedback.
