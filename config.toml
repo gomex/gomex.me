@@ -25,11 +25,12 @@ googleAnalytics = "UA-111345881-1"
   Github        = "gomex"
   Email         = "me@gomex.me"
   Twitter       = "gomex"
-  LinkedIn      = "rbgomes"
+  LinkedIn      = "gomex"
   Stackoverflow = "gomex"
   Medium        = "gomex"
   Telegram      = "gomex"
   RSS           = "/blog/index.xml"
+  Instagram     = "gomex_rafael"
 
 ## Main Menu
 [[menu.main]]
