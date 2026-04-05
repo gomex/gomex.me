@@ -42,7 +42,7 @@ Nesse artigo usaremos o **Github** como repositório de código e **Github Actio
 
 Normalmente uma ferramenta de pipeline é configurada para atuar automaticamente com base em mudanças no código hospedado no repositório de código. Vamos para um exemplo mais prático:
 
-Imaginando um repositório chamado **gomex/projeto_super_legal** e tenho meus códigos já depositados lá. Esse código atual tem uma versão em funcionamento de um projeto super legal e alguém deseja mandar um pedido de modificação desse código abrindo um Pull Request (se você não sabe o que é Pull Request, veja esse artigo) e ao criar o pull request o **Github** gera um evento que pode ser configurado para iniciar automaticamente um pipeline criado no **Github Actions**. 
+Imaginando um repositório chamado **gomex/projeto_super_legal** e tenho meus códigos já depositados lá. Esse código atual tem uma versão em funcionamento de um projeto super legal e alguém deseja mandar um pedido de modificação desse código abrindo um Pull Request (se você não sabe o que é Pull Request, veja [esse artigo](https://gomex.me/blog/o_que_deve_ter_no_pipeline-pr/)) e ao criar o pull request o **Github** gera um evento que pode ser configurado para iniciar automaticamente um pipeline criado no **Github Actions**. 
 
 Para facilitar o entendimento, vamos criar nosso primeiro pipeline no **Github Actions**.
 
