@@ -18,6 +18,8 @@ Nesse artigo falaremos sobre o que é pipeline, porque usar essa ferramenta e co
 
 É importante que a pessoa já saiba usar basicamente o repositório git para entender completamente esse artigo, mas vale a leitura mesmo sem ele.
 
+Esse artigo é uma versão atualizada do artigo [“O que é pipeline”](https://gomex.me/blog/o_que_e_pipeline/), onde o conteúdo foi revisado e atualizado para refletir uma nova forma de explicar os conceitos, usando exemplos práticos com **Github Actions**.
+
 ## Introdução
 
 O pipeline usado para entregar software segue o mesmo conceito usado normalmente nas indústrias.
@@ -238,3 +240,6 @@ A automatização das validações e construções são parte central de um proc
 
 O pipeline é uma abstração, onde temos **jobs** e **steps** compondo as etapas para construção de um produto a ser entregue no final da esteira. Tendo isso em mente, podemos pensar que muito mais do que apenas a ferramenta, o pipeline serve também para criar um fluxo rápido de feedback, onde em caso de quebra podemos entender que aquele código precisa de cuidados até que o problema seja resolvido.
 
+### Agradecimentos
+
+ - Obrigado a [Somatório](https://twitter.com/somatorio) que revisou a primeira versão deste material antes dele sair e fez o mesmo com essa nova versão. Obrigado demais!
