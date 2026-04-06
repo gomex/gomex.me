@@ -251,6 +251,8 @@ jobs:
 
 No exemplo acima, a última **step** é a execução dos testes automatizados usando o **pytest**. Se as etapas anteriores falharem, essa etapa de execução de teste não será executada, e isso é ótimo, pois se o código não passou por validações iniciais, ele provavelmente não está pronto para ser testado, e isso poupa o tempo de espera para que os testes sejam executados e falhem.
 
+![Seu primeiro pipeline](/img/o_que_e_pipeline_v2_2.png)
+
 É comum encontrar pessoas afirmando que o objetivo de um pipeline é "quebrar", pois é nesse processo que se percebe se o código enviado para esteira de fato está preparado para ser entregue ou não.
 
 A automatização das validações e construções são parte central de um processo de entrega de software moderno.
