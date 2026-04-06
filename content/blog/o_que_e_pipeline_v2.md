@@ -32,6 +32,8 @@ Quando o chassi chega no primeiro robô, o pipeline para, pois o robô precisa d
 
 O segundo robô nesse pipeline é responsável por colocar as rodas e nesse processo o pipeline também espera ele terminar, e somente quando ele acaba o pipeline se move novamente.
 
+![PIpeline de industria e software](/img/o_que_e_pipeline_v2_1.png)
+
 No pipeline de software é bem parecido, sendo que ao invés do chassi, nesse modelo temos o código como "objeto" a ser movido pela esteira do pipeline de software.
 
 ## Como criar um pipeline de software?
