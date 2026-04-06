@@ -232,6 +232,23 @@ jobs:
 
 Usualmente as ferramentas de pipeline só permitem que a segunda **step** seja executada se a primeira for finalizada com sucesso. Isso é um comportamento extremamente esperado, porque a ideia do pipeline é justamente garantir que as ações sejam executadas em sequência, pois elas em geral são configuradas de forma gradual, ou seja, as primeiras **steps** fazem as primeiras validações, e as construções e outras intervenções mais críticas e demoradas acontecem depois. Isso quer dizer que se uma validação inicial falhar, e essa validação por via de regra é mais rápida, poupa o tempo de esperar a falha da etapa de construção de artefato, que costumeiramente é mais demorada.
 
+```
+name: Meu primeiro pipeline
+on: [pull_request]
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 Parabéns você criou seu primeiro pipeline"
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+            python-version: '3.13'
+      - run: python -m pytest
+```
+
+No exemplo acima, a última **step** é a execução dos testes automatizados usando o **pytest**. Se as etapas anteriores falharem, essa etapa de execução de teste não será executada, e isso é ótimo, pois se o código não passou por validações iniciais, ele provavelmente não está pronto para ser testado, e isso poupa o tempo de espera para que os testes sejam executados e falhem.
+
 É comum encontrar pessoas afirmando que o objetivo de um pipeline é "quebrar", pois é nesse processo que se percebe se o código enviado para esteira de fato está preparado para ser entregue ou não.
 
 A automatização das validações e construções são parte central de um processo de entrega de software moderno.
@@ -243,3 +260,5 @@ O pipeline é uma abstração, onde temos **jobs** e **steps** compondo as etapa
 ### Agradecimentos
 
  - Obrigado a [Somatório](https://twitter.com/somatorio) que revisou a primeira versão deste material antes dele sair e fez o mesmo com essa nova versão. Obrigado demais!
+ - Obrigado a [Jonas Alberto](https://www.linkedin.com/in/jonas-alberto-90162372/) que leu esse artigo e fez sugestões de melhoria, que foram incorporadas nessa nova versão.
+  - Obrigado a [Daniel Moreto](https://www.linkedin.com/in/dfmoreto/) que leu o artigo e me deu ótimos feedbacks para melhora do texto.
