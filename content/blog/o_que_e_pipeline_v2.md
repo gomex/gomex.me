@@ -265,4 +265,4 @@ O pipeline é uma abstração, onde temos **jobs** e **steps** compondo as etapa
 
  - Obrigado a [Somatório](https://twitter.com/somatorio) que revisou a primeira versão deste material antes dele sair e fez o mesmo com essa nova versão. Obrigado demais!
  - Obrigado a [Jonas Alberto](https://www.linkedin.com/in/jonas-alberto-90162372/) que leu esse artigo e fez sugestões de melhoria, que foram incorporadas nessa nova versão.
-  - Obrigado a [Daniel Moreto](https://www.linkedin.com/in/dfmoreto/) que leu o artigo e me deu ótimos feedbacks para melhora do texto.
+ - Obrigado a [Daniel Moreto](https://www.linkedin.com/in/dfmoreto/) que leu o artigo e me deu ótimos feedbacks para melhora do texto.
