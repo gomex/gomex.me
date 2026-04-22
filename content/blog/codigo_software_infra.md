@@ -1,9 +1,9 @@
 +++
-title = "O que é pipeline"
-date = "2026-04-04"
+title = "O que é código e o que é infra?"
+date = "2026-04-22"
 draft = false
-Categories = ["portugues", "pipeline"]
-Tags = ["portugues", "pipeline as code", "pipeline", "devops", "qa"]
+Categories = ["portugues", "infraestrutura"]
+Tags = ["portugues", "infraestrutura", "codigo", "devops", "qa"]
 +++
 
 ## Contextualização
